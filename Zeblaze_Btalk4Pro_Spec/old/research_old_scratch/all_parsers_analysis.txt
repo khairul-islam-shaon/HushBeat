@@ -1,0 +1,1424 @@
+
+======================================================
+PARSER: DeviceInfoEventParser (Lcom/antjy/sdk/protocol/parser/common/DeviceInfoEventParser;)
+======================================================
+
+--- Method: <init> (codeOff: 4220320) ---
+  [pc 0x0] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;-><init>
+
+--- Method: a (codeOff: 4220344) ---
+  [pc 0x5] Const16: 885 (0x375)
+  [pc 0x18] String: "设备信息未解析的code编码"
+  [pc 0x24] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x28] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x29] Invoke: Landroid/opengl/GLES20;->glDeleteProgram
+  [pc 0x2a] Invoke: Landroid/support/v4/media/session/IMediaControllerCallback$Stub;-><init>
+  [pc 0x2c] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x2d] Invoke: Landroid/net/Uri;->getHost
+  [pc 0x30] Const16: 9 (0x9)
+  [pc 0x32] Invoke: Lcom/antjy/sdk/util/StringUtil;->c
+  [pc 0x36] Const16: 11 (0xb)
+  [pc 0x38] Invoke: Lcom/antjy/sdk/util/StringUtil;->c
+  [pc 0x3c] Const16: 13 (0xd)
+  [pc 0x3e] Invoke: Lcom/antjy/sdk/util/StringUtil;->c
+  [pc 0x42] Const16: 15 (0xf)
+  [pc 0x44] Invoke: Lcom/antjy/sdk/util/StringUtil;->c
+  [pc 0x46] Invoke: Landroid/location/Location;->isFromMockProvider
+  [pc 0x4b] String: ", contentValues="
+  [pc 0x4c] String: "0."
+  [pc 0x4e] Invoke: Ljava/lang/String;->startsWith
+  [pc 0x54] Invoke: Lcom/antjy/sdk/protocol/parser/common/DeviceInfoEventParser;->f
+  [pc 0x58] Invoke: Lcom/antjy/sdk/protocol/parser/common/DeviceInfoEventParser;->f
+  [pc 0x5c] Invoke: Lcom/antjy/sdk/protocol/parser/common/DeviceInfoEventParser;->f
+  [pc 0x60] Invoke: Lcom/antjy/sdk/protocol/parser/common/DeviceInfoEventParser;->f
+  [pc 0x62] Invoke: Landroid/location/Location;->isFromMockProvider
+  [pc 0x73] String: "获取产品、固件、资源等版本信息 = "
+  [pc 0x78] Invoke: Lcom/antjy/sdk/bean/DeviceInfo;->toString
+  [pc 0x83] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x86] Invoke: Lcom/antjy/sdk/data/sp/SDKLocalData;->i
+  [pc 0x8a] Invoke: Lcom/antjy/sdk/util/GsonUtil;->b
+  [pc 0x8e] Invoke: Lcom/antjy/sdk/data/sp/SDKLocalData;->n
+  [pc 0x93] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->e
+  [pc 0x97] String: "设置所有设置 = "
+  [pc 0x99] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x9e] Const16: 8 (0x8)
+  [pc 0xa0] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->d
+  [pc 0xa4] String: "获取所有设置 = "
+  [pc 0xa6] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0xab] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->d
+  [pc 0xaf] String: "获取设备支持的功能列表"
+  [pc 0xb1] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0xb6] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->d
+  [pc 0xba] String: "设置设备时间"
+  [pc 0xbc] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0xc1] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->d
+  [pc 0xc3] Invoke: Landroid/animation/Animator;->getDuration
+  [pc 0xc5] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0xc6] Invoke: Landroid/hardware/camera2/CameraAccessException;-><init>
+  [pc 0xc7] Invoke: Landroid/app/DialogFragment;-><init>
+  [pc 0xce] String: "获取电量 = "
+  [pc 0xd5] Const16: 4206 (0x106e)
+  [pc 0xda] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0xdf] Invoke: Ljava/lang/Integer;->valueOf
+  [pc 0xe3] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->e
+  [pc 0xe9] Invoke: Ljava/lang/System;->arraycopy
+  [pc 0xeb] Invoke: Landroid/view/View;->onSaveInstanceState
+  [pc 0xec] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->e
+  [pc 0xed] Invoke: L_COROUTINE/ArtificialStackFrames;->a
+  [pc 0xf5] String: "获取 mac = "
+  [pc 0xfc] Const16: 4206 (0x106e)
+  [pc 0x101] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x107] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->e
+  [pc 0x10b] Invoke: Lcom/antjy/sdk/util/StringUtil;->a
+  [pc 0x114] String: "获取序列号 = "
+  [pc 0x11b] Const16: 4206 (0x106e)
+  [pc 0x120] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x125] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->e
+  [pc 0x129] Invoke: Lcom/antjy/sdk/util/StringUtil;->a
+  [pc 0x132] String: "获取固件版本 = "
+  [pc 0x139] Const16: 4206 (0x106e)
+  [pc 0x13e] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x143] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->e
+  [pc 0x147] Invoke: Lcom/antjy/sdk/util/StringUtil;->a
+  [pc 0x150] String: "获取设备名称 = "
+  [pc 0x15c] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x161] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->e
+
+--- Method: f (codeOff: 4220248) ---
+  [pc 0x0] String: "\."
+  [pc 0x2] Invoke: Ljava/lang/String;->split
+  [pc 0x9] Invoke: Ljava/lang/String;->split
+  [pc 0x14] String: "%s.%s"
+  [pc 0x16] Invoke: Ljava/lang/String;->format
+
+======================================================
+PARSER: DeviceOtaEventParser (Lcom/antjy/sdk/protocol/parser/common/DeviceOtaEventParser;)
+======================================================
+
+--- Method: <init> (codeOff: 4221144) ---
+  [pc 0x0] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;-><init>
+
+--- Method: a (codeOff: 4221168) ---
+  [pc 0x0] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->a
+  [pc 0x5] Const16: 10 (0xa)
+  [pc 0x15] String: "OTA未解析的code编码"
+  [pc 0x21] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x2c] String: "OtaUpdate 升级中"
+  [pc 0x2e] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x31] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x32] Invoke: Landroid/database/sqlite/SQLiteDatabase;->enableWriteAheadLogging
+  [pc 0x35] Const16: 12 (0xc)
+  [pc 0x37] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x38] Invoke: Landroid/graphics/Paint;->getStrokeWidth
+  [pc 0x3b] Const16: 14 (0xe)
+  [pc 0x3d] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x3e] Invoke: Landroid/content/SharedPreferences$Editor;->commit
+  [pc 0x44] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x45] Invoke: Landroid/content/Intent;->setFlags
+  [pc 0x46] String: "1853"
+  [pc 0x4d] String: "继续升级信息:单包最大字节数"
+  [pc 0x55] String: "每组包数:"
+  [pc 0x5d] String: "包号:"
+  [pc 0x65] String: "文件长度:"
+  [pc 0x71] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x74] Invoke: Lcom/antjy/sdk/callback/manager/EventPoster;->a
+  [pc 0x7a] Invoke: Lcom/antjy/sdk/callback/impl/poster/OtaStatusPoster;->l
+  [pc 0x7e] Invoke: Lcom/antjy/sdk/callback/manager/EventPoster;->a
+  [pc 0x86] Invoke: Lcom/antjy/sdk/callback/impl/poster/OtaStatusPoster;->p
+  [pc 0x89] String: "OtaUpdate 无升级过程"
+  [pc 0x8b] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x8f] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x90] Invoke: Landroid/graphics/Rect;->exactCenterX
+  [pc 0x93] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x94] Invoke: Landroid/graphics/Paint;->getStrokeWidth
+  [pc 0x97] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x98] Invoke: Landroid/content/Intent;->setFlags
+  [pc 0x99] String: "1853"
+  [pc 0x9b] Invoke: Lcom/antjy/sdk/callback/manager/EventPoster;->a
+  [pc 0xa1] Invoke: Lcom/antjy/sdk/callback/impl/poster/OtaStatusPoster;->f
+  [pc 0xa5] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0xa6] Invoke: Landroid/graphics/Rect;->exactCenterX
+  [pc 0xae] Invoke: Lcom/antjy/sdk/callback/manager/EventPoster;->a
+  [pc 0xb5] Invoke: Lcom/antjy/sdk/callback/impl/poster/OtaStatusPoster;->j
+  [pc 0xb9] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0xba] Invoke: Landroid/content/Intent;->putExtra
+  [pc 0xbd] Const16: 1000 (0x3e8)
+  [pc 0xc2] Invoke: Lcom/antjy/sdk/callback/manager/EventPoster;->a
+  [pc 0xc8] Invoke: Lcom/antjy/sdk/callback/impl/poster/OtaStatusPoster;->j
+  [pc 0xd3] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0xd4] Invoke: Landroid/content/pm/PackageManager;->getApplicationIcon
+  [pc 0xdc] Invoke: Lcom/antjy/sdk/callback/manager/EventPoster;->a
+  [pc 0xe2] Invoke: Lcom/antjy/sdk/callback/impl/poster/OtaStatusPoster;->j
+  [pc 0xe6] Invoke: Lcom/antjy/sdk/callback/manager/EventPoster;->a
+  [pc 0xee] Invoke: Lcom/antjy/sdk/callback/impl/poster/OtaStatusPoster;->m
+  [pc 0xf2] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0xf3] Invoke: Landroid/database/CursorWindow;->getStartPosition
+  [pc 0xf6] Const16: 8 (0x8)
+  [pc 0xf8] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0xf9] Invoke: Landroid/database/CursorWindow;->getStartPosition
+  [pc 0xfc] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0xfd] Invoke: Landroid/database/sqlite/SQLiteDatabase;->enableWriteAheadLogging
+  [pc 0x100] Invoke: Lcom/antjy/sdk/callback/manager/EventPoster;->a
+  [pc 0x106] Invoke: Lcom/antjy/sdk/callback/impl/poster/OtaStatusPoster;->o
+  [pc 0x10a] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x10b] Invoke: Landroid/graphics/BitmapFactory;->decodeByteArray
+  [pc 0x10e] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x10f] Invoke: Landroid/database/DataSetObservable;-><init>
+  [pc 0x110] String: "1853"
+  [pc 0x112] Invoke: Lcom/antjy/sdk/callback/manager/EventPoster;->a
+  [pc 0x118] Invoke: Lcom/antjy/sdk/callback/impl/poster/OtaStatusPoster;->h
+
+======================================================
+PARSER: DeviceRemindEventParser (Lcom/antjy/sdk/protocol/parser/common/DeviceRemindEventParser;)
+======================================================
+
+--- Method: <init> (codeOff: 4222052) ---
+  [pc 0x0] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;-><init>
+
+--- Method: a (codeOff: 4222076) ---
+  [pc 0x9] Const16: 14 (0xe)
+  [pc 0xb] Const16: 13 (0xd)
+  [pc 0xd] Const16: 11 (0xb)
+  [pc 0xf] Const16: 12 (0xc)
+  [pc 0x12] Const16: 10 (0xa)
+  [pc 0x14] Const16: 9 (0x9)
+  [pc 0x16] Const16: 8 (0x8)
+  [pc 0x25] String: "设备提醒未解析的code编码"
+  [pc 0x31] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x35] String: "设置自定义震动参数"
+  [pc 0x37] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x3c] Const16: 179 (0xb3)
+  [pc 0x3e] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->d
+  [pc 0x42] String: "获取自定义震动参数"
+  [pc 0x44] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x49] Invoke: Lcom/antjy/sdk/bean/VibrateCustomSetting;-><init>
+  [pc 0x4c] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x4d] Invoke: Landroid/support/v4/media/MediaDescriptionCompatApi21;->e
+  [pc 0x50] Invoke: Lcom/antjy/sdk/bean/VibrateCustomSetting;->setTime
+  [pc 0x53] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x54] Invoke: Landroid/support/v4/media/MediaDescriptionCompat;->describeContents
+  [pc 0x57] Invoke: Lcom/antjy/sdk/bean/VibrateCustomSetting;->setShotInterval
+  [pc 0x5a] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x5b] Invoke: Landroid/support/v4/media/MediaDescriptionCompat$1;->newArray
+  [pc 0x5e] Invoke: Lcom/antjy/sdk/bean/VibrateCustomSetting;->setVibrateStrength
+  [pc 0x63] Const16: 178 (0xb2)
+  [pc 0x65] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->e
+  [pc 0x69] String: "设置led自定义设置"
+  [pc 0x6b] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x70] Const16: 177 (0xb1)
+  [pc 0x72] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->d
+  [pc 0x76] String: "获取led自定义设置"
+  [pc 0x78] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x7d] Invoke: Lcom/antjy/sdk/bean/LedCustomSetting;-><init>
+  [pc 0x82] Invoke: Lcom/antjy/sdk/protocol/parser/common/DeviceRemindEventParser;->f
+  [pc 0x86] Invoke: Lcom/antjy/sdk/bean/LedCustomSetting;->setLedColors
+  [pc 0x89] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x8a] Invoke: Landroid/support/v4/media/MediaDescriptionCompat;->describeContents
+  [pc 0x8d] Invoke: Lcom/antjy/sdk/bean/LedCustomSetting;->setTime
+  [pc 0x90] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x91] Invoke: Landroid/support/v4/media/MediaDescriptionCompat$1;->newArray
+  [pc 0x94] Invoke: Lcom/antjy/sdk/bean/LedCustomSetting;->setShotInterval
+  [pc 0x99] Invoke: Lcom/antjy/sdk/protocol/parser/common/DeviceRemindEventParser;->g
+  [pc 0x9d] Invoke: Lcom/antjy/sdk/bean/LedCustomSetting;->setLedStatusEnums
+  [pc 0xa2] Const16: 176 (0xb0)
+  [pc 0xa4] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->e
+  [pc 0xa8] String: "设置震动参数"
+  [pc 0xaa] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0xaf] Const16: 175 (0xaf)
+  [pc 0xb1] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->d
+  [pc 0xb7] Invoke: Lcom/antjy/sdk/bean/VibrateParams;-><init>
+  [pc 0xba] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0xbb] Invoke: Landroid/support/v4/media/MediaDescriptionCompatApi21;->e
+  [pc 0xbe] Invoke: Lcom/antjy/sdk/bean/LedFunction;->getLedFunctionByValue
+  [pc 0xc2] Invoke: Lcom/antjy/sdk/bean/VibrateParams;->setLedFunction
+  [pc 0xc5] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0xc6] Invoke: Landroid/support/v4/media/MediaDescriptionCompat;->describeContents
+  [pc 0xc9] Invoke: Lcom/antjy/sdk/bean/VibrateParams;->setTime
+  [pc 0xcc] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0xcd] Invoke: Landroid/support/v4/media/MediaDescriptionCompat$1;->newArray
+  [pc 0xd0] Invoke: Lcom/antjy/sdk/bean/VibrateParams;->setShotInterval
+  [pc 0xd3] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0xd4] Invoke: Landroid/support/v4/media/MediaBrowserCompatApi21;->c
+  [pc 0xd7] Invoke: Lcom/antjy/sdk/bean/VibrateParams;->setVibrateStrength
+  [pc 0xda] String: "获取震动参数"
+  [pc 0xde] Const16: 780 (0x30c)
+  [pc 0xe0] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->c
+  [pc 0xe5] Const16: 174 (0xae)
+  [pc 0xe7] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->e
+  [pc 0xeb] String: "设置电量显示颜色参数"
+  [pc 0xed] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0xf2] Const16: 173 (0xad)
+  [pc 0xf4] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->d
+  [pc 0xfa] Invoke: Lcom/antjy/sdk/bean/BatteryShowColor;-><init>
+  [pc 0xff] Invoke: Lcom/antjy/sdk/protocol/parser/common/DeviceRemindEventParser;->f
+  [pc 0x103] Invoke: Lcom/antjy/sdk/bean/BatteryShowColor;->setLevelHigh
+  [pc 0x108] Invoke: Lcom/antjy/sdk/protocol/parser/common/DeviceRemindEventParser;->f
+  [pc 0x10c] Invoke: Lcom/antjy/sdk/bean/BatteryShowColor;->setLevelBalance
+  [pc 0x111] Invoke: Lcom/antjy/sdk/protocol/parser/common/DeviceRemindEventParser;->f
+  [pc 0x115] Invoke: Lcom/antjy/sdk/bean/BatteryShowColor;->setLevelLow
+  [pc 0x118] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x119] Invoke: Landroid/support/v4/media/MediaBrowserCompatApi21;->c
+  [pc 0x11c] Invoke: Lcom/antjy/sdk/bean/BatteryShowColor;->setTime
+  [pc 0x11f] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x120] Invoke: Landroid/support/v4/media/MediaBrowserCompat$Subscription;->a
+  [pc 0x123] Invoke: Lcom/antjy/sdk/bean/BatteryShowColor;->setShotInterval
+  [pc 0x126] String: "获取电量提醒"
+  [pc 0x12a] Const16: 780 (0x30c)
+  [pc 0x12c] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->c
+  [pc 0x131] Const16: 172 (0xac)
+  [pc 0x133] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->e
+  [pc 0x137] String: "设置led参数"
+  [pc 0x139] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x13e] Const16: 171 (0xab)
+  [pc 0x140] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->d
+  [pc 0x146] Invoke: Lcom/antjy/sdk/bean/LedSetting;-><init>
+  [pc 0x149] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x14a] Invoke: Landroid/support/v4/media/MediaDescriptionCompatApi21;->e
+  [pc 0x14d] Invoke: Lcom/antjy/sdk/bean/LedFunction;->getLedFunctionByValue
+  [pc 0x151] Invoke: Lcom/antjy/sdk/bean/LedSetting;->setLedFunction
+  [pc 0x156] Invoke: Lcom/antjy/sdk/protocol/parser/common/DeviceRemindEventParser;->f
+  [pc 0x15a] Invoke: Lcom/antjy/sdk/bean/LedSetting;->setLedColors
+  [pc 0x15d] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x15e] Invoke: Landroid/support/v4/media/MediaDescriptionCompat$1;->newArray
+  [pc 0x161] Invoke: Lcom/antjy/sdk/bean/LedSetting;->setTime
+  [pc 0x164] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x165] Invoke: Landroid/support/v4/media/MediaBrowserCompatApi21;->c
+  [pc 0x168] Invoke: Lcom/antjy/sdk/bean/LedSetting;->setShotInterval
+  [pc 0x16d] Const16: 170 (0xaa)
+  [pc 0x16f] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->e
+  [pc 0x172] String: "获取led设置参数"
+  [pc 0x178] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->c
+  [pc 0x17c] String: "设置低电量提醒"
+  [pc 0x17e] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x183] Const16: 158 (0x9e)
+  [pc 0x185] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->d
+  [pc 0x18a] Invoke: Landroid/view/View;->onRtlPropertiesChanged
+  [pc 0x18b] Invoke: Lcom/antjy/sdk/bean/LowBatteryRemind;-><init>
+  [pc 0x18e] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x18f] Invoke: Landroid/support/v4/media/MediaDescriptionCompatApi21;->e
+  [pc 0x197] Invoke: Lcom/antjy/sdk/bean/LowBatteryRemind;->setOpen
+  [pc 0x19a] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x19b] Invoke: Landroid/support/v4/media/MediaDescriptionCompat;->describeContents
+  [pc 0x19e] Invoke: Lcom/antjy/sdk/bean/LowBatteryRemind;->setBattery
+  [pc 0x1a1] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x1a2] Invoke: Landroid/support/v4/media/MediaDescriptionCompat$1;->newArray
+  [pc 0x1a5] Invoke: Lcom/antjy/sdk/bean/LowBatteryRemind;->setCount
+  [pc 0x1a8] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x1a9] Invoke: Landroid/support/v4/media/MediaBrowserCompatApi21;->c
+  [pc 0x1ac] Invoke: Lcom/antjy/sdk/bean/LowBatteryRemind;->setCycle
+  [pc 0x1b4] String: "获取低电量提醒 = "
+  [pc 0x1b9] Invoke: Lcom/antjy/sdk/bean/LowBatteryRemind;->toString
+  [pc 0x1c4] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x1c9] Const16: 169 (0xa9)
+  [pc 0x1cb] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->e
+  [pc 0x1cf] String: "设置通讯录"
+  [pc 0x1d1] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x1d6] Const16: 152 (0x98)
+  [pc 0x1d8] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->d
+  [pc 0x1dc] String: "设置喝水提醒"
+  [pc 0x1de] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x1e3] Const16: 156 (0x9c)
+  [pc 0x1e5] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->d
+  [pc 0x1eb] Invoke: Lcom/antjy/sdk/bean/DrinkReminder;-><init>
+  [pc 0x1ee] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x1ef] Invoke: Landroid/support/v4/media/MediaDescriptionCompatApi21;->e
+  [pc 0x1f7] Invoke: Lcom/antjy/sdk/bean/DrinkReminder;->setOpen
+  [pc 0x1fa] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x1fb] Invoke: Landroid/support/v4/media/MediaDescriptionCompat;->describeContents
+  [pc 0x1fe] Invoke: Lcom/antjy/sdk/bean/DrinkReminder;->setStartHour
+  [pc 0x201] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x202] Invoke: Landroid/support/v4/media/MediaDescriptionCompat$1;->newArray
+  [pc 0x205] Invoke: Lcom/antjy/sdk/bean/DrinkReminder;->setStartMinute
+  [pc 0x208] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x209] Invoke: Landroid/support/v4/media/MediaBrowserCompatApi21;->c
+  [pc 0x20c] Invoke: Lcom/antjy/sdk/bean/DrinkReminder;->setEndHour
+  [pc 0x20f] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x210] Invoke: Landroid/support/v4/media/MediaBrowserCompat$Subscription;->a
+  [pc 0x213] Invoke: Lcom/antjy/sdk/bean/DrinkReminder;->setEndMinute
+  [pc 0x216] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x217] Invoke: Landroid/support/v4/media/MediaBrowserCompat$MediaItem;-><init>
+  [pc 0x21a] Invoke: Lcom/antjy/sdk/bean/DrinkReminder;->setCycle
+  [pc 0x222] String: "获取喝水提醒 = "
+  [pc 0x227] Invoke: Lcom/antjy/sdk/bean/DrinkReminder;->toString
+  [pc 0x232] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x237] Const16: 157 (0x9d)
+  [pc 0x239] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->e
+  [pc 0x23d] String: "设置洗手提醒"
+  [pc 0x23f] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x244] Const16: 166 (0xa6)
+  [pc 0x246] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->d
+  [pc 0x24c] Invoke: Lcom/antjy/sdk/bean/HandWashingReminder;-><init>
+  [pc 0x24f] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x250] Invoke: Landroid/support/v4/media/MediaDescriptionCompatApi21;->e
+  [pc 0x258] Invoke: Lcom/antjy/sdk/bean/HandWashingReminder;->setOpen
+  [pc 0x25b] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x25c] Invoke: Landroid/support/v4/media/MediaDescriptionCompat;->describeContents
+  [pc 0x25f] Invoke: Lcom/antjy/sdk/bean/HandWashingReminder;->setHour
+  [pc 0x262] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x263] Invoke: Landroid/support/v4/media/MediaDescriptionCompat$1;->newArray
+  [pc 0x266] Invoke: Lcom/antjy/sdk/bean/HandWashingReminder;->setMinute
+  [pc 0x269] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x26a] Invoke: Landroid/support/v4/media/MediaBrowserCompatApi21;->c
+  [pc 0x26d] Invoke: Lcom/antjy/sdk/bean/HandWashingReminder;->setTarget
+  [pc 0x270] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x271] Invoke: Landroid/support/v4/media/MediaBrowserCompat$Subscription;->a
+  [pc 0x274] Invoke: Lcom/antjy/sdk/bean/HandWashingReminder;->setCycle
+  [pc 0x27c] String: "获取洗手提醒"
+  [pc 0x281] Invoke: Lcom/antjy/sdk/bean/HandWashingReminder;->toString
+  [pc 0x28c] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x291] Const16: 165 (0xa5)
+  [pc 0x293] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->e
+  [pc 0x297] String: "设置生理周期"
+  [pc 0x299] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x29e] Const16: 167 (0xa7)
+  [pc 0x2a0] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->d
+  [pc 0x2a4] String: "获取生理周期"
+  [pc 0x2a6] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x2ab] Invoke: Lcom/antjy/sdk/bean/Physiological;-><init>
+  [pc 0x2ae] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x2af] Invoke: Landroid/support/v4/media/MediaDescriptionCompatApi21;->e
+  [pc 0x2b7] Invoke: Lcom/antjy/sdk/bean/Physiological;->setEnable
+  [pc 0x2ba] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x2bb] Invoke: Landroid/support/v4/media/MediaDescriptionCompat;->describeContents
+  [pc 0x2be] Invoke: Lcom/antjy/sdk/bean/Physiological;->setCycleDays
+  [pc 0x2c1] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x2c2] Invoke: Landroid/support/v4/media/MediaDescriptionCompat$1;->newArray
+  [pc 0x2c5] Invoke: Lcom/antjy/sdk/bean/Physiological;->setMenstruationDay
+  [pc 0x2c8] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x2c9] Invoke: Landroid/media/MediaCodecInfo;->getCapabilitiesForType
+  [pc 0x2cc] Invoke: Lcom/antjy/sdk/bean/Physiological;->setLastYear
+  [pc 0x2ce] Invoke: Landroidx/camera/core/imagecapture/Bitmap2JpegBytes;->a
+  [pc 0x2cf] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x2d0] Invoke: Landroid/support/v4/media/MediaBrowserCompat$MediaItem;-><init>
+  [pc 0x2d3] Invoke: Lcom/antjy/sdk/bean/Physiological;->setLastMonth
+  [pc 0x2d5] Invoke: Landroidx/camera/core/imagecapture/Bitmap2JpegBytes;->a
+  [pc 0x2d6] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x2d7] Invoke: Landroid/support/v4/media/MediaBrowserCompat$MediaBrowserImplApi21;->b
+  [pc 0x2da] Invoke: Lcom/antjy/sdk/bean/Physiological;->setLastDay
+  [pc 0x2dd] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x2de] Invoke: Landroid/support/v4/media/MediaBrowserCompat$MediaBrowserImplBase$5;->run
+  [pc 0x2e1] Invoke: Lcom/antjy/sdk/bean/Physiological;->setStartMenstruationDay
+  [pc 0x2e4] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x2e5] Invoke: Landroid/support/v4/media/MediaBrowserCompat$ItemCallback$StubApi23;->b
+  [pc 0x2e8] Invoke: Lcom/antjy/sdk/bean/Physiological;->setRemindHour
+  [pc 0x2eb] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x2ec] Invoke: Landroid/support/v4/media/MediaBrowserCompat$ConnectionCallback$ConnectionCallbackInternal;->b
+  [pc 0x2ef] Invoke: Lcom/antjy/sdk/bean/Physiological;->setRemindMinute
+  [pc 0x2f4] Const16: 168 (0xa8)
+  [pc 0x2f6] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->e
+  [pc 0x2fa] String: "设置心率预警"
+  [pc 0x2fc] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x301] Const16: 153 (0x99)
+  [pc 0x303] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->d
+  [pc 0x309] Invoke: Lcom/antjy/sdk/bean/HeartRateReminder;-><init>
+  [pc 0x30c] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x30d] Invoke: Landroid/support/v4/media/MediaDescriptionCompatApi21;->e
+  [pc 0x315] Invoke: Lcom/antjy/sdk/bean/HeartRateReminder;->setOpen
+  [pc 0x318] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x319] Invoke: Landroid/support/v4/media/MediaDescriptionCompat;->describeContents
+  [pc 0x31c] Invoke: Lcom/antjy/sdk/bean/HeartRateReminder;->setMax
+  [pc 0x31f] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x320] Invoke: Landroid/support/v4/media/MediaDescriptionCompat$1;->newArray
+  [pc 0x323] Invoke: Lcom/antjy/sdk/bean/HeartRateReminder;->setMin
+  [pc 0x32b] String: "获取心率预警"
+  [pc 0x330] Invoke: Lcom/antjy/sdk/bean/HeartRateReminder;->toString
+  [pc 0x33b] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x340] Const16: 154 (0x9a)
+  [pc 0x342] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->e
+  [pc 0x346] String: "设置勿扰模式"
+  [pc 0x348] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x34d] Const16: 146 (0x92)
+  [pc 0x34f] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->d
+  [pc 0x355] Invoke: Lcom/antjy/sdk/bean/DndModeReminder;-><init>
+  [pc 0x358] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x359] Invoke: Landroid/support/v4/media/MediaDescriptionCompatApi21;->e
+  [pc 0x361] Invoke: Lcom/antjy/sdk/bean/DndModeReminder;->setOpen
+  [pc 0x364] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x365] Invoke: Landroid/support/v4/media/MediaDescriptionCompat;->describeContents
+  [pc 0x368] Invoke: Lcom/antjy/sdk/bean/DndModeReminder;->setStartHour
+  [pc 0x36b] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x36c] Invoke: Landroid/support/v4/media/MediaDescriptionCompat$1;->newArray
+  [pc 0x36f] Invoke: Lcom/antjy/sdk/bean/DndModeReminder;->setStartMinute
+  [pc 0x372] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x373] Invoke: Landroid/support/v4/media/MediaBrowserCompatApi21;->c
+  [pc 0x376] Invoke: Lcom/antjy/sdk/bean/DndModeReminder;->setEndHour
+  [pc 0x379] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x37a] Invoke: Landroid/support/v4/media/MediaBrowserCompat$Subscription;->a
+  [pc 0x37d] Invoke: Lcom/antjy/sdk/bean/DndModeReminder;->setEndMinute
+  [pc 0x385] String: "获取勿扰模式 = "
+  [pc 0x38a] Invoke: Lcom/antjy/sdk/bean/DndModeReminder;->toString
+  [pc 0x395] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x39a] Const16: 145 (0x91)
+  [pc 0x39c] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->e
+  [pc 0x3a0] String: "设置防丢提醒"
+  [pc 0x3a2] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x3a7] Const16: 144 (0x90)
+  [pc 0x3a9] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->d
+  [pc 0x3ad] String: "获取防丢提醒"
+  [pc 0x3af] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x3b2] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x3b3] Invoke: Landroid/support/v4/media/MediaDescriptionCompatApi21;->e
+  [pc 0x3bc] Invoke: Ljava/lang/Boolean;->valueOf
+  [pc 0x3c0] Const16: 143 (0x8f)
+  [pc 0x3c2] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->e
+  [pc 0x3c6] String: "设置久坐提醒"
+  [pc 0x3c8] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x3cd] Const16: 142 (0x8e)
+  [pc 0x3cf] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->d
+  [pc 0x3d5] Invoke: Lcom/antjy/sdk/bean/SedentaryReminder;-><init>
+  [pc 0x3d8] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x3d9] Invoke: Landroid/support/v4/media/MediaDescriptionCompatApi21;->e
+  [pc 0x3e1] Invoke: Lcom/antjy/sdk/bean/SedentaryReminder;->setOpen
+  [pc 0x3e4] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x3e5] Invoke: Landroid/support/v4/media/MediaDescriptionCompat;->describeContents
+  [pc 0x3e8] Invoke: Lcom/antjy/sdk/bean/SedentaryReminder;->setTime
+  [pc 0x3eb] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x3ec] Invoke: Landroid/support/v4/media/MediaDescriptionCompat$1;->newArray
+  [pc 0x3ef] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x3f0] Invoke: Landroid/support/v4/media/MediaBrowserCompat$MediaBrowserImplBase;->e
+  [pc 0x3f1] Invoke: Landroid/telephony/CellIdentityCdma;->getSystemId
+  [pc 0x3f7] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x3f8] Invoke: Landroid/support/v4/media/MediaBrowserCompatApi21;->c
+  [pc 0x3fb] Invoke: Lcom/antjy/sdk/bean/SedentaryReminder;->setStartHour
+  [pc 0x3fe] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x3ff] Invoke: Landroid/support/v4/media/MediaBrowserCompat$Subscription;->a
+  [pc 0x402] Invoke: Lcom/antjy/sdk/bean/SedentaryReminder;->setStartMinute
+  [pc 0x405] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x406] Invoke: Landroid/support/v4/media/MediaBrowserCompat$MediaItem;-><init>
+  [pc 0x409] Invoke: Lcom/antjy/sdk/bean/SedentaryReminder;->setEndHour
+  [pc 0x40a] Invoke: Landroid/app/Activity;->onCreatePanelMenu
+  [pc 0x40c] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x40d] Invoke: Landroid/support/v4/media/MediaBrowserCompat$MediaBrowserImplApi21;->b
+  [pc 0x410] Invoke: Lcom/antjy/sdk/bean/SedentaryReminder;->setEndMinute
+  [pc 0x415] Const16: 16 (0x10)
+  [pc 0x419] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x41a] Invoke: Landroid/support/v4/media/MediaBrowserCompat$MediaBrowserImplBase$5;->run
+  [pc 0x41d] Invoke: Lcom/antjy/sdk/bean/SedentaryReminder;->setStartDndHour
+  [pc 0x420] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x421] Invoke: Landroid/support/v4/media/MediaBrowserCompat$ItemCallback$StubApi23;->b
+  [pc 0x424] Invoke: Lcom/antjy/sdk/bean/SedentaryReminder;->setStartDndMinute
+  [pc 0x427] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x428] Invoke: Landroid/support/v4/media/MediaBrowserCompat$ConnectionCallback$ConnectionCallbackInternal;->b
+  [pc 0x42b] Invoke: Lcom/antjy/sdk/bean/SedentaryReminder;->setEndDndHour
+  [pc 0x42c] Invoke: Landroid/animation/ObjectAnimator;->ofObject
+  [pc 0x42e] Const16: 15 (0xf)
+  [pc 0x430] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x431] Invoke: Landroid/support/v4/media/MediaBrowserCompat$ConnectionCallback$ConnectionCallbackInternal;->b
+  [pc 0x434] Invoke: Lcom/antjy/sdk/bean/SedentaryReminder;->setEndDndMinute
+  [pc 0x435] Invoke: Landroid/animation/ObjectAnimator;->ofObject
+  [pc 0x439] Const16: 141 (0x8d)
+  [pc 0x43b] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->e
+  [pc 0x443] String: "获取久坐提醒 = "
+  [pc 0x448] Invoke: Lcom/antjy/sdk/bean/SedentaryReminder;->toString
+  [pc 0x453] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x459] Const16: 163 (0xa3)
+  [pc 0x45b] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->d
+  [pc 0x45e] String: "设置消息开关"
+  [pc 0x460] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x494] String: ""
+
+--- Method: f (codeOff: 4221792) ---
+  [pc 0x2] Invoke: Ljava/util/ArrayList;-><init>
+  [pc 0x6] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->g
+  [pc 0x7] Invoke: Landroid/animation/Animator;->resume
+  [pc 0xf] Invoke: Ljava/util/List;->add
+  [pc 0x12] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->g
+  [pc 0x13] Invoke: Landroid/animation/AnimatorSet;->play
+  [pc 0x1a] Invoke: Ljava/util/List;->add
+  [pc 0x1e] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->g
+  [pc 0x1f] Invoke: Landroid/animation/Animator;->resume
+  [pc 0x26] Invoke: Ljava/util/List;->add
+  [pc 0x2a] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->g
+  [pc 0x2b] Invoke: Landroid/animation/Animator;->resume
+  [pc 0x32] Invoke: Ljava/util/List;->add
+
+--- Method: g (codeOff: 4221916) ---
+  [pc 0x2] Invoke: Ljava/util/ArrayList;-><init>
+  [pc 0x6] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->g
+  [pc 0x7] Invoke: Landroid/animation/Animator;->resume
+  [pc 0xf] Invoke: Ljava/util/List;->add
+  [pc 0x15] Invoke: Ljava/util/List;->add
+  [pc 0x18] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->g
+  [pc 0x19] Invoke: Landroid/animation/AnimatorSet;->play
+  [pc 0x20] Invoke: Ljava/util/List;->add
+  [pc 0x26] Invoke: Ljava/util/List;->add
+  [pc 0x2a] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->g
+  [pc 0x2b] Invoke: Landroid/animation/Animator;->resume
+  [pc 0x32] Invoke: Ljava/util/List;->add
+  [pc 0x38] Invoke: Ljava/util/List;->add
+
+======================================================
+PARSER: DeviceReportEventParser (Lcom/antjy/sdk/protocol/parser/common/DeviceReportEventParser;)
+======================================================
+
+--- Method: <init> (codeOff: 4224708) ---
+  [pc 0x0] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;-><init>
+
+--- Method: a (codeOff: 4224732) ---
+  [pc 0x3] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->a
+  [pc 0x6] Const16: -128 (0xff80)
+  [pc 0x8] Const16: 9 (0x9)
+  [pc 0xe] Const16: -126 (0xff82)
+  [pc 0x12] Const16: -124 (0xff84)
+  [pc 0x16] Const16: 32 (0x20)
+  [pc 0x1a] Const16: -122 (0xff86)
+  [pc 0x21] Const16: -116 (0xff8c)
+  [pc 0x23] Const16: 16 (0x10)
+  [pc 0x27] Const16: -114 (0xff8e)
+  [pc 0x2b] Const16: -108 (0xff94)
+  [pc 0x2f] Const16: -102 (0xff9a)
+  [pc 0x33] Const16: -100 (0xff9c)
+  [pc 0x3f] String: "设备上报未解析的code编码"
+  [pc 0x4b] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x4f] String: "拍照"
+  [pc 0x51] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x54] Invoke: Lcom/antjy/sdk/callback/manager/EventPoster;->a
+  [pc 0x5a] Invoke: Lcom/antjy/sdk/callback/impl/poster/KeyEventPoster;->a
+  [pc 0x5e] String: "结束找手机"
+  [pc 0x60] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x63] Invoke: Lcom/antjy/sdk/callback/manager/EventPoster;->a
+  [pc 0x69] Const16: 19 (0x13)
+  [pc 0x6a] Const16: 8302 (0x206e)
+  [pc 0x6b] Invoke: Lcom/antjy/sdk/callback/impl/poster/KeyEventPoster;->a
+  [pc 0x6f] String: "找手机"
+  [pc 0x71] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x74] Invoke: Lcom/antjy/sdk/callback/manager/EventPoster;->a
+  [pc 0x7a] Invoke: Lcom/antjy/sdk/callback/impl/poster/KeyEventPoster;->a
+  [pc 0x7f] Const16: 14 (0xe)
+  [pc 0x87] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x88] Invoke: Landroid/graphics/Rect;->inset
+  [pc 0x89] Invoke: Landroid/animation/Animator;->addPauseListener
+  [pc 0x8b] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x8c] Invoke: Landroid/graphics/PathMeasure;-><init>
+  [pc 0x8f] Const16: 13 (0xd)
+  [pc 0x91] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x92] Invoke: Landroid/app/Fragment;->unregisterForContextMenu
+  [pc 0x95] Invoke: Lcom/antjy/sdk/bean/SportInteraction;-><init>
+  [pc 0x9a] Invoke: Lcom/antjy/sdk/callback/manager/EventPoster;->a
+  [pc 0xa0] Invoke: Lcom/antjy/sdk/callback/impl/poster/SportInteractionPoster;->n
+  [pc 0xa6] Invoke: Lcom/antjy/sdk/callback/manager/EventPoster;->a
+  [pc 0xb3] Invoke: Ljava/lang/Boolean;->valueOf
+  [pc 0xb7] Const16: 109 (0x6d)
+  [pc 0xb9] Invoke: Lcom/antjy/sdk/callback/impl/poster/CommonPoster;->g
+  [pc 0xbd] String: "来电控制"
+  [pc 0xbf] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0xc9] Invoke: Lcom/antjy/sdk/callback/manager/EventPoster;->a
+  [pc 0xcf] Invoke: Lcom/antjy/sdk/callback/impl/poster/KeyEventPoster;->a
+  [pc 0xd3] Invoke: Lcom/antjy/sdk/callback/manager/EventPoster;->a
+  [pc 0xd9] Invoke: Lcom/antjy/sdk/callback/impl/poster/KeyEventPoster;->a
+  [pc 0xde] Invoke: Lcom/antjy/sdk/callback/manager/EventPoster;->a
+  [pc 0xe9] Invoke: Lcom/antjy/sdk/callback/impl/poster/BtStatusPoster;->e
+  [pc 0xef] Const16: -16 (0xfff0)
+  [pc 0xf5] Const16: 8 (0x8)
+  [pc 0x103] String: "音量加"
+  [pc 0x105] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x108] Invoke: Lcom/antjy/sdk/callback/manager/EventPoster;->a
+  [pc 0x10e] Const16: 17 (0x11)
+  [pc 0x110] Invoke: Lcom/antjy/sdk/callback/impl/poster/MusicEventPoster;->a
+  [pc 0x114] String: "音量减"
+  [pc 0x116] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x119] Invoke: Lcom/antjy/sdk/callback/manager/EventPoster;->a
+  [pc 0x11f] Const16: 18 (0x12)
+  [pc 0x121] Invoke: Lcom/antjy/sdk/callback/impl/poster/MusicEventPoster;->a
+  [pc 0x125] String: "上一曲"
+  [pc 0x127] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x12a] Invoke: Lcom/antjy/sdk/callback/manager/EventPoster;->a
+  [pc 0x130] Invoke: Lcom/antjy/sdk/callback/impl/poster/MusicEventPoster;->a
+  [pc 0x134] String: "下一曲"
+  [pc 0x136] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x139] Invoke: Lcom/antjy/sdk/callback/manager/EventPoster;->a
+  [pc 0x13f] Invoke: Lcom/antjy/sdk/callback/impl/poster/MusicEventPoster;->a
+  [pc 0x143] String: "播放或暂停"
+  [pc 0x145] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x148] Invoke: Lcom/antjy/sdk/callback/manager/EventPoster;->a
+  [pc 0x14e] Invoke: Lcom/antjy/sdk/callback/impl/poster/MusicEventPoster;->a
+  [pc 0x152] String: "进入音乐控制"
+  [pc 0x154] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x157] Invoke: Lcom/antjy/sdk/callback/manager/EventPoster;->a
+  [pc 0x15d] Invoke: Lcom/antjy/sdk/callback/impl/poster/MusicEventPoster;->a
+  [pc 0x161] String: "上报单次锻炼模式结束"
+  [pc 0x163] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x166] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x167] Invoke: Landroid/app/Notification$Builder;->addAction
+  [pc 0x168] Invoke: Landroid/telephony/CellIdentityCdma;->getSystemId
+  [pc 0x16a] Invoke: Lcom/antjy/sdk/bean/constans/ExerciseStateEnum;->getExerciseStateByValue
+  [pc 0x170] Invoke: Ljava/lang/Enum;->ordinal
+  [pc 0x17f] Invoke: Lcom/antjy/sdk/callback/manager/EventPoster;->a
+  [pc 0x185] Const16: 21 (0x15)
+  [pc 0x187] Invoke: Lcom/antjy/sdk/callback/impl/poster/KeyEventPoster;->a
+  [pc 0x18b] Invoke: Lcom/antjy/sdk/callback/manager/EventPoster;->a
+  [pc 0x191] Const16: 23 (0x17)
+  [pc 0x193] Invoke: Lcom/antjy/sdk/callback/impl/poster/KeyEventPoster;->a
+  [pc 0x197] Invoke: Lcom/antjy/sdk/callback/manager/EventPoster;->a
+  [pc 0x19d] Const16: 22 (0x16)
+  [pc 0x19f] Invoke: Lcom/antjy/sdk/callback/impl/poster/KeyEventPoster;->a
+  [pc 0x1a3] Invoke: Lcom/antjy/sdk/callback/manager/EventPoster;->a
+  [pc 0x1a9] Const16: 20 (0x14)
+  [pc 0x1ab] Invoke: Lcom/antjy/sdk/callback/impl/poster/KeyEventPoster;->a
+  [pc 0x1af] String: "上报单次测量结果"
+  [pc 0x1b1] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x1b6] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x1b7] Invoke: Landroid/app/Notification$Builder;->setOngoing
+  [pc 0x1ba] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x1bb] Invoke: Landroid/app/Notification$Builder;->setCustomBigContentView
+  [pc 0x1d0] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x1d1] Invoke: Landroid/app/SearchableInfo;->shouldRewriteQueryFromText
+  [pc 0x1d4] Const16: 33 (0x21)
+  [pc 0x1d8] Const16: 100 (0x64)
+  [pc 0x1dc] Invoke: Lcom/antjy/sdk/callback/manager/EventPoster;->a
+  [pc 0x1e2] Invoke: Lcom/antjy/sdk/protocol/parser/common/DeviceReportEventParser;->f
+  [pc 0x1e6] Invoke: Ljava/lang/Float;->valueOf
+  [pc 0x1ea] Invoke: Lcom/antjy/sdk/protocol/parser/common/DeviceReportEventParser;->f
+  [pc 0x1ee] Invoke: Ljava/lang/Float;->valueOf
+  [pc 0x1f2] Invoke: Lcom/antjy/sdk/callback/impl/poster/BodyTemperaturePoster;->t
+  [pc 0x1f5] String: "体温正在测量中"
+  [pc 0x1f7] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x1fd] Invoke: Lcom/antjy/sdk/callback/manager/EventPoster;->a
+  [pc 0x203] Invoke: Lcom/antjy/sdk/protocol/parser/common/DeviceReportEventParser;->f
+  [pc 0x207] Invoke: Ljava/lang/Float;->valueOf
+  [pc 0x20b] Invoke: Lcom/antjy/sdk/protocol/parser/common/DeviceReportEventParser;->f
+  [pc 0x20f] Invoke: Ljava/lang/Float;->valueOf
+  [pc 0x213] Invoke: Lcom/antjy/sdk/callback/impl/poster/BodyTemperaturePoster;->t
+  [pc 0x216] String: "体温测量完成"
+  [pc 0x218] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x21c] Invoke: Lcom/antjy/sdk/callback/manager/EventPoster;->a
+  [pc 0x222] Invoke: Lcom/antjy/sdk/protocol/parser/common/DeviceReportEventParser;->f
+  [pc 0x226] Invoke: Ljava/lang/Float;->valueOf
+  [pc 0x22a] Invoke: Lcom/antjy/sdk/protocol/parser/common/DeviceReportEventParser;->f
+  [pc 0x22e] Invoke: Ljava/lang/Float;->valueOf
+  [pc 0x232] Invoke: Lcom/antjy/sdk/callback/impl/poster/BodyTemperaturePoster;->t
+  [pc 0x235] String: "体温测量出错"
+  [pc 0x237] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x23d] Const16: 10 (0xa)
+  [pc 0x241] Invoke: Lcom/antjy/sdk/callback/manager/EventPoster;->a
+  [pc 0x247] Invoke: Lcom/antjy/sdk/protocol/parser/common/DeviceReportEventParser;->f
+  [pc 0x24b] Invoke: Ljava/lang/Float;->valueOf
+  [pc 0x24f] Invoke: Lcom/antjy/sdk/protocol/parser/common/DeviceReportEventParser;->f
+  [pc 0x253] Invoke: Ljava/lang/Float;->valueOf
+  [pc 0x257] Invoke: Lcom/antjy/sdk/callback/impl/poster/BloodSugarPoster;->t
+  [pc 0x25a] String: "血糖正在测量中"
+  [pc 0x25c] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x262] Invoke: Lcom/antjy/sdk/callback/manager/EventPoster;->a
+  [pc 0x268] Invoke: Lcom/antjy/sdk/protocol/parser/common/DeviceReportEventParser;->f
+  [pc 0x26c] Invoke: Ljava/lang/Float;->valueOf
+  [pc 0x270] Invoke: Lcom/antjy/sdk/protocol/parser/common/DeviceReportEventParser;->f
+  [pc 0x274] Invoke: Ljava/lang/Float;->valueOf
+  [pc 0x278] Invoke: Lcom/antjy/sdk/callback/impl/poster/BloodSugarPoster;->t
+  [pc 0x27b] String: "血糖测量完成"
+  [pc 0x27d] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x281] Invoke: Lcom/antjy/sdk/callback/manager/EventPoster;->a
+  [pc 0x287] Invoke: Lcom/antjy/sdk/protocol/parser/common/DeviceReportEventParser;->f
+  [pc 0x28b] Invoke: Ljava/lang/Float;->valueOf
+  [pc 0x28f] Invoke: Lcom/antjy/sdk/protocol/parser/common/DeviceReportEventParser;->f
+  [pc 0x293] Invoke: Ljava/lang/Float;->valueOf
+  [pc 0x297] Invoke: Lcom/antjy/sdk/callback/impl/poster/BloodSugarPoster;->t
+  [pc 0x29a] String: "血糖测量出错"
+  [pc 0x29c] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x2a0] Const16: 25 (0x19)
+  [pc 0x2a4] Invoke: Lcom/antjy/sdk/callback/manager/EventPoster;->a
+  [pc 0x2aa] Invoke: Ljava/lang/Integer;->valueOf
+  [pc 0x2ae] Invoke: Ljava/lang/Integer;->valueOf
+  [pc 0x2b2] Invoke: Lcom/antjy/sdk/callback/impl/poster/MeasurePoster;->t
+  [pc 0x2b5] String: "压力正在测量中"
+  [pc 0x2b7] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x2bd] Invoke: Lcom/antjy/sdk/callback/manager/EventPoster;->a
+  [pc 0x2c3] Invoke: Ljava/lang/Integer;->valueOf
+  [pc 0x2c7] Invoke: Ljava/lang/Integer;->valueOf
+  [pc 0x2cb] Invoke: Lcom/antjy/sdk/callback/impl/poster/MeasurePoster;->t
+  [pc 0x2ce] String: "压力测量完成"
+  [pc 0x2d0] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x2d4] Invoke: Lcom/antjy/sdk/callback/manager/EventPoster;->a
+  [pc 0x2da] Invoke: Ljava/lang/Integer;->valueOf
+  [pc 0x2de] Invoke: Ljava/lang/Integer;->valueOf
+  [pc 0x2e2] Invoke: Lcom/antjy/sdk/callback/impl/poster/MeasurePoster;->t
+  [pc 0x2e5] String: "压力测量出错"
+  [pc 0x2e7] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x2eb] Const16: 24 (0x18)
+  [pc 0x2ef] Invoke: Lcom/antjy/sdk/callback/manager/EventPoster;->a
+  [pc 0x2f5] Invoke: Ljava/lang/Integer;->valueOf
+  [pc 0x2f9] Invoke: Ljava/lang/Integer;->valueOf
+  [pc 0x2fd] Invoke: Lcom/antjy/sdk/callback/impl/poster/MeasurePoster;->t
+  [pc 0x300] String: "心电正在测量中"
+  [pc 0x302] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x308] Invoke: Lcom/antjy/sdk/callback/manager/EventPoster;->a
+  [pc 0x30e] Invoke: Ljava/lang/Integer;->valueOf
+  [pc 0x312] Invoke: Ljava/lang/Integer;->valueOf
+  [pc 0x316] Invoke: Lcom/antjy/sdk/callback/impl/poster/MeasurePoster;->t
+  [pc 0x319] String: "心电测量完成"
+  [pc 0x31b] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x31f] Invoke: Lcom/antjy/sdk/callback/manager/EventPoster;->a
+  [pc 0x325] Invoke: Ljava/lang/Integer;->valueOf
+  [pc 0x329] Invoke: Ljava/lang/Integer;->valueOf
+  [pc 0x32d] Invoke: Lcom/antjy/sdk/callback/impl/poster/MeasurePoster;->t
+  [pc 0x330] String: "心电测量出错"
+  [pc 0x332] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x338] Invoke: Lcom/antjy/sdk/callback/manager/EventPoster;->a
+  [pc 0x33e] Invoke: Ljava/lang/Integer;->valueOf
+  [pc 0x342] Invoke: Ljava/lang/Integer;->valueOf
+  [pc 0x346] Invoke: Lcom/antjy/sdk/callback/impl/poster/MeasurePoster;->t
+  [pc 0x349] String: "血氧正在测量中"
+  [pc 0x34b] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x351] Invoke: Lcom/antjy/sdk/callback/manager/EventPoster;->a
+  [pc 0x357] Invoke: Ljava/lang/Integer;->valueOf
+  [pc 0x35b] Invoke: Ljava/lang/Integer;->valueOf
+  [pc 0x35f] Invoke: Lcom/antjy/sdk/callback/impl/poster/MeasurePoster;->t
+  [pc 0x362] String: "血氧测量完成"
+  [pc 0x364] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x368] Invoke: Lcom/antjy/sdk/callback/manager/EventPoster;->a
+  [pc 0x36e] Invoke: Ljava/lang/Integer;->valueOf
+  [pc 0x372] Invoke: Ljava/lang/Integer;->valueOf
+  [pc 0x376] Invoke: Lcom/antjy/sdk/callback/impl/poster/MeasurePoster;->t
+  [pc 0x379] String: "血氧测量出错"
+  [pc 0x37b] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x381] Invoke: Lcom/antjy/sdk/callback/manager/EventPoster;->a
+  [pc 0x387] Invoke: Ljava/lang/Integer;->valueOf
+  [pc 0x38b] Invoke: Ljava/lang/Integer;->valueOf
+  [pc 0x38f] Invoke: Lcom/antjy/sdk/callback/impl/poster/MeasurePoster;->t
+  [pc 0x392] String: "血压正在测量中"
+  [pc 0x394] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x39a] Invoke: Lcom/antjy/sdk/callback/manager/EventPoster;->a
+  [pc 0x3a0] Invoke: Ljava/lang/Integer;->valueOf
+  [pc 0x3a4] Invoke: Ljava/lang/Integer;->valueOf
+  [pc 0x3a8] Invoke: Lcom/antjy/sdk/callback/impl/poster/MeasurePoster;->t
+  [pc 0x3ab] String: "血压测量完成"
+  [pc 0x3ac] String: "INVISIBLE"
+  [pc 0x3ad] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x3b1] Invoke: Lcom/antjy/sdk/callback/manager/EventPoster;->a
+  [pc 0x3b7] Invoke: Ljava/lang/Integer;->valueOf
+  [pc 0x3bb] Invoke: Ljava/lang/Integer;->valueOf
+  [pc 0x3bf] Invoke: Lcom/antjy/sdk/callback/impl/poster/MeasurePoster;->t
+  [pc 0x3c2] String: "血压测量出错"
+  [pc 0x3c4] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x3ca] Invoke: Lcom/antjy/sdk/callback/manager/EventPoster;->a
+  [pc 0x3d0] Invoke: Ljava/lang/Integer;->valueOf
+  [pc 0x3d4] Invoke: Ljava/lang/Integer;->valueOf
+  [pc 0x3d8] Invoke: Lcom/antjy/sdk/callback/impl/poster/MeasurePoster;->t
+  [pc 0x3db] String: "心率正在测量中"
+  [pc 0x3dd] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x3e3] Invoke: Lcom/antjy/sdk/callback/manager/EventPoster;->a
+  [pc 0x3e9] Invoke: Ljava/lang/Integer;->valueOf
+  [pc 0x3ed] Invoke: Ljava/lang/Integer;->valueOf
+  [pc 0x3f1] Invoke: Lcom/antjy/sdk/callback/impl/poster/MeasurePoster;->t
+  [pc 0x3f4] String: "心率测量完成"
+  [pc 0x3f6] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x3fa] Invoke: Lcom/antjy/sdk/callback/manager/EventPoster;->a
+  [pc 0x400] Invoke: Ljava/lang/Integer;->valueOf
+  [pc 0x404] Invoke: Ljava/lang/Integer;->valueOf
+  [pc 0x408] Invoke: Lcom/antjy/sdk/callback/impl/poster/MeasurePoster;->t
+  [pc 0x40b] String: "心率测量出错"
+  [pc 0x40d] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x411] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x412] Invoke: Landroid/app/Notification$Builder;->addAction
+  [pc 0x413] Invoke: Landroid/telephony/CellIdentityCdma;->getSystemId
+  [pc 0x41a] String: "上报实时心率，hr = "
+  [pc 0x426] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x42b] Invoke: Lcom/antjy/sdk/callback/manager/EventPoster;->a
+  [pc 0x431] Invoke: Lcom/antjy/sdk/callback/impl/poster/RealHeartRatePoster;->q
+  [pc 0x435] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x436] Invoke: Landroid/graphics/Rect;->inset
+  [pc 0x437] Invoke: Landroid/telephony/CellIdentityCdma;->getSystemId
+  [pc 0x439] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x43a] Invoke: Landroid/bluetooth/le/BluetoothLeScanner;->startScan
+  [pc 0x43d] Const16: 11 (0xb)
+  [pc 0x43f] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x440] Invoke: Landroid/bluetooth/BluetoothAdapter;->closeProfileProxy
+  [pc 0x448] String: "上报实时步数，step = "
+  [pc 0x450] String: ",distance = "
+  [pc 0x458] String: ",calories = "
+  [pc 0x464] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x469] Invoke: Lcom/antjy/sdk/bean/RealData;-><init>
+  [pc 0x46e] Invoke: Lcom/antjy/sdk/callback/manager/EventPoster;->a
+  [pc 0x474] Invoke: Lcom/antjy/sdk/callback/impl/poster/RealDataPoster;->k
+
+--- Method: f (codeOff: 4224644) ---
+  [pc 0x5] Invoke: Ljava/lang/String;->valueOf
+  [pc 0x9] Invoke: Ljava/math/BigDecimal;-><init>
+  [pc 0xe] Invoke: Ljava/math/BigDecimal;->setScale
+  [pc 0x12] Invoke: Ljava/math/BigDecimal;->floatValue
+
+======================================================
+PARSER: DeviceSetEventParser (Lcom/antjy/sdk/protocol/parser/common/DeviceSetEventParser;)
+======================================================
+
+--- Method: <init> (codeOff: 4227092) ---
+  [pc 0x0] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;-><init>
+
+--- Method: a (codeOff: 4227116) ---
+  [pc 0x0] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->a
+  [pc 0x3] Const16: 8 (0x8)
+  [pc 0x6] Const16: 10 (0xa)
+  [pc 0x8] Const16: 9 (0x9)
+  [pc 0x18] String: "设备设置未解析的code编码"
+  [pc 0x24] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x28] String: "解绑回调"
+  [pc 0x2a] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x2f] Const16: 161 (0xa1)
+  [pc 0x31] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->d
+  [pc 0x35] String: "绑定设备回调"
+  [pc 0x37] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x3c] Const16: 160 (0xa0)
+  [pc 0x3e] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->d
+  [pc 0x42] String: "清除所有数据"
+  [pc 0x44] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x49] Const16: 159 (0x9f)
+  [pc 0x4b] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->d
+  [pc 0x4f] String: "同步运动信息到设备"
+  [pc 0x51] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x56] Const16: 164 (0xa4)
+  [pc 0x58] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->d
+  [pc 0x5c] String: "查询BT连接开关状态"
+  [pc 0x5e] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x63] Invoke: Lcom/antjy/sdk/callback/manager/EventPoster;->a
+  [pc 0x6e] Invoke: Lcom/antjy/sdk/callback/impl/poster/BtStatusPoster;->e
+  [pc 0x72] String: "设置uuid"
+  [pc 0x74] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x79] Const16: 162 (0xa2)
+  [pc 0x7b] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->d
+  [pc 0x7f] String: "设置设备进入或退出拍照模式"
+  [pc 0x81] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x86] Const16: 151 (0x97)
+  [pc 0x88] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->d
+  [pc 0x8c] String: "设置24小时心率监测"
+  [pc 0x8e] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x93] Const16: 150 (0x96)
+  [pc 0x95] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->d
+  [pc 0x99] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x9a] Invoke: Landroid/opengl/GLES20;->glGetProgramInfoLog
+  [pc 0xa2] Invoke: Ljava/lang/Boolean;->valueOf
+  [pc 0xa6] Const16: 149 (0x95)
+  [pc 0xa8] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->e
+  [pc 0xaa] String: "ACTION_CLEAR_SELECTION"
+  [pc 0xb0] String: "获取24小时心率监测 = "
+  [pc 0xbc] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0xc0] String: "设置亮屏时间"
+  [pc 0xc2] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0xc7] Const16: 148 (0x94)
+  [pc 0xc9] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->d
+  [pc 0xcd] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0xce] Invoke: Landroid/opengl/GLES20;->glGetProgramInfoLog
+  [pc 0xd3] Invoke: Ljava/lang/Integer;->valueOf
+  [pc 0xd7] Const16: 147 (0x93)
+  [pc 0xd9] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->e
+  [pc 0xdb] String: "ACTION_CLEAR_SELECTION"
+  [pc 0xe1] String: "获取亮屏时间 = "
+  [pc 0xed] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0xf1] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0xf2] Invoke: Landroid/graphics/RectF;-><init>
+  [pc 0xf5] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0xf6] Invoke: Landroid/graphics/Path;->transform
+  [pc 0xf9] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0xfa] Invoke: Landroid/graphics/Path;->approximate
+  [pc 0xfd] Const16: 11 (0xb)
+  [pc 0xff] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x100] Invoke: Landroid/graphics/Paint;->setStyle
+  [pc 0x105] Invoke: Lcom/antjy/sdk/bean/CustomDailSizeInfo;-><init>
+  [pc 0x10d] String: "获取自定义表盘尺寸 = "
+  [pc 0x112] Invoke: Lcom/antjy/sdk/bean/CustomDailSizeInfo;->toString
+  [pc 0x11d] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x120] Invoke: Lcom/antjy/sdk/data/sp/SDKLocalData;->i
+  [pc 0x124] Invoke: Lcom/antjy/sdk/util/GsonUtil;->b
+  [pc 0x128] Invoke: Lcom/antjy/sdk/data/sp/SDKLocalData;->m
+  [pc 0x12d] Const16: 140 (0x8c)
+  [pc 0x12f] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->e
+  [pc 0x133] String: "设置电话状态"
+  [pc 0x135] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x13a] Const16: 139 (0x8b)
+  [pc 0x13c] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->d
+  [pc 0x140] String: "设置自定义表盘"
+  [pc 0x142] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x147] Const16: 138 (0x8a)
+  [pc 0x149] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->d
+  [pc 0x14e] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x14f] Invoke: Landroid/support/v4/media/session/MediaControllerCompat$MediaControllerImplApi21$ExtraCallback;->L
+  [pc 0x152] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x153] Invoke: Landroid/net/ConnectivityManager;->getActiveNetwork
+  [pc 0x156] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x157] Invoke: Landroid/net/Uri;->encode
+  [pc 0x15a] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x15b] Invoke: Landroid/net/Uri$Builder;-><init>
+  [pc 0x160] Invoke: Lcom/antjy/sdk/bean/CustomDail;-><init>
+  [pc 0x163] Invoke: Lcom/antjy/sdk/bean/CustomDail;->setFontColor
+  [pc 0x166] Invoke: Lcom/antjy/sdk/bean/constans/DisplayLocationEnum;->getDisplayLocationByValue
+  [pc 0x16a] Invoke: Lcom/antjy/sdk/bean/CustomDail;->setPosition
+  [pc 0x16d] Invoke: Lcom/antjy/sdk/bean/constans/DisplayTypeEnum;->getDisplayTypeByValue
+  [pc 0x171] Invoke: Lcom/antjy/sdk/bean/CustomDail;->setTimeTop
+  [pc 0x174] Invoke: Lcom/antjy/sdk/bean/constans/DisplayTypeEnum;->getDisplayTypeByValue
+  [pc 0x178] Invoke: Lcom/antjy/sdk/bean/CustomDail;->setTimeBottom
+  [pc 0x180] String: "获取自定义表盘 = "
+  [pc 0x185] Invoke: Lcom/antjy/sdk/bean/CustomDail;->toString
+  [pc 0x190] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x195] Const16: 137 (0x89)
+  [pc 0x197] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->e
+  [pc 0x19b] String: "设置实时上报标志"
+  [pc 0x19d] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x1a2] Const16: 136 (0x88)
+  [pc 0x1a4] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->d
+  [pc 0x1a8] String: "设置天气单位"
+  [pc 0x1aa] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x1af] Const16: 135 (0x87)
+  [pc 0x1b1] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->d
+  [pc 0x1b5] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x1b6] Invoke: Landroid/opengl/GLES20;->glGetProgramInfoLog
+  [pc 0x1b9] String: "获取天气单位"
+  [pc 0x1bb] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x1c7] Const16: 134 (0x86)
+  [pc 0x1c9] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->e
+  [pc 0x1cd] String: "设置播放状态"
+  [pc 0x1ce] Invoke: Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;->v
+  [pc 0x1cf] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x1d4] Const16: 133 (0x85)
+  [pc 0x1d6] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->d
+  [pc 0x1da] String: "设置手机类型"
+  [pc 0x1dc] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x1e1] Const16: 132 (0x84)
+  [pc 0x1e3] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->d
+  [pc 0x1e7] String: "设置时区"
+  [pc 0x1e8] Invoke: Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;->v
+  [pc 0x1e9] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x1ee] Const16: 131 (0x83)
+  [pc 0x1f0] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->d
+  [pc 0x1f4] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x1f5] Invoke: Landroid/opengl/Matrix;->scaleM
+  [pc 0x1fd] String: "获取时区,timeZone = "
+  [pc 0x209] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x20e] Invoke: Ljava/lang/Integer;->valueOf
+  [pc 0x212] Const16: 130 (0x82)
+  [pc 0x214] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->e
+  [pc 0x218] String: "设置设备模式"
+  [pc 0x21a] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x21f] Const16: 129 (0x81)
+  [pc 0x221] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->d
+  [pc 0x225] String: "设置锻炼模式"
+  [pc 0x227] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x22c] Const16: 128 (0x80)
+  [pc 0x22e] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->d
+  [pc 0x232] String: "获取锻炼模式"
+  [pc 0x234] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x239] Invoke: Lcom/antjy/sdk/bean/ExerciseMode;-><init>
+  [pc 0x242] Invoke: Lcom/antjy/sdk/bean/ExerciseMode;->setType
+  [pc 0x247] Invoke: Lcom/antjy/sdk/bean/ExerciseMode;->setState
+  [pc 0x24b] Invoke: Lcom/antjy/sdk/data/sp/SDKLocalData;->i
+  [pc 0x24f] Invoke: Lcom/antjy/sdk/data/sp/SDKLocalData;->h
+  [pc 0x255] Invoke: Lcom/antjy/sdk/util/GsonUtil;->a
+  [pc 0x25f] Const16: 12401 (0x3071)
+  [pc 0x260] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x261] Invoke: Landroid/opengl/GLES20;->glGetProgramInfoLog
+  [pc 0x266] Invoke: Lcom/antjy/sdk/bean/ExerciseMode;->setType
+  [pc 0x269] Invoke: Lcom/antjy/sdk/bean/constans/ExerciseStateEnum;->getExerciseStateByValue
+  [pc 0x26d] Invoke: Lcom/antjy/sdk/bean/ExerciseMode;->setState
+  [pc 0x271] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x272] Invoke: Landroid/opengl/GLES20;->glGetProgramInfoLog
+  [pc 0x275] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x276] Invoke: Landroid/net/LocalSocket;->getPeerCredentials
+  [pc 0x279] Invoke: Lcom/antjy/sdk/bean/constans/ExerciseTypeEnum;->getExerciseTypeByValue
+  [pc 0x27d] Invoke: Lcom/antjy/sdk/bean/ExerciseMode;->setType
+  [pc 0x280] Invoke: Lcom/antjy/sdk/bean/constans/ExerciseStateEnum;->getExerciseStateByValue
+  [pc 0x284] Invoke: Lcom/antjy/sdk/bean/ExerciseMode;->setState
+  [pc 0x287] Const16: 126 (0x7e)
+  [pc 0x289] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->e
+  [pc 0x28d] String: "设置单次测量"
+  [pc 0x28f] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x294] Const16: 127 (0x7f)
+  [pc 0x296] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->d
+  [pc 0x29a] String: "设置佩戴方式"
+  [pc 0x29c] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x2a1] Const16: 125 (0x7d)
+  [pc 0x2a3] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->d
+  [pc 0x2a7] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x2a8] Invoke: Landroid/opengl/GLES20;->glGetProgramInfoLog
+  [pc 0x2ab] String: "获取佩戴方式"
+  [pc 0x2ad] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x2b9] Const16: 124 (0x7c)
+  [pc 0x2bb] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->e
+  [pc 0x2bf] String: "设置显示方式"
+  [pc 0x2c1] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x2c6] Const16: 123 (0x7b)
+  [pc 0x2c8] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->d
+  [pc 0x2cc] String: "获取显示方式"
+  [pc 0x2ce] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x2d3] Const16: 122 (0x7a)
+  [pc 0x2d5] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->d
+  [pc 0x2d9] String: "设置目标步数"
+  [pc 0x2db] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x2e0] Const16: 121 (0x79)
+  [pc 0x2e2] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->d
+  [pc 0x2e6] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x2e7] Invoke: Landroid/os/Parcel;->readString
+  [pc 0x2ef] String: "获取目标步数 = "
+  [pc 0x2fb] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x300] Invoke: Ljava/lang/Integer;->valueOf
+  [pc 0x304] Const16: 120 (0x78)
+  [pc 0x306] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->e
+  [pc 0x30a] String: "设置设备语言"
+  [pc 0x30c] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x311] Const16: 119 (0x77)
+  [pc 0x313] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->d
+  [pc 0x317] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x318] Invoke: Landroid/opengl/GLES20;->glGetProgramInfoLog
+  [pc 0x320] String: "获取设置语言 = "
+  [pc 0x32c] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x331] Invoke: Lcom/antjy/sdk/bean/constans/LanguageEnum;->getLanguageByValue
+  [pc 0x335] Const16: 118 (0x76)
+  [pc 0x337] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->e
+  [pc 0x33b] String: "设置闹钟 = "
+  [pc 0x33d] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x342] Const16: 117 (0x75)
+  [pc 0x344] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->d
+  [pc 0x34a] Invoke: Lcom/antjy/sdk/bean/SmartClock;-><init>
+  [pc 0x34d] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x34e] Invoke: Landroid/opengl/GLES20;->glGetProgramInfoLog
+  [pc 0x351] Invoke: Lcom/antjy/sdk/bean/SmartClock;->setId
+  [pc 0x35d] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->h
+  [pc 0x361] Invoke: Ljava/lang/Integer;->intValue
+  [pc 0x36f] Invoke: Lcom/antjy/sdk/bean/SmartClock;->setRepeats
+  [pc 0x372] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->h
+  [pc 0x376] Invoke: Ljava/lang/Integer;->intValue
+  [pc 0x37d] Invoke: Lcom/antjy/sdk/bean/SmartClock;->setOpen
+  [pc 0x380] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x381] Invoke: Landroid/net/Uri;->toString
+  [pc 0x384] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x385] Invoke: Landroid/net/ConnectivityManager;->getActiveNetwork
+  [pc 0x388] Invoke: Lcom/antjy/sdk/bean/SmartClock;->setHour
+  [pc 0x38b] Invoke: Lcom/antjy/sdk/bean/SmartClock;->setMinute
+  [pc 0x393] String: "获取闹钟："
+  [pc 0x398] Invoke: Lcom/antjy/sdk/bean/SmartClock;->toString
+  [pc 0x3a3] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x3a8] Const16: 116 (0x74)
+  [pc 0x3aa] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->e
+  [pc 0x3ae] String: "设置本地表盘"
+  [pc 0x3b0] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x3b5] Const16: 115 (0x73)
+  [pc 0x3b7] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->d
+  [pc 0x3bb] String: "获取本地表盘"
+  [pc 0x3bd] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x3c0] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x3c1] Invoke: Landroid/opengl/GLES20;->glGetProgramInfoLog
+  [pc 0x3c6] Invoke: Ljava/lang/Integer;->valueOf
+  [pc 0x3ca] Const16: 113 (0x71)
+  [pc 0x3cb] Invoke: Landroidx/camera/video/internal/encoder/VideoEncoderInfo;->c
+  [pc 0x3cc] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->e
+  [pc 0x3d0] String: "设置屏幕亮度"
+  [pc 0x3d2] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x3d7] Const16: 112 (0x70)
+  [pc 0x3d8] Invoke: Landroidx/camera/core/imagecapture/Bitmap2JpegBytes$In;->b
+  [pc 0x3d9] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->d
+  [pc 0x3dd] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x3de] Invoke: Landroid/opengl/GLES20;->glGetProgramInfoLog
+  [pc 0x3e6] String: "获取屏幕亮度 = "
+  [pc 0x3f2] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x3f7] Invoke: Ljava/lang/Integer;->valueOf
+  [pc 0x3fb] Const16: 111 (0x6f)
+  [pc 0x3fc] Invoke: Landroidx/camera/video/internal/encoder/VideoEncoderInfo;->c
+  [pc 0x3fd] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->e
+  [pc 0x401] String: "设置抬腕亮屏"
+  [pc 0x403] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x408] Const16: 110 (0x6e)
+  [pc 0x409] Invoke: Landroidx/camera/core/imagecapture/Bitmap2JpegBytes$In;->b
+  [pc 0x40a] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->d
+  [pc 0x40e] String: "获取抬腕亮屏"
+  [pc 0x410] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x413] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x414] Invoke: Landroid/opengl/GLES20;->glGetProgramInfoLog
+  [pc 0x41c] Invoke: Ljava/lang/Boolean;->valueOf
+  [pc 0x420] Const16: 109 (0x6d)
+  [pc 0x422] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->e
+  [pc 0x426] String: "寻找手环"
+  [pc 0x428] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x42d] Const16: 108 (0x6c)
+  [pc 0x42f] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->d
+  [pc 0x433] String: "设备进入拍照模式"
+  [pc 0x435] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x43a] Const16: 107 (0x6b)
+  [pc 0x43c] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->d
+  [pc 0x440] String: "设置天气"
+  [pc 0x442] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x447] Const16: 106 (0x6a)
+  [pc 0x449] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->d
+  [pc 0x44d] String: "设置公英制"
+  [pc 0x44f] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x454] Const16: 105 (0x69)
+  [pc 0x456] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->d
+  [pc 0x45a] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x45b] Invoke: Landroid/opengl/GLES20;->glGetProgramInfoLog
+  [pc 0x463] String: "获取公英制 = "
+  [pc 0x46f] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x47b] Const16: 104 (0x68)
+  [pc 0x47d] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->e
+  [pc 0x481] String: "设置时间制式"
+  [pc 0x482] Invoke: Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;->v
+  [pc 0x483] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x488] Const16: 103 (0x67)
+  [pc 0x48a] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->d
+  [pc 0x48e] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x48f] Invoke: Landroid/opengl/GLES20;->glGetProgramInfoLog
+  [pc 0x497] String: "获取时间制式 = "
+  [pc 0x4a3] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x4af] Const16: 102 (0x66)
+  [pc 0x4b1] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->e
+  [pc 0x4b5] String: "设置个人资料"
+  [pc 0x4b7] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x4bc] Const16: 101 (0x65)
+  [pc 0x4be] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->d
+  [pc 0x4c2] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x4c3] Invoke: Landroid/opengl/GLES20;->glGetProgramInfoLog
+  [pc 0x4c6] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x4c7] Invoke: Landroid/net/LocalSocket;->getPeerCredentials
+  [pc 0x4ca] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x4cb] Invoke: Landroid/graphics/Path;->transform
+  [pc 0x4cf] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x4d0] Invoke: Landroid/graphics/Path;->approximate
+  [pc 0x4d6] Invoke: Lcom/antjy/sdk/bean/PersonInfo;-><init>
+  [pc 0x4de] String: "获取个人资料 = "
+  [pc 0x4e3] Invoke: Lcom/antjy/sdk/bean/PersonInfo;->toString
+  [pc 0x4ee] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x4f3] Const16: 100 (0x64)
+  [pc 0x4f5] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->e
+  [pc 0x504] Invoke: L_COROUTINE/ArtificialStackFrames;-><init>
+  [pc 0x56c] Invoke: L_COROUTINE/ArtificialStackFrames;-><init>
+
+======================================================
+PARSER: DeviceTestEventParser (Lcom/antjy/sdk/protocol/parser/common/DeviceTestEventParser;)
+======================================================
+
+--- Method: <init> (codeOff: 4229952) ---
+  [pc 0x0] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;-><init>
+
+--- Method: a (codeOff: 4229976) ---
+  [pc 0x0] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->a
+  [pc 0x3] Const16: -127 (0xff81)
+  [pc 0x8] Const16: -125 (0xff83)
+  [pc 0xc] Const16: -123 (0xff85)
+  [pc 0x10] Const16: -121 (0xff87)
+  [pc 0x19] String: "设备测试未解析的code编码"
+  [pc 0x25] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x29] String: "重新启动"
+  [pc 0x2b] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x30] Const16: 304 (0x130)
+  [pc 0x32] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->d
+  [pc 0x36] String: "马达震动"
+  [pc 0x38] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x3d] Const16: 303 (0x12f)
+  [pc 0x3f] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->d
+  [pc 0x43] String: "恢复出厂设置"
+  [pc 0x45] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x4a] Const16: 302 (0x12e)
+  [pc 0x4c] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->d
+  [pc 0x50] String: "关机"
+  [pc 0x52] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x57] Const16: 301 (0x12d)
+  [pc 0x59] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->d
+
+======================================================
+PARSER: MultiPackEventParser (Lcom/antjy/sdk/protocol/parser/common/MultiPackEventParser;)
+======================================================
+
+--- Method: <init> (codeOff: 4230180) ---
+  [pc 0x0] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;-><init>
+
+--- Method: a (codeOff: 4230204) ---
+  [pc 0x5] String: "#SHA1AndPackage#"
+  [pc 0x10] Invoke: Lcom/antjy/sdk/util/parser/base/NewBaseMultiPackParser;->c
+  [pc 0x14] Invoke: Lcom/antjy/sdk/util/parser/base/NewBaseMultiPackParser;->a
+  [pc 0x18] Const16: 1034 (0x40a)
+  [pc 0x1a] Const16: 24 (0x18)
+  [pc 0x1c] Const16: 11 (0xb)
+  [pc 0x23] Const16: 9 (0x9)
+  [pc 0x32] String: "多包未解析的code编码"
+  [pc 0x3e] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x42] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x43] Invoke: Landroid/view/Menu;->close
+  [pc 0x4a] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x4b] Invoke: Landroid/view/View;->fitSystemWindows
+  [pc 0x52] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x53] Invoke: Landroid/view/MotionEvent;->getPointerCount
+  [pc 0x5b] Invoke: Lcom/antjy/sdk/callback/manager/EventPoster;->a
+  [pc 0x61] Const16: 35 (0x23)
+  [pc 0x63] Invoke: Lcom/antjy/sdk/callback/impl/poster/KeyEventPoster;->a
+  [pc 0x67] Invoke: Lcom/antjy/sdk/callback/manager/EventPoster;->a
+  [pc 0x6d] Const16: 32 (0x20)
+  [pc 0x6f] Invoke: Lcom/antjy/sdk/callback/impl/poster/KeyEventPoster;->a
+  [pc 0x75] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x76] Invoke: Landroid/view/Menu;->close
+  [pc 0x7f] Invoke: Ljava/lang/System;->arraycopy
+  [pc 0x8e] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x8f] Invoke: Landroid/view/View;->dispatchKeyEvent
+  [pc 0x95] Invoke: Ljava/lang/System;->arraycopy
+  [pc 0x9a] Invoke: Ljava/lang/String;-><init>
+  [pc 0x9f] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0xa0] Invoke: Landroid/view/MotionEvent;->getPointerCount
+  [pc 0xa6] Invoke: Ljava/lang/System;->arraycopy
+  [pc 0xab] Invoke: Ljava/lang/String;-><init>
+  [pc 0xb0] Invoke: Lcom/antjy/sdk/bean/QuickSmsReply;-><init>
+  [pc 0xb3] Invoke: Lcom/antjy/sdk/bean/QuickSmsReply;->setContent
+  [pc 0xb6] Invoke: Lcom/antjy/sdk/bean/QuickSmsReply;->setPhone
+  [pc 0xb9] Const16: 1027 (0x403)
+  [pc 0xbb] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->e
+  [pc 0xbf] Const16: 34 (0x22)
+  [pc 0xc9] Invoke: Lcom/antjy/sdk/callback/manager/EventPoster;->a
+  [pc 0xcf] Invoke: Ljava/lang/Byte;->valueOf
+  [pc 0xd3] Invoke: Lcom/antjy/sdk/callback/impl/poster/CommonPoster;->g
+  [pc 0xd7] Invoke: Lcom/antjy/sdk/callback/manager/EventPoster;->a
+  [pc 0xdd] Invoke: Ljava/lang/Byte;->valueOf
+  [pc 0xe1] Invoke: Lcom/antjy/sdk/callback/impl/poster/CommonPoster;->g
+  [pc 0xe5] Invoke: Lcom/antjy/sdk/callback/manager/EventPoster;->a
+  [pc 0xeb] Invoke: Ljava/lang/Byte;->valueOf
+  [pc 0xef] Invoke: Lcom/antjy/sdk/callback/impl/poster/CommonPoster;->g
+  [pc 0xf3] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0xf4] Invoke: Landroid/view/View;->dispatchKeyEvent
+  [pc 0xf7] Invoke: Ljava/lang/Integer;->valueOf
+  [pc 0xfb] Const16: 33 (0x21)
+  [pc 0xfd] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->e
+  [pc 0x101] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x102] Invoke: Landroid/view/Menu;->close
+  [pc 0x109] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x10a] Invoke: Landroid/view/View;->fitSystemWindows
+  [pc 0x10f] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x110] Invoke: Landroid/view/KeyEvent$DispatcherState;->handleUpEvent
+  [pc 0x113] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x114] Invoke: Landroid/view/FocusFinder;->findNextFocus
+  [pc 0x11d] Const16: 48 (0x30)
+  [pc 0x123] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x124] Invoke: Landroid/view/View;->clearAnimation
+  [pc 0x12c] String: "设备对APP发起ble的配对状态控制回复 = "
+  [pc 0x133] Const16: 4206 (0x106e)
+  [pc 0x138] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x13d] Invoke: Ljava/lang/Integer;->valueOf
+  [pc 0x141] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->e
+  [pc 0x14b] Invoke: Lcom/antjy/sdk/bean/DndModeReminder;-><init>
+  [pc 0x14e] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x14f] Invoke: Landroid/view/View;->clearAnimation
+  [pc 0x155] Invoke: Lcom/antjy/sdk/bean/DndModeReminder;->setOpen
+  [pc 0x158] Const16: 10 (0xa)
+  [pc 0x15a] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x15b] Invoke: Landroid/view/MotionEvent;->getPointerCount
+  [pc 0x15e] Invoke: Lcom/antjy/sdk/bean/DndModeReminder;->setStartHour
+  [pc 0x161] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x162] Invoke: Landroid/view/SurfaceHolder;->setFixedSize
+  [pc 0x165] Invoke: Lcom/antjy/sdk/bean/DndModeReminder;->setStartMinute
+  [pc 0x168] Const16: 12 (0xc)
+  [pc 0x16a] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x16b] Invoke: Landroid/view/MotionEvent;->getPointerCount
+  [pc 0x16e] Invoke: Lcom/antjy/sdk/bean/DndModeReminder;->setEndHour
+  [pc 0x171] Const16: 13 (0xd)
+  [pc 0x173] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x174] Invoke: Landroid/view/MotionEvent;->getPointerCount
+  [pc 0x177] Invoke: Lcom/antjy/sdk/bean/DndModeReminder;->setEndMinute
+  [pc 0x17f] String: "获取勿扰模式 = "
+  [pc 0x184] Invoke: Lcom/antjy/sdk/bean/DndModeReminder;->toString
+  [pc 0x18f] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x192] Const16: 145 (0x91)
+  [pc 0x194] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->e
+  [pc 0x198] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x199] Invoke: Landroid/view/View;->clearAnimation
+  [pc 0x1a1] String: "上报语言 = "
+  [pc 0x1a8] Const16: 4206 (0x106e)
+  [pc 0x1ad] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x1b2] Invoke: Lcom/antjy/sdk/bean/constans/LanguageEnum;->getLanguageByValue
+  [pc 0x1b6] Const16: 118 (0x76)
+  [pc 0x1b8] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->e
+  [pc 0x1bc] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x1bd] Invoke: Landroid/view/View;->clearAnimation
+  [pc 0x1c2] Invoke: Ljava/util/ArrayList;-><init>
+  [pc 0x1ce] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x1cf] Invoke: Landroid/view/MotionEvent;->setAction
+  [pc 0x1d4] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x1d5] Invoke: Landroid/view/View;->clearAnimation
+  [pc 0x1da] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x1db] Invoke: Landroid/view/View;->dispatchKeyEvent
+  [pc 0x1e0] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x1e1] Invoke: Landroid/view/View;->getHitRect
+  [pc 0x1e5] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x1e6] Invoke: Landroid/view/MotionEvent;->setAction
+  [pc 0x1ec] Invoke: Lcom/antjy/sdk/bean/SmartClock;-><init>
+  [pc 0x1ef] Invoke: Lcom/antjy/sdk/bean/SmartClock;->setId
+  [pc 0x1f2] Invoke: Lcom/antjy/sdk/bean/SmartClock;->setHour
+  [pc 0x1f5] Invoke: Lcom/antjy/sdk/bean/SmartClock;->setMinute
+  [pc 0x200] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->h
+  [pc 0x204] Invoke: Ljava/lang/Integer;->intValue
+  [pc 0x213] Invoke: Lcom/antjy/sdk/bean/SmartClock;->setRepeats
+  [pc 0x217] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->h
+  [pc 0x21b] Invoke: Ljava/lang/Integer;->intValue
+  [pc 0x224] Invoke: Lcom/antjy/sdk/bean/SmartClock;->setOpen
+  [pc 0x227] Invoke: Ljava/util/List;->add
+  [pc 0x22d] Invoke: Lcom/antjy/sdk/callback/manager/EventPoster;->a
+  [pc 0x233] Const16: 1002 (0x3ea)
+  [pc 0x235] Invoke: Lcom/antjy/sdk/callback/impl/poster/CommonPoster;->g
+  [pc 0x239] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x23a] Invoke: Landroid/view/Menu;->close
+  [pc 0x243] Invoke: Ljava/lang/System;->arraycopy
+  [pc 0x250] String: "进入拍照模式"
+  [pc 0x252] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x255] Invoke: Lcom/antjy/sdk/callback/manager/EventPoster;->a
+  [pc 0x25b] Invoke: Lcom/antjy/sdk/callback/impl/poster/KeyEventPoster;->a
+  [pc 0x261] String: "退出拍照模式"
+  [pc 0x263] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x266] Invoke: Lcom/antjy/sdk/callback/manager/EventPoster;->a
+  [pc 0x26c] Const16: 25 (0x19)
+  [pc 0x26e] Invoke: Lcom/antjy/sdk/callback/impl/poster/KeyEventPoster;->a
+  [pc 0x272] Invoke: Lcom/antjy/sdk/util/parser/base/NewBaseMultiPackParser;->c
+  [pc 0x276] Invoke: Lcom/antjy/sdk/util/parser/base/NewBaseMultiPackParser;->a
+  [pc 0x27a] Invoke: Lcom/antjy/sdk/util/parser/base/NewBaseMultiPackParser;->c
+  [pc 0x27e] Invoke: Lcom/antjy/sdk/util/parser/base/NewBaseMultiPackParser;->a
+  [pc 0x282] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x283] Invoke: Landroid/view/Menu;->close
+  [pc 0x286] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x287] Invoke: Landroid/view/View;->fitSystemWindows
+  [pc 0x28d] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x28e] Invoke: Landroid/view/KeyEvent$DispatcherState;->handleUpEvent
+  [pc 0x292] Invoke: Lcom/antjy/sdk/util/ByteDataConvertUtil;->f
+  [pc 0x293] Invoke: Landroid/view/SurfaceHolder;->setFixedSize
+  [pc 0x296] Invoke: Ljava/lang/Integer;->valueOf
+  [pc 0x29a] Invoke: Ljava/lang/Integer;->valueOf
+  [pc 0x29e] Invoke: Ljava/lang/Integer;->valueOf
+  [pc 0x2a2] Invoke: Ljava/lang/Integer;->valueOf
+  [pc 0x2a6] String: " paramId:"
+  [pc 0x2a8] String: " ret:"
+  [pc 0x2aa] String: "设置参数后 设备回复 datalength:"
+  [pc 0x2ac] String: " count:"
+  [pc 0x2b2] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->c
+  [pc 0x2bc] Const16: 26 (0x1a)
+  [pc 0x2bd] String: "CoarseLocation"
+  [pc 0x2c0] Const16: 36 (0x24)
+  [pc 0x2c4] Const16: 37 (0x25)
+  [pc 0x2cc] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->d
+  [pc 0x2d0] Const16: 1033 (0x409)
+  [pc 0x2d2] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->d
+  [pc 0x2d6] Const16: 1032 (0x408)
+  [pc 0x2d8] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->d
+  [pc 0x2dc] Const16: 1031 (0x407)
+  [pc 0x2de] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->d
+  [pc 0x2e2] Const16: 1021 (0x3fd)
+  [pc 0x2e4] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->d
+  [pc 0x2e8] Const16: 1008 (0x3f0)
+  [pc 0x2ea] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->d
+  [pc 0x2ee] Const16: 1001 (0x3e9)
+  [pc 0x2f0] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->d
+  [pc 0x2f4] Const16: 1003 (0x3eb)
+  [pc 0x2f6] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->d
+
+======================================================
+PARSER: SyncDataV1EventParser (Lcom/antjy/sdk/protocol/parser/common/SyncDataV1EventParser;)
+======================================================
+
+--- Method: <init> (codeOff: 4231808) ---
+  [pc 0x0] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;-><init>
+
+--- Method: a (codeOff: 4231832) ---
+  [pc 0x0] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->a
+  [pc 0x3] Const16: -128 (0xff80)
+  [pc 0x7] Const16: -126 (0xff82)
+  [pc 0xb] Const16: -124 (0xff84)
+  [pc 0x14] String: "同步数据未解析的code编码"
+  [pc 0x20] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x24] String: "获取设备支持的功能列表"
+  [pc 0x26] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x29] Invoke: Lcom/antjy/sdk/util/MultiPackParseUtil;->g
+  [pc 0x2d] Invoke: Lcom/antjy/sdk/util/parser/base/BaseMultiPackParser;->a
+  [pc 0x31] String: "同步锻炼数据"
+  [pc 0x33] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x36] Invoke: Lcom/antjy/sdk/util/MultiPackParseUtil;->g
+  [pc 0x3a] Invoke: Lcom/antjy/sdk/util/parser/base/BaseMultiPackParser;->a
+  [pc 0x3e] String: "同步健康数据"
+  [pc 0x40] Invoke: Lcom/antjy/sdk/protocol/parser/base/BaseEventParser;->b
+  [pc 0x43] Invoke: Lcom/antjy/sdk/util/MultiPackParseUtil;->g
+  [pc 0x47] Invoke: Lcom/antjy/sdk/util/parser/base/BaseMultiPackParser;->a

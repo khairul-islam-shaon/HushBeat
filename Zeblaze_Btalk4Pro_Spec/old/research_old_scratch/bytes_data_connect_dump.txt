@@ -1,0 +1,125 @@
+
+================== CLASS: Lcom/antjy/sdk/bluetooth/connect/BytesDataConnect; ==================
+  Instance Field: Lcom/antjy/sdk/bluetooth/connect/BytesDataConnect;->b:Lcom/antjy/sdk/queue/DataSender;
+  Instance Field: Lcom/antjy/sdk/bluetooth/connect/BytesDataConnect;->c:Lcom/antjy/sdk/util/LogUtil$Logger;
+  Instance Field: Lcom/antjy/sdk/bluetooth/connect/BytesDataConnect;->d:Ljava/lang/Object;
+  Instance Field: Lcom/antjy/sdk/bluetooth/connect/BytesDataConnect;->e:Z
+  Instance Field: Lcom/antjy/sdk/bluetooth/connect/BytesDataConnect;->f:Z
+  Instance Field: Lcom/antjy/sdk/bluetooth/connect/BytesDataConnect;->g:I
+  Instance Field: Lcom/antjy/sdk/bluetooth/connect/BytesDataConnect;->h:I
+  Instance Field: Lcom/antjy/sdk/bluetooth/connect/BytesDataConnect;->i:Landroid/os/Handler;
+
+  Method: Lcom/antjy/sdk/bluetooth/connect/BytesDataConnect;-><init> (codeOff: 4171196)
+    Const Ints: [3]
+    Calls: ["Lcom/antjy/sdk/bluetooth/connect/BaseConnect;-><init>","Lcom/antjy/sdk/util/LogUtil$Logger;->d","Ljava/lang/Object;-><init>","Landroid/os/Looper;->getMainLooper","Lcom/antjy/sdk/bluetooth/connect/BytesDataConnect$3;-><init>","Lcom/antjy/sdk/bluetooth/connect/BytesDataConnect$1;-><init>","Lcom/antjy/sdk/bluetooth/connect/BytesDataConnect$2;-><init>","Lcom/antjy/sdk/queue/DataSender;->o"]
+
+  Method: Lcom/antjy/sdk/bluetooth/connect/BytesDataConnect;->A (codeOff: 4170948)
+
+  Method: Lcom/antjy/sdk/bluetooth/connect/BytesDataConnect;->B (codeOff: 4170484)
+
+  Method: Lcom/antjy/sdk/bluetooth/connect/BytesDataConnect;->C (codeOff: 4170972)
+
+  Method: Lcom/antjy/sdk/bluetooth/connect/BytesDataConnect;->D (codeOff: 4170996)
+
+  Method: Lcom/antjy/sdk/bluetooth/connect/BytesDataConnect;->E (codeOff: 4171020)
+
+  Method: Lcom/antjy/sdk/bluetooth/connect/BytesDataConnect;->F (codeOff: 4170412)
+
+  Method: Lcom/antjy/sdk/bluetooth/connect/BytesDataConnect;->w (codeOff: 4171140)
+    Strings: ["处理完成了.."]
+    Const Ints: [1]
+    Calls: ["Landroid/os/Handler;->removeMessages","Lcom/antjy/sdk/util/LogUtil$Logger;->a"]
+
+  Method: Lcom/antjy/sdk/bluetooth/connect/BytesDataConnect;->x (codeOff: 4171324)
+    Calls: ["Lcom/antjy/sdk/bluetooth/connect/BytesDataConnect;->I"]
+
+  Method: Lcom/antjy/sdk/bluetooth/connect/BytesDataConnect;->y (codeOff: 4170436)
+
+  Method: Lcom/antjy/sdk/bluetooth/connect/BytesDataConnect;->z (codeOff: 4170460)
+
+  Method: Lcom/antjy/sdk/bluetooth/connect/BytesDataConnect;->G (codeOff: 4171348)
+    Const Ints: [4,1]
+    Calls: ["Lcom/antjy/sdk/bluetooth/connect/BaseConnect;->s","Lcom/antjy/sdk/bluetooth/connect/BaseConnect;->s","Lcom/antjy/sdk/bean/ConnectionPriorityCmd;->getConnectionPriority","Landroid/bluetooth/BluetoothGatt;->requestConnectionPriority","Lcom/antjy/sdk/protocol/base/BaseCmd;->getCmdId","Lcom/antjy/sdk/protocol/base/BaseCmd;->getData","Lcom/antjy/sdk/bluetooth/connect/BytesDataConnect;->O","Ljava/lang/System;->currentTimeMillis","Lcom/antjy/sdk/protocol/base/BaseCmd;->setAddTaskTime","Lcom/antjy/sdk/queue/DataSender;->j"]
+
+  Method: Lcom/antjy/sdk/bluetooth/connect/BytesDataConnect;->H (codeOff: 4171636)
+    Strings: ["数据处理--->>>[BytesDataConnect] onDeviceResponseOnLastSend( ",")","特征写入数据数据 262行  移除未响应延迟信息","特征写入数据成功:"]
+    Calls: ["Lcom/antjy/sdk/manager/impl/BLEManager;->B","Lcom/antjy/sdk/manager/impl/BLEManager;->d0","Lcom/antjy/sdk/util/ByteDataConvertUtil;->d","Lcom/antjy/sdk/util/LogUtil;->e","Lcom/antjy/sdk/util/LogUtil$Logger;->a","Lcom/antjy/sdk/util/ByteDataConvertUtil;->d","Lcom/antjy/sdk/util/LogUtil$Logger;->a"]
+
+  Method: Lcom/antjy/sdk/bluetooth/connect/BytesDataConnect;->I (codeOff: 4171800)
+    Strings: ["队列数据为空 103行","开始执行cmd:"," key","队列执行时间超出最大时间不处理","数据处理--->>>[BytesDataConnect] send => ","写入数据成功 115 发送未响应延迟信息","写入数据成功:","写入数据失败 118","写入数据失败:","数据处理--->>>[BytesDataConnect] send failed ( ",")"]
+    Const Ints: [1]
+    Calls: ["Lcom/antjy/sdk/util/LogUtil$Logger;->a","Lcom/antjy/sdk/protocol/base/BaseCmd;->getCmdId","Lcom/antjy/sdk/protocol/base/BaseCmd;->getKey","Lcom/antjy/sdk/util/LogUtil$Logger;->a","Ljava/lang/System;->currentTimeMillis","Lcom/antjy/sdk/protocol/base/BaseCmd;->getAddTaskTime","Lcom/antjy/sdk/config/BLEProtocolUtil;->c","Lcom/antjy/sdk/config/BLEProtocolUtil;->b","Lcom/antjy/sdk/util/LogUtil$Logger;->a","Lcom/antjy/sdk/config/BLEProtocolUtil;->c"]
+
+  Method: Lcom/antjy/sdk/bluetooth/connect/BytesDataConnect;->J (codeOff: 4170508)
+    Strings: ["数据处理--->>>[BytesDataConnect] send(), isConnectedAndReady = false. send failed"]
+    Const Ints: [1]
+    Calls: ["Lcom/antjy/sdk/bluetooth/connect/BaseConnect;->u","Lcom/antjy/sdk/util/LogUtil;->c","Lcom/antjy/sdk/bluetooth/connect/BaseConnect;->t","Landroid/bluetooth/BluetoothGattCharacteristic;->getProperties"]
+
+  Method: Lcom/antjy/sdk/bluetooth/connect/BytesDataConnect;->K (codeOff: 4171052)
+    Calls: ["Ljava/io/StringWriter;-><init>","Ljava/io/PrintWriter;-><init>","Ljava/lang/Throwable;->printStackTrace","Ljava/lang/Throwable;->getCause","Ljava/lang/Throwable;->printStackTrace","Ljava/lang/Throwable;->getCause","Ljava/io/PrintWriter;->close","Ljava/lang/Object;->toString"]
+
+  Method: Lcom/antjy/sdk/bluetooth/connect/BytesDataConnect;->L (codeOff: 4172420)
+    Strings: ["接收到蓝牙数据:","我正在处理中....","收到数据 262行  移除未响应延迟信息","处理完成了..","处理多包 等待..","处理接收蓝牙数据出现异常:"]
+    Const Ints: [1]
+    Calls: ["Lcom/antjy/sdk/util/Utils;->b","Lcom/antjy/sdk/protocol/SystemEventWrapper;->a","Lcom/antjy/sdk/protocol/SystemEventWrapper;->b","Lcom/antjy/sdk/protocol/SystemEventWrapper;->a","Lcom/antjy/sdk/protocol/SystemEventWrapper;->b","Lcom/antjy/sdk/config/BLEProtocolUtil;->c","Lcom/antjy/sdk/util/ByteDataConvertUtil;->d","Lcom/antjy/sdk/config/BLEProtocolUtil;->e","Lcom/antjy/sdk/util/LogUtil$Logger;->a","Lcom/antjy/sdk/util/LogUtil$Logger;->a"]
+
+  Method: Lcom/antjy/sdk/bluetooth/connect/BytesDataConnect;->M (codeOff: 4170588)
+    Strings: ["写入数据失败,开始重试"]
+    Const Ints: [64,5,20,1,10]
+    Calls: ["Lcom/antjy/sdk/protocol/data/MultiPackCmd;->a","Ljava/util/List;->size","Ljava/util/List;->size","Ljava/util/List;->size","Ljava/util/List;->get","Lcom/antjy/sdk/bluetooth/connect/BytesDataConnect;->O","Lcom/antjy/sdk/bluetooth/connect/BytesDataConnect;->N","Lcom/antjy/sdk/util/BluetoothUtil;->b","Lcom/antjy/sdk/util/ByteDataConvertUtil;->d","Lcom/antjy/sdk/util/LogUtil$Logger;->a"]
+
+  Method: Lcom/antjy/sdk/bluetooth/connect/BytesDataConnect;->N (codeOff: 4172772)
+    Calls: ["Ljava/lang/Thread;->sleep","Ljava/lang/Throwable;->printStackTrace"]
+
+  Method: Lcom/antjy/sdk/bluetooth/connect/BytesDataConnect;->O (codeOff: 4170796)
+    Strings: ["数据处理--->>>[BytesDataConnect] send(), isConnectedAndReady = false. send failed","数据处理--->>>[BytesDataConnect] send(), characteristic.properties error!","数据处理--->>>[BytesDataConnect] send(), writeCharacteristic() error!","数据处理--->>>[BytesDataConnect] send(), characteristic error!"]
+    Calls: ["Lcom/antjy/sdk/bluetooth/connect/BaseConnect;->u","Lcom/antjy/sdk/util/LogUtil;->c","Lcom/antjy/sdk/bluetooth/connect/BaseConnect;->t","Landroid/bluetooth/BluetoothGattCharacteristic;->getProperties","Landroid/bluetooth/BluetoothGattCharacteristic;->setValue","Landroid/bluetooth/BluetoothGattCharacteristic;->getProperties","Lcom/antjy/sdk/util/LogUtil;->c","Lcom/antjy/sdk/bluetooth/connect/BaseConnect;->s","Landroid/bluetooth/BluetoothGatt;->writeCharacteristic","Lcom/antjy/sdk/util/LogUtil;->c"]
+
+  Method: Lcom/antjy/sdk/bluetooth/connect/BytesDataConnect;->j (codeOff: 4171552)
+    Calls: ["Landroid/bluetooth/BluetoothGattCharacteristic;->getValue","Lcom/antjy/sdk/bluetooth/connect/BytesDataConnect;->L"]
+
+  Method: Lcom/antjy/sdk/bluetooth/connect/BytesDataConnect;->k (codeOff: 4171584)
+    Calls: ["Landroid/bluetooth/BluetoothGattCharacteristic;->getValue","Lcom/antjy/sdk/bluetooth/connect/BytesDataConnect;->H"]
+
+  Method: Lcom/antjy/sdk/bluetooth/connect/BytesDataConnect;->n (codeOff: 4171616)
+
+================== CLASS: Lcom/antjy/sdk/bluetooth/connect/MultiDataSender; ==================
+  Instance Field: Lcom/antjy/sdk/bluetooth/connect/MultiDataSender;->a:Lcom/antjy/sdk/util/LogUtil$Logger;
+  Instance Field: Lcom/antjy/sdk/bluetooth/connect/MultiDataSender;->b:Ljava/util/List;
+  Instance Field: Lcom/antjy/sdk/bluetooth/connect/MultiDataSender;->c:Z
+  Instance Field: Lcom/antjy/sdk/bluetooth/connect/MultiDataSender;->d:I
+  Instance Field: Lcom/antjy/sdk/bluetooth/connect/MultiDataSender;->e:Lcom/antjy/sdk/bluetooth/connect/MultiDataSender$Result;
+  Instance Field: Lcom/antjy/sdk/bluetooth/connect/MultiDataSender;->f:Landroid/os/Handler;
+
+  Method: Lcom/antjy/sdk/bluetooth/connect/MultiDataSender;->a (codeOff: 4174508)
+
+  Method: Lcom/antjy/sdk/bluetooth/connect/MultiDataSender;->b (codeOff: 4174532)
+
+  Method: Lcom/antjy/sdk/bluetooth/connect/MultiDataSender;->c (codeOff: 4174716)
+
+  Method: Lcom/antjy/sdk/bluetooth/connect/MultiDataSender;->d (codeOff: 4174556)
+    Calls: ["Lcom/antjy/sdk/bluetooth/connect/MultiDataSender;->i"]
+
+  Method: Lcom/antjy/sdk/bluetooth/connect/MultiDataSender;->e (codeOff: 4174584)
+    Calls: ["Lcom/antjy/sdk/bluetooth/connect/MultiDataSender;->f"]
+
+  Method: Lcom/antjy/sdk/bluetooth/connect/MultiDataSender;->f (codeOff: 4174612)
+
+  Method: Lcom/antjy/sdk/bluetooth/connect/MultiDataSender;->g (codeOff: 4174644)
+    Const Ints: [1]
+
+  Method: Lcom/antjy/sdk/bluetooth/connect/MultiDataSender;->h (codeOff: 4174468)
+    Const Ints: [22]
+    Calls: ["Landroid/os/Message;->obtain"]
+
+  Method: Lcom/antjy/sdk/bluetooth/connect/MultiDataSender;->i (codeOff: 4174672)
+    Const Ints: [1]
+
+  Method: Lcom/antjy/sdk/bluetooth/connect/MultiDataSender;->j (codeOff: 0)
+
+  Method: Lcom/antjy/sdk/bluetooth/connect/MultiDataSender;->k (codeOff: 0)
+
+  Method: Lcom/antjy/sdk/bluetooth/connect/MultiDataSender;->run (codeOff: 4174740)
+    Strings: ["是否是主线程？","开始发送:","组包"]
+    Const Ints: [64,40,20,1,10]
+    Calls: ["Ljava/util/List;->size","Lcom/antjy/sdk/util/BluetoothUtil;->b","Lcom/antjy/sdk/bluetooth/connect/MultiDataSender;->j","Landroid/os/Looper;->myLooper","Landroid/os/Looper;->getMainLooper","Lcom/antjy/sdk/util/LogUtil$Logger;->a","Ljava/lang/Thread;->sleep","Ljava/lang/RuntimeException;-><init>","Ljava/lang/Thread;->sleep","Ljava/util/List;->size"]

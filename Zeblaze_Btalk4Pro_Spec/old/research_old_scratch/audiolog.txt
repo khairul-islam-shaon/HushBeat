@@ -1,0 +1,870 @@
+11-16 14:23:02.326 12430 12430 E AudioLog:Zeblaze: MyOpenDBHelper init Zeblaze Connect.db version 1
+11-16 14:23:02.334 12430 12430 D AudioLog:Zeblaze: mmkv初始化:/data/user/0/com.watch.zeblaze/files/mmkv
+11-16 14:23:02.338 12430 12430 D AudioLog:Zeblaze: MMKV 信息: file MemoryFile.cpp--line 98--function  open--message  open fd[0x55], /data/user/0/com.watch.zeblaze/files/mmkv/mmkv.default
+11-16 14:23:02.338 12430 12430 D AudioLog:Zeblaze: MMKV 信息: file MemoryFile.cpp--line 203--function  mmap--message  mmap to address [0x79c34a1000], oldPtr [0x0], [/data/user/0/com.watch.zeblaze/files/mmkv/mmkv.default]
+11-16 14:23:02.338 12430 12430 D AudioLog:Zeblaze: MMKV 信息: file MemoryFile.cpp--line 98--function  open--message  open fd[0x56], /data/user/0/com.watch.zeblaze/files/mmkv/mmkv.default.crc
+11-16 14:23:02.338 12430 12430 D AudioLog:Zeblaze: MMKV 信息: file MemoryFile.cpp--line 203--function  mmap--message  mmap to address [0x79c34a0000], oldPtr [0x0], [/data/user/0/com.watch.zeblaze/files/mmkv/mmkv.default.crc]
+11-16 14:23:02.342 12430 12430 D AudioLog:TaskManager: 开始执行:ThreadTask  时间:2026-11-16 14:23:02
+11-16 14:23:02.344 12430 12430 D AudioLog:TaskManager: 开始执行:CallBackTask  时间:2026-11-16 14:23:02
+11-16 14:23:02.345 12430 12430 D AudioLog:ReceiverActionManager: 绑定广播 = com.watch.zeblaze.ZyApplication@9c0f883
+11-16 14:23:02.345 12430 12462 D AudioLog:Zeblaze: 创建缓存目录:/storage/emulated/0/Android/data/com.watch.zeblaze/cache
+11-16 14:23:02.345 12430 12462 D AudioLog:Zeblaze: 创建系统缓存目录:/data/user/0/com.watch.zeblaze/cache
+11-16 14:23:02.346 12430 12430 D AudioLog:TaskManager: 任务执行成功:CallBackTask  时间:2026-11-16 14:23:02
+11-16 14:23:02.346 12430 12430 D AudioLog:TaskManager: 开始执行:ConfigTask  时间:2026-11-16 14:23:02
+11-16 14:23:02.347 12430 12430 D AudioLog:TaskManager: 任务执行成功:ConfigTask  时间:2026-11-16 14:23:02
+11-16 14:23:02.347 12430 12430 D AudioLog:TaskManager: 开始执行:DebugTask  时间:2026-11-16 14:23:02
+11-16 14:23:02.347 12430 12430 D AudioLog:TaskManager: 任务执行成功:DebugTask  时间:2026-11-16 14:23:02
+11-16 14:23:02.369 12430 12430 I AudioLog:ApplicationLifeCycleCallBack: com.watch.zeblaze.appMoudle.launch.activity.LauncherActivity@ae46043onActivityCreated, liveCount = 1
+11-16 14:23:02.370 12430 12430 D AudioLog:Zeblaze: MMKV 信息: file MMKV_IO.cpp--line 84--function  loadFromFile--message  loading [mmkv.default] with 0 actual size, file size 4096, InterProcess 0, meta info version:0
+11-16 14:23:02.370 12430 12430 D AudioLog:Zeblaze: MMKV 信息: file MMKV_IO.cpp--line 133--function  loadFromFile--message  loaded [mmkv.default] with 0 key-values
+11-16 14:23:02.399 12430 12430 I AudioLog:ApplicationLifeCycleCallBack: com.watch.zeblaze.appMoudle.launch.activity.LauncherActivity@ae46043onActivityStarted
+11-16 14:23:02.401 12430 12430 I AudioLog:ApplicationLifeCycleCallBack: com.watch.zeblaze.appMoudle.launch.activity.LauncherActivity@ae46043onActivityResumed
+11-16 14:23:02.558 12430 12430 D AudioLog:TaskManager: 任务执行成功:ThreadTask  时间:2026-11-16 14:23:02
+11-16 14:23:04.403 12430 12430 D AudioLog:Zeblaze: 启动页----handleMessage
+11-16 14:24:42.723 12430 12430 D AudioLog:Zeblaze: MMKV 信息: file MMKV_IO.cpp--line 515--function  writeActualSize--message  [mmkv.default] increase sequence to 1, crc 210942219, actualSize 4
+11-16 14:24:42.745 12430 12430 D AudioLog:Zeblaze: 启动页----handleMessage
+11-16 14:24:42.770 12430 12430 I AudioLog:ApplicationLifeCycleCallBack: com.watch.zeblaze.appMoudle.launch.activity.LauncherActivity@ae46043onActivityPaused
+11-16 14:24:42.782 12430 12430 I AudioLog:ApplicationLifeCycleCallBack: com.watch.zeblaze.appMoudle.launch.activity.GuidePageActivity@98abeffonActivityCreated, liveCount = 2
+11-16 14:24:42.918 12430 12430 I AudioLog:ApplicationLifeCycleCallBack: com.watch.zeblaze.appMoudle.launch.activity.GuidePageActivity@98abeffonActivityStarted
+11-16 14:24:42.918 12430 12430 I AudioLog:ApplicationLifeCycleCallBack: com.watch.zeblaze.appMoudle.launch.activity.GuidePageActivity@98abeffonActivityResumed
+11-16 14:24:43.470 12430 12430 I AudioLog:ApplicationLifeCycleCallBack: com.watch.zeblaze.appMoudle.launch.activity.LauncherActivity@ae46043onActivityStopped
+11-16 14:24:43.471 12430 12430 I AudioLog:ApplicationLifeCycleCallBack: com.watch.zeblaze.appMoudle.launch.activity.LauncherActivity@ae46043onActivityDestroyed,liveCount = 1
+11-16 14:24:54.713 12430 12430 I AudioLog:ApplicationLifeCycleCallBack: com.watch.zeblaze.appMoudle.launch.activity.GuidePageActivity@98abeffonActivityPaused
+11-16 14:24:57.275 12430 12430 I AudioLog:ApplicationLifeCycleCallBack: com.watch.zeblaze.appMoudle.launch.activity.GuidePageActivity@98abeffonActivityResumed
+11-16 14:25:49.856 12430 12430 I AudioLog:ApplicationLifeCycleCallBack: com.watch.zeblaze.appMoudle.launch.activity.GuidePageActivity@98abeffonActivityPaused
+11-16 14:25:49.867 12430 12430 I AudioLog:ApplicationLifeCycleCallBack: com.watch.zeblaze.appMoudle.login.activity.LoginActivity@eef8fa7onActivityCreated, liveCount = 2
+11-16 14:25:49.932 12430 12430 D AudioLog:Zeblaze: LoginPresenter--->>>建立关联
+11-16 14:25:49.944 12430 12430 I AudioLog:ApplicationLifeCycleCallBack: com.watch.zeblaze.appMoudle.login.activity.LoginActivity@eef8fa7onActivityStarted
+11-16 14:25:49.945 12430 12430 I AudioLog:ApplicationLifeCycleCallBack: com.watch.zeblaze.appMoudle.login.activity.LoginActivity@eef8fa7onActivityResumed
+11-16 14:25:50.513 12430 12430 I AudioLog:ApplicationLifeCycleCallBack: com.watch.zeblaze.appMoudle.launch.activity.GuidePageActivity@98abeffonActivityStopped
+11-16 14:25:50.514 12430 12430 I AudioLog:ApplicationLifeCycleCallBack: com.watch.zeblaze.appMoudle.launch.activity.GuidePageActivity@98abeffonActivityDestroyed,liveCount = 1
+11-16 14:26:30.281 12430 12430 I AudioLog:ApplicationLifeCycleCallBack: com.watch.zeblaze.appMoudle.login.activity.LoginActivity@eef8fa7onActivityPaused
+11-16 14:26:30.292 12430 12430 I AudioLog:ApplicationLifeCycleCallBack: com.watch.zeblaze.appMoudle.mine.activity.PersonInfoActivity@3aea817onActivityCreated, liveCount = 2
+11-16 14:26:30.310 12430 12430 D AudioLog:Zeblaze: PersonInfoPresenter--->>>建立关联
+11-16 14:26:30.313 12430 12430 I AudioLog:ApplicationLifeCycleCallBack: com.watch.zeblaze.appMoudle.mine.activity.PersonInfoActivity@3aea817onActivityStarted
+11-16 14:26:30.314 12430 12430 I AudioLog:ApplicationLifeCycleCallBack: com.watch.zeblaze.appMoudle.mine.activity.PersonInfoActivity@3aea817onActivityResumed
+11-16 14:26:30.867 12430 12430 I AudioLog:ApplicationLifeCycleCallBack: com.watch.zeblaze.appMoudle.login.activity.LoginActivity@eef8fa7onActivityStopped
+11-16 14:26:30.869 12430 12430 I AudioLog:ApplicationLifeCycleCallBack: com.watch.zeblaze.appMoudle.login.activity.LoginActivity@eef8fa7onActivityDestroyed,liveCount = 1
+11-16 14:26:30.870 12430 12430 D AudioLog:Zeblaze: LoginPresenter--->>>解除关联
+11-16 14:28:09.250 12430 12430 I AudioLog:ApplicationLifeCycleCallBack: com.watch.zeblaze.appMoudle.mine.activity.PersonInfoActivity@3aea817onActivityPaused
+11-16 14:28:09.275 12430 12430 I AudioLog:ApplicationLifeCycleCallBack: com.watch.zeblaze.appMoudle.home.activity.MainActivity@66b3a16onActivityCreated, liveCount = 2
+11-16 14:28:09.293 12430 12430 I AudioLog:ApplicationLifeCycleCallBack: com.watch.zeblaze.appMoudle.home.activity.MainActivity@66b3a16onActivityStarted
+11-16 14:28:09.295 12430 12430 D AudioLog:ApplicationLifeCycleCallBack: 启动服务
+11-16 14:28:09.296 12430 12430 D AudioLog:Zeblaze: HomeFragment--->>>>initPresenter
+11-16 14:28:09.297 12430 12430 D AudioLog:Zeblaze: HomePresenter--->>>建立关联
+11-16 14:28:09.297 12430 12430 D AudioLog:HomePresenter: registerCallBacks()
+11-16 14:28:09.297 12430 12430 D AudioLog:Zeblaze: HomeFragment--->>>>onCreateView()
+11-16 14:28:09.308 12430 12430 E AudioLog:HomePresenter: 设备未绑定
+11-16 14:28:09.309 12430 12430 I AudioLog:HBManager: mLocale.getDisplayLanguage() = en
+11-16 14:28:09.309 12430 12430 D AudioLog:Zeblaze: AppUpdateModel--->>>---获取新版本 = {country=0, appName=Zeblaze Connect, packageName=com.watch.zeblaze, versionName=v1.1.0, versionCode=12}
+11-16 14:28:09.315 12430 12430 I AudioLog:HBManager: mLocale.getDisplayLanguage() = en
+11-16 14:28:09.317 12430 12430 I AudioLog:ApplicationLifeCycleCallBack: com.watch.zeblaze.appMoudle.home.activity.MainActivity@66b3a16onActivityResumed
+11-16 14:28:09.331 12430 12430 D AudioLog:Zeblaze: HomeFragment--->>>>lazyLoadData(),hidden = false
+11-16 14:28:09.335 12430 12430 D AudioLog:HomePresenter: 更新前：2026-11-16 14:28:09
+11-16 14:28:09.337 12430 12430 D AudioLog:HomePresenter: 更新后：2026-11-16 14:28:09
+11-16 14:28:09.337 12430 12430 D AudioLog:Zeblaze: HomeFragment--->>>>LazyLoadFragment onResume
+11-16 14:28:09.399 12430 12430 I AudioLog:ApplicationLifeCycleCallBack: com.watch.zeblaze.appMoudle.home.activity.MainActivity@66b3a16onActivityPaused
+11-16 14:28:09.399 12430 13411 D AudioLog:Zeblaze: ScanModel--->>>---扫描模型 =  {packageName=com.watch.zeblaze}
+11-16 14:28:09.399 12430 13411 I AudioLog:HBManager: mLocale.getDisplayLanguage() = en
+11-16 14:28:09.630 12430 12430 I AudioLog:ApplicationLifeCycleCallBack: com.watch.zeblaze.appMoudle.home.activity.MainActivity@66b3a16onActivityResumed
+11-16 14:28:09.630 12430 12430 D AudioLog:Zeblaze: HomeFragment--->>>>lazyLoadData(),hidden = false
+11-16 14:28:09.630 12430 12430 D AudioLog:HomePresenter: 更新前：2026-11-16 14:28:09
+11-16 14:28:09.632 12430 12430 D AudioLog:HomePresenter: 更新后：2026-11-16 14:28:09
+11-16 14:28:09.632 12430 12430 D AudioLog:Zeblaze: HomeFragment--->>>>LazyLoadFragment onResume
+11-16 14:28:09.697 12430 13432 D AudioLog:GuideDialogUtil: 开启了线程
+11-16 14:28:10.097 12430 13432 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:28:10.119 12430 12430 I AudioLog:ApplicationLifeCycleCallBack: com.watch.zeblaze.appMoudle.mine.activity.PersonInfoActivity@3aea817onActivityStopped
+11-16 14:28:10.119 12430 12430 I AudioLog:ApplicationLifeCycleCallBack: com.watch.zeblaze.appMoudle.mine.activity.PersonInfoActivity@3aea817onActivityDestroyed,liveCount = 1
+11-16 14:28:10.120 12430 12430 D AudioLog:Zeblaze: PersonInfoPresenter--->>>解除关联
+11-16 14:28:10.497 12430 13432 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:28:10.900 12430 13432 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:28:11.301 12430 13432 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:28:11.703 12430 13432 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:28:12.105 12430 13432 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:28:12.507 12430 13432 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:28:12.909 12430 13432 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:28:13.311 12430 13432 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:28:13.713 12430 13432 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:28:14.114 12430 13432 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:28:14.516 12430 13432 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:28:14.919 12430 13432 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:28:15.321 12430 13432 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:28:15.721 12430 13432 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:28:16.127 12430 13432 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:28:16.528 12430 13432 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:28:16.930 12430 13432 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:28:17.331 12430 13432 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:28:17.733 12430 13432 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:28:18.135 12430 13432 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:28:18.538 12430 13432 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:28:18.939 12430 13432 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:28:19.340 12430 13432 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:28:19.742 12430 13432 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:28:20.143 12430 13432 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:28:20.545 12430 13432 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:28:20.948 12430 13432 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:28:21.351 12430 13432 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:28:21.752 12430 13432 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:28:22.155 12430 13432 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:28:22.557 12430 13432 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:28:22.959 12430 13432 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:28:23.360 12430 13432 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:28:23.763 12430 13432 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:28:24.165 12430 13432 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:28:24.567 12430 13432 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:28:24.969 12430 13432 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:28:25.372 12430 13432 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:28:25.774 12430 13432 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:28:26.176 12430 13432 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:28:26.578 12430 13432 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:28:26.980 12430 13432 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:28:27.382 12430 13432 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:28:27.784 12430 13432 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:28:28.186 12430 13432 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:28:28.588 12430 13432 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:28:28.991 12430 13432 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:28:29.393 12430 13432 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:28:29.795 12430 13432 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:28:30.198 12430 13432 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:28:30.600 12430 13432 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:28:31.002 12430 13432 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:28:31.404 12430 13432 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:28:31.806 12430 13432 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:28:32.209 12430 13432 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:28:32.611 12430 13432 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:28:33.013 12430 13432 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:28:33.415 12430 13432 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:28:33.816 12430 13432 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:28:34.218 12430 13432 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:28:34.621 12430 13432 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:28:35.023 12430 13432 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:28:35.424 12430 13432 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:28:35.827 12430 13432 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:28:36.229 12430 13432 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:28:36.631 12430 13432 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:28:37.032 12430 13432 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:28:37.434 12430 13432 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:28:37.837 12430 13432 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:28:38.240 12430 13432 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:28:38.642 12430 13432 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:28:39.044 12430 13432 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:28:39.446 12430 13432 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:28:39.849 12430 13432 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:28:40.251 12430 13432 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:28:40.653 12430 13432 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:28:41.055 12430 13432 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:28:41.457 12430 13432 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:28:41.860 12430 13432 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:28:42.262 12430 13432 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:28:42.664 12430 13432 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:28:43.066 12430 13432 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:28:43.468 12430 13432 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:28:43.870 12430 13432 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:28:44.272 12430 13432 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:28:44.674 12430 13432 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:28:45.076 12430 13432 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:28:45.479 12430 13432 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:28:45.881 12430 13432 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:28:46.282 12430 13432 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:28:46.357 12430 12430 D AudioLog:Zeblaze: HomeFragment--->>>>lazyLoadData(),hidden = true
+11-16 14:28:46.358 12430 12430 D AudioLog:Zeblaze: DeviceFragment--->>>>initPresenter
+11-16 14:28:46.365 12430 12430 D AudioLog:Zeblaze: DevicePresenter--->>>建立关联
+11-16 14:28:46.368 12430 12430 D AudioLog:Zeblaze: DeviceFragment--->>>>onCreateView()
+11-16 14:28:46.499 12430 12430 D AudioLog:Zeblaze: DeviceFragment--->>>>lazyLoadData(),hidden = false
+11-16 14:28:46.499 12430 12430 D AudioLog:Zeblaze: DeviceFragment--->>>>LazyLoadFragment onResume
+11-16 14:28:46.684 12430 13432 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:28:46.941 12430 13835 D AudioLog:GuideDialogUtil: 开启了线程
+11-16 14:28:47.341 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:28:47.742 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:28:48.167 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:28:48.570 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:28:48.972 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:28:49.375 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:28:49.777 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:28:50.179 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:28:50.581 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:28:50.983 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:28:51.385 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:28:51.787 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:28:52.189 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:28:52.591 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:28:52.994 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:28:53.396 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:28:53.799 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:28:54.201 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:28:54.603 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:28:55.006 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:28:55.408 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:28:55.810 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:28:56.212 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:28:56.614 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:28:57.015 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:28:57.417 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:28:57.819 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:28:58.221 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:28:58.624 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:28:59.025 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:28:59.427 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:28:59.830 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:29:00.232 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:29:00.635 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:29:01.037 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:29:01.440 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:29:01.842 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:29:02.244 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:29:02.646 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:29:03.048 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:29:03.450 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:29:03.852 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:29:04.254 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:29:04.656 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:29:05.059 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:29:05.461 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:29:05.864 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:29:06.267 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:29:06.669 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:29:07.072 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:29:07.474 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:29:07.876 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:29:08.279 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:29:08.681 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:29:09.083 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:29:09.486 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:29:09.888 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:29:10.289 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:29:10.693 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:29:11.095 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:29:11.497 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:29:11.899 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:29:12.302 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:29:12.703 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:29:13.105 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:29:13.507 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:29:13.909 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:29:14.312 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:29:14.714 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:29:15.116 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:29:15.518 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:29:15.919 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:29:16.321 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:29:16.723 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:29:17.125 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:29:17.527 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:29:17.929 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:29:18.332 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:29:18.734 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:29:19.136 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:29:19.538 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:29:19.940 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:29:20.343 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:29:20.745 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:29:21.147 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:29:21.550 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:29:21.952 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:29:22.354 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:29:22.757 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:29:23.159 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:29:23.561 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:29:23.963 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:29:24.364 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:29:24.766 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:29:25.168 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:29:25.570 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:29:25.972 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:29:26.374 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:29:26.776 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:29:27.179 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:29:27.581 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:29:27.983 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:29:28.385 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:29:28.787 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:29:29.190 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:29:29.591 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:29:29.994 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:29:30.396 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:29:30.798 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:29:31.200 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:29:31.602 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:29:32.005 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:29:32.407 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:29:32.810 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:29:33.212 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:29:33.615 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:29:34.016 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:29:34.418 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:29:34.820 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:29:35.222 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:29:35.624 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:29:36.026 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:29:36.429 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:29:36.830 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:29:37.232 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:29:37.634 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:29:38.037 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:29:38.439 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:29:38.841 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:29:39.244 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:29:39.645 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:29:40.047 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:29:40.450 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:29:40.852 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:29:41.254 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:29:41.656 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:29:42.059 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:29:42.462 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:29:42.864 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:29:43.266 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:29:43.668 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:29:44.071 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:29:44.473 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:29:44.875 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:29:45.276 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:29:45.680 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:29:46.082 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:29:46.486 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:29:46.889 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:29:47.291 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:29:47.693 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:29:48.096 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:29:48.498 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:29:48.900 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:29:49.302 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:29:49.704 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:29:50.107 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:29:50.509 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:29:50.911 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:29:51.313 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:29:51.715 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:29:52.118 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:29:52.520 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:29:52.922 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:29:53.324 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:29:53.726 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:29:54.129 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:29:54.531 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:29:54.933 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:29:55.336 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:29:55.738 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:29:56.140 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:29:56.542 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:29:56.943 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:29:57.345 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:29:57.747 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:29:58.149 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:29:58.551 12430 13835 D AudioLog:GuideDialogUtil: isLarge?true
+11-16 14:29:58.721 12430 12430 D AudioLog:GuideDialogUtil: dialog dismiss...
+11-16 14:29:58.953 12430 13835 D AudioLog:GuideDialogUtil: isLarge?false
+11-16 14:30:49.290 12430 12430 I AudioLog:ApplicationLifeCycleCallBack: com.watch.zeblaze.appMoudle.home.activity.MainActivity@66b3a16onActivityPaused
+11-16 14:31:51.500 12430 12430 D AudioLog:Zeblaze: DeviceFragment--->>>>权限全部申请完成
+11-16 14:31:51.533 12430 12430 D AudioLog:Zeblaze: DeviceFragment--->>>>LazyLoadFragment onStop
+11-16 14:31:51.534 12430 12430 I AudioLog:ApplicationLifeCycleCallBack: com.watch.zeblaze.appMoudle.home.activity.MainActivity@66b3a16onActivityResumed
+11-16 14:31:51.535 12430 12430 D AudioLog:Zeblaze: HomeFragment--->>>>LazyLoadFragment onResume
+11-16 14:31:51.535 12430 12430 D AudioLog:Zeblaze: DeviceFragment--->>>>lazyLoadData(),hidden = false
+11-16 14:31:51.536 12430 12430 D AudioLog:Zeblaze: DeviceFragment--->>>>LazyLoadFragment onResume
+11-16 14:31:51.539 12430 12430 I AudioLog:ApplicationLifeCycleCallBack: com.watch.zeblaze.appMoudle.home.activity.MainActivity@66b3a16onActivityPaused
+11-16 14:31:51.557 12430 12430 I AudioLog:ApplicationLifeCycleCallBack: com.watch.zeblaze.appMoudle.scan.activity.FindDeviceActivity@bd53c10onActivityCreated, liveCount = 2
+11-16 14:31:51.573 12430 12430 D AudioLog:Zeblaze: FindDevicePresenter--->>>建立关联
+11-16 14:31:51.576 12430 12430 D AudioLog:Zeblaze: ScanModel--->>>---扫描模型 =  {packageName=com.watch.zeblaze}
+11-16 14:31:51.576 12430 12430 I AudioLog:HBManager: mLocale.getDisplayLanguage() = en
+11-16 14:31:51.579 12430 12430 D AudioLog:Zeblaze: FindDevicePresenter--->>>蓝牙开启，onOpen()
+11-16 14:31:51.589 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:31:51监控内容:app版本:v1.1.0  false
+11-16 14:31:51.589 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:31:51监控内容:app版本:v1.1.0  开始定位: 是否已停止定位？true
+11-16 14:31:51.589 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:31:51监控内容:app版本:v1.1.0  开始定位: 定位服务是否正在运行false
+11-16 14:31:51.589 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:31:51监控内容:app版本:v1.1.0  开始定位: 启动定位
+11-16 14:31:51.591 12430 12430 D AudioLog:Zeblaze: ScanManager--->>>开启扫描
+11-16 14:31:51.612 12430 12430 I AudioLog:ApplicationLifeCycleCallBack: com.watch.zeblaze.appMoudle.scan.activity.FindDeviceActivity@bd53c10onActivityStarted
+11-16 14:31:51.614 12430 12430 I AudioLog:ApplicationLifeCycleCallBack: com.watch.zeblaze.appMoudle.scan.activity.FindDeviceActivity@bd53c10onActivityResumed
+11-16 14:31:52.177 12430 12430 I AudioLog:ApplicationLifeCycleCallBack: com.watch.zeblaze.appMoudle.home.activity.MainActivity@66b3a16onActivityStopped
+11-16 14:31:52.177 12430 12430 D AudioLog:Zeblaze: HomeFragment--->>>>LazyLoadFragment onStop
+11-16 14:31:52.177 12430 12430 D AudioLog:Zeblaze: HomeFragment--->>>>lazyLoadData(),hidden = true
+11-16 14:31:52.177 12430 12430 D AudioLog:Zeblaze: DeviceFragment--->>>>LazyLoadFragment onStop
+11-16 14:31:52.177 12430 12430 I AudioLog:ApplicationLifeCycleCallBack: com.watch.zeblaze.appMoudle.home.activity.MainActivity@66b3a16onActivitySaveInstanceState
+11-16 14:31:52.510 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:31:52监控内容:app版本:v1.1.0  定位到数据： 经纬度，23.7805396 90.4039016
+11-16 14:31:52.511 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:31:52监控内容:app版本:v1.1.0  false
+11-16 14:31:52.511 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:31:52监控内容:app版本:v1.1.0  停止定位: 是否已停止定位？false
+11-16 14:31:52.511 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:31:52监控内容:app版本:v1.1.0  停止定位: 定位服务是否正在运行true
+11-16 14:31:52.511 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:31:52监控内容:app版本:v1.1.0  false
+11-16 14:31:52.511 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:31:52监控内容:app版本:v1.1.0  销毁定位:
+11-16 14:31:52.512 12430 12430 D AudioLog:Zeblaze: 天气信息更新第:0次请求
+11-16 14:31:52.512 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:31:52监控内容:app版本:v1.1.0  开始更新天气信息,更新的城市信息:City{name='', lat='23.7805396', lon='90.4039016', id='null', adm2='null', adm1='null', country='null', type='null', rank='null', fxLink='null'}是否需要更新到设备:true
+11-16 14:31:52.513 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:31:52监控内容:app版本:v1.1.0  false
+11-16 14:31:52.513 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:31:52监控内容:app版本:v1.1.0  停止定位: 是否已停止定位？true
+11-16 14:31:52.515 12430 14134 I AudioLog:HBManager: mLocale.getDisplayLanguage() = en
+11-16 14:31:52.515 12430 14134 D AudioLog:Zeblaze: WeatherModel--->>>---获取天气实现 = {latitude=23.7805396, packageName=com.watch.zeblaze, lang=0, longitude=90.4039016}
+11-16 14:31:52.517 12430 14134 I AudioLog:HBManager: mLocale.getDisplayLanguage() = en
+11-16 14:31:52.737 12430 12430 D AudioLog:Zeblaze: MMKV 信息: file MMKV_IO.cpp--line 432--function  expandAndWriteBack--message  extending [mmkv.default] file size from 4096 to 8192, incoming size:1914, future usage:3248
+11-16 14:31:52.737 12430 12430 D AudioLog:Zeblaze: MMKV 信息: file MemoryFile.cpp--line 203--function  mmap--message  mmap to address [0x79c0afd000], oldPtr [0x79c34a1000], [/data/user/0/com.watch.zeblaze/files/mmkv/mmkv.default]
+11-16 14:31:52.739 12430 12430 D AudioLog:Zeblaze: MMKV 信息: file MMKV_IO.cpp--line 515--function  writeActualSize--message  [mmkv.default] increase sequence to 2, crc 2218924139, actualSize 2541
+11-16 14:31:52.739 12430 12430 D AudioLog:Zeblaze: MMKV 信息: file MMKV.cpp--line 1170--function  sync--message  MMKV::sync, SyncFlag = 1
+11-16 14:31:53.683 12430 12430 D AudioLog:Zeblaze: 天气信息保存成功
+11-16 14:32:06.608 12430 12430 D AudioLog:Zeblaze: 结束扫描....
+11-16 14:43:05.705 12430 12430 D AudioLog:Zeblaze: FindDevicePresenter--->>>蓝牙开启，onOpen()
+11-16 14:43:05.716 12430 12430 D AudioLog:Zeblaze: ScanManager--->>>开启扫描
+11-16 14:43:05.717 12430 12430 D AudioLog:Zeblaze: 开始扫描....
+11-16 14:43:05.736 12430 12430 D AudioLog:Zeblaze: 开始扫描....
+11-16 14:43:05.807 12430 12430 D AudioLog:Zeblaze: 扫描到设备，device.toString() = BLEDevice{device=FD:99:E2:BB:76:D0, rssi=-45, company='ANT', deviceName='Btalk 4 Pro'}
+11-16 14:43:07.731 12430 12430 D AudioLog:Zeblaze: FindDevicePresenter--->>>停止扫描
+11-16 14:43:07.731 12430 12430 D AudioLog:Zeblaze: ScanManager--->>>停止扫描
+11-16 14:43:07.739 12430 12430 D AudioLog:Zeblaze: 结束扫描....
+11-16 14:43:07.739 12430 12430 D AudioLog:ConnectDelegate: 开始连接:FD:99:E2:BB:76:D0 公司名称ANT
+11-16 14:43:07.739 12430 12430 D AudioLog:ANTFunctionManager: 开始连接:FD:99:E2:BB:76:D0
+11-16 14:43:07.756 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:43:07监控内容:app版本:v1.1.0  设备连接中:FD:99:E2:BB:76:D0当前是否是连接状态?false
+11-16 14:43:07.757 12430 12430 D AudioLog:ConnectDelegate: 连接中:FD:99:E2:BB:76:D0 当前地址FD:99:E2:BB:76:D0
+11-16 14:43:07.757 12430 12430 D AudioLog:ConnectDelegate: 连接中,取消重连线程
+11-16 14:43:07.757 12430 12430 D AudioLog:ConnectDelegate: 取消重连: 当前重连状态:false 距离上一次断开连接的时间:1794818587757 ms
+11-16 14:43:07.757 12430 12430 I AudioLog:ConnectManager: 连接中
+11-16 14:43:07.757 12430 12430 D AudioLog:HomePresenter: 设备连接中，请稍等....
+11-16 14:43:07.758 12430 12430 I AudioLog:Zeblaze: DeviceFragment--->设备连接中，请稍等....
+11-16 14:43:07.758 12430 12430 D AudioLog:Zeblaze: 连接中
+11-16 14:43:08.278 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:43:08监控内容:app版本:v1.1.0  连接上设备:FD:99:E2:BB:76:D0当前是否是连接状态?false
+11-16 14:43:08.279 12430 12430 D AudioLog:ConnectDelegate: 连接上设备:FD:99:E2:BB:76:D0 当前地址FD:99:E2:BB:76:D0
+11-16 14:43:08.279 12430 12430 D AudioLog:ConnectDelegate: 连接成功 取消重连线程
+11-16 14:43:08.279 12430 12430 D AudioLog:ConnectDelegate: 取消重连: 当前重连状态:false 距离上一次断开连接的时间:1794818588279 ms
+11-16 14:43:08.291 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:43:08监控内容:app版本:v1.1.0  重新连接上设备,开始同步设置信息
+11-16 14:43:08.292 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:43:08监控内容:app版本:v1.1.0  开始向设备写入指令,设置的app指令ID:6
+11-16 14:43:08.293 12430 12430 D AudioLog:ConnectDelegateWrapper: a2dp服务已经找到...
+11-16 14:43:08.293 12430 12430 D AudioLog:Zeblaze: 写入测试日志:a2dp服务已经找到...
+11-16 14:43:08.400 12430 12430 D AudioLog:ConnectDelegateWrapper: BT初始化完成,ble是否连接?true === address FD:99:E2:BB:76:D0
+11-16 14:43:08.400 12430 12430 D AudioLog:Zeblaze: 写入测试日志:onHeadSetServiceFind：true === address FD:99:E2:BB:76:D0
+11-16 14:43:08.400 12430 12430 D AudioLog:Zeblaze: 写入测试日志:BT初始化完成,现在开始连接....
+11-16 14:43:08.400 12430 12430 D AudioLog:Zeblaze: 写入测试日志:BT连接状态:0
+11-16 14:43:08.468 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:43:08监控内容:app版本:v1.1.0  收到设备回复指令: 类型:6 设备响应结果是否成功:true 设备返回的数据信息:FunctionList{exerciseTypeEnums=[TYPE_RUN, TYPE_WALK_FAST, TYPE_CYCLING, TYPE_BASKETBALL, TYPE_FOOTBALL, TYPE_BADMINTON, TYPE_JUMP_ROPE, TYPE_INDOOR_RUNNING, TYPE_VOLLEYBALL, TYPE_SPINNING, TYPE_SIT_UPS, TYPE_MOUNTAINEERING, TYPE_YOGA, TYPE_DANCE, TYPE_GYMNASTICS, TYPE_ROWING, TYPE_TENNIS, TYPE_HOCKEY, TYPE_BASEBALL, TYPE_TABLE_TENNIS], messageEnumList=[TYPE_PHONE, TYPE_MESSAGE, TYPE_INSTAGRAM, TYPE_WECHAT, TYPE_QQ, TYPE_LINE, TYPE_LINKEDIN, TYPE_WHATSAPP, TYPE_TWITTER, TYPE_FACEBOOK, TYPE_MESSENGER, TYPE_SKYPE, TYPE_SNAPCHAT, TYPE_ALIPAY, TYPE_TAOBAO, TYPE_DOUYIN, TYPE_DING_TALK, TYPE_JD_MALL, TYPE_GMAIL, TYPE_VIBER, TYPE_YOUTUBE, TYPE_KAKAO_TALK, TYPE_TELEGRAM, TYPE_HANGOUTS, TYPE_VKONTAKTE, TYPE_FLICKR, TYPE_TUMBLR, TYPE_PINTEREST, TYPE_TRUECALLER, TYPE_PAYTM, TYPE_ZALO, TYPE_MICROSOFTTEAMS], languageEnumList=[LANGUAGE_EN, LANGUAGE_ZH_CN, LANGUAGE_JA, LANGUAGE_KO, LANGUAGE_DE, LANGUAGE_FR, LANGUAGE_ES, LANGUAGE_AR, LANGUAGE_RU, LANGUAGE_IT, LANGUAGE_PY, LANGUAGE_UK, LANGUAGE_PL, LANGUAGE_IDE, LANGUAGE_DT, LANGUAGE_TK, LANGUAGE_BL, LANGUAGE_CZR, LANGUAGE_HG, LANGUAGE_RMM], isSupportExercise=true, isSupportStep=true, isSupportSleep=true, isSupportHr=true, isSupportBp=false, isSupportBo=true, isSupportMsg=true, isSupportMetric=true, isSupportClock=true, isSupportLongSit=true, isSupportTarget=true, isSupportVibration=false, isSupportDndMode=true, isSupportAnti=false, isSupportWeather=true, isSupportMultiLanguage=true, isSupportBacklightControl=true, isSupportAddressBook=true, isSupportOnlineWatch=true, isSupportCustomWatch=true, isSupportLocalWatch=true, isSupportHrWarning=false, isSupportMenstrualCycle=true, isSupportDrinkWater=true, isSupportRaise=true, isSupportHrAllDay=true, isSupportCameraControl=true, isSupportMusicControl=true, isSupportFindBracelet=true, isSupportShutdown=true, isSupportRestart=true, isSupportFactory=true, isSupportHangupPhone=true, isSupportAnswerPhone=true, isSupportTimeFormat=true, isSupportMessageExpand=true, clockNumber=10, isSupportClockEdit=true, brightnessLevel=100, brightnessDurationMax=30, brightnessDurationMin=5, brightnessDuration=5, localWatchNumber=5, hrWarningMax=0, hrWarningMin=0, isSupportTargetStep=true, isSupportTargetSleep=true, isSupportTargetCalories=true, isSupportTargetDuration=true, isSupportTargetDistance=true, watchStyle=1, isSupportBt=true, sportCountDownSeconds=3, contactNumber=100, isSupportLowBatteryRemind=false, isSupportSportInteraction=true, isClearDataWhenBind=true, isSupportBindOrUnbind=true, isSupportSetWeatherUpdateTime=true, isSupportNewProtocol=true, maxSendLength=244, platform=JIELI, isSupportCustomColor=false, isSupportBsDetect=false, isSupportPressureDetect=false, isSupportBtDetect=false, isSupportEcgDetect=false, isSupportSosContact=true, isSupportPrayClock=false, isSupportLocalMusic=false, musicTypeEnums=[], heartRateMeasureMode=null, bloodPressureMeasureMode=null, bloodOxygenMeasureMode=null, bloodSugarMeasureMode=null, pressureMeasureMode=null, ecgMeasureMode=null, bodyTemperatureMeasureMode=null, isSupportLocation=false, isSupportCustomSport=false, isSupportSetTimeZone=false, customDailSetting=CustomDailSetting{displayData=[]}, isSupportBleNameSet=true, isSupportSquareDialLocationExpand=false, isSupportSetBloodSugarParams=false, maxBloodSugarParamsCount=0, isSupportEditBloodSugarParams=false, isHrNewProtocol=false, isSupportMessageDialogFunction=false, customDialogMessageFunction=CustomDialogMessageFunction{displayData=[]}, sleepDataVersionInfo=0}
+11-16 14:43:08.468 12430 12430 D AudioLog:PushDelegate: 类型:6  --result:1  --obj:FunctionList{exerciseTypeEnums=[TYPE_RUN, TYPE_WALK_FAST, TYPE_CYCLING, TYPE_BASKETBALL, TYPE_FOOTBALL, TYPE_BADMINTON, TYPE_JUMP_ROPE, TYPE_INDOOR_RUNNING, TYPE_VOLLEYBALL, TYPE_SPINNING, TYPE_SIT_UPS, TYPE_MOUNTAINEERING, TYPE_YOGA, TYPE_DANCE, TYPE_GYMNASTICS, TYPE_ROWING, TYPE_TENNIS, TYPE_HOCKEY, TYPE_BASEBALL, TYPE_TABLE_TENNIS], messageEnumList=[TYPE_PHONE, TYPE_MESSAGE, TYPE_INSTAGRAM, TYPE_WECHAT, TYPE_QQ, TYPE_LINE, TYPE_LINKEDIN, TYPE_WHATSAPP, TYPE_TWITTER, TYPE_FACEBOOK, TYPE_MESSENGER, TYPE_SKYPE, TYPE_SNAPCHAT, TYPE_ALIPAY, TYPE_TAOBAO, TYPE_DOUYIN, TYPE_DING_TALK, TYPE_JD_MALL, TYPE_GMAIL, TYPE_VIBER, TYPE_YOUTUBE, TYPE_KAKAO_TALK, TYPE_TELEGRAM, TYPE_HANGOUTS, TYPE_VKONTAKTE, TYPE_FLICKR, TYPE_TUMBLR, TYPE_PINTEREST, TYPE_TRUECALLER, TYPE_PAYTM, TYPE_ZALO, TYPE_MICROSOFTTEAMS], languageEnumList=[LANGUAGE_EN, LANGUAGE_ZH_CN, LANGUAGE_JA, LANGUAGE_KO, LANGUAGE_DE, LANGUAGE_FR, LANGUAGE_ES, LANGUAGE_AR, LANGUAGE_RU, LANGUAGE_IT, LANGUAGE_PY, LANGUAGE_UK, LANGUAGE_PL, LANGUAGE_IDE, LANGUAGE_DT, LANGUAGE_TK, LANGUAGE_BL, LANGUAGE_CZR, LANGUAGE_HG, LANGUAGE_RMM], isSupportExercise=true, isSupportStep=true, isSupportSleep=true, isSupportHr=true, isSupportBp=false, isSupportBo=true, isSupportMsg=true, isSupportMetric=true, isSupportClock=true, isSupportLongSit=true, isSupportTarget=true, isSupportVibration=false, isSupportDndMode=true, isSupportAnti=false, isSupportWeather=true, isSupportMultiLanguage=true, isSupportBacklightControl=true, isSupportAddressBook=true, isSupportOnlineWatch=true, isSupportCustomWatch=true, isSupportLocalWatch=true, isSupportHrWarning=false, isSupportMenstrualCycle=true, isSupportDrinkWater=true, isSupportRaise=true, isSupportHrAllDay=true, isSupportCameraControl=true, isSupportMusicControl=true, isSupportFindBracelet=true, isSupportShutdown=true, isSupportRestart=true, isSupportFactory=true, isSupportHangupPhone=true, isSupportAnswerPhone=true, isSupportTimeFormat=true, isSupportMessageExpand=true, clockNumber=10, isSupportClockEdit=true, brightnessLevel=100, brightnessDurationMax=30, brightnessDurationMin=5, brightnessDuration=5, localWatchNumber=5, hrWarningMax=0, hrWarningMin=0, isSupportTargetStep=true, isSupportTargetSleep=true, isSupportTargetCalories=true, isSupportTargetDuration=true, isSupportTargetDistance=true, watchStyle=1, isSupportBt=true, sportCountDownSeconds=3, contactNumber=100, isSupportLowBatteryRemind=false, isSupportSportInteraction=true, isClearDataWhenBind=true, isSupportBindOrUnbind=true, isSupportSetWeatherUpdateTime=true, isSupportNewProtocol=true, maxSendLength=244, platform=JIELI, isSupportCustomColor=false, isSupportBsDetect=false, isSupportPressureDetect=false, isSupportBtDetect=false, isSupportEcgDetect=false, isSupportSosContact=true, isSupportPrayClock=false, isSupportLocalMusic=false, musicTypeEnums=[], heartRateMeasureMode=null, bloodPressureMeasureMode=null, bloodOxygenMeasureMode=null, bloodSugarMeasureMode=null, pressureMeasureMode=null, ecgMeasureMode=null, bodyTemperatureMeasureMode=null, isSupportLocation=false, isSupportCustomSport=false, isSupportSetTimeZone=false, customDailSetting=CustomDailSetting{displayData=[]}, isSupportBleNameSet=true, isSupportSquareDialLocationExpand=false, isSupportSetBloodSugarParams=false, maxBloodSugarParamsCount=0, isSupportEditBloodSugarParams=false, isHrNewProtocol=false, isSupportMessageDialogFunction=false, customDialogMessageFunction=CustomDialogMessageFunction{displayData=[]}, sleepDataVersionInfo=0}
+11-16 14:43:08.472 12430 12430 D AudioLog:Zeblaze: MMKV 信息: file MMKV_IO.cpp--line 432--function  expandAndWriteBack--message  extending [mmkv.default] file size from 8192 to 16384, incoming size:4095, future usage:4512
+11-16 14:43:08.473 12430 12430 D AudioLog:Zeblaze: MMKV 信息: file MemoryFile.cpp--line 203--function  mmap--message  mmap to address [0x79be6f3000], oldPtr [0x79c0afd000], [/data/user/0/com.watch.zeblaze/files/mmkv/mmkv.default]
+11-16 14:43:08.473 12430 12430 D AudioLog:Zeblaze: MMKV 信息: file MMKV_IO.cpp--line 515--function  writeActualSize--message  [mmkv.default] increase sequence to 3, crc 1674575068, actualSize 3230
+11-16 14:43:08.473 12430 12430 D AudioLog:Zeblaze: MMKV 信息: file MMKV.cpp--line 1170--function  sync--message  MMKV::sync, SyncFlag = 1
+11-16 14:43:08.474 12430 12430 D AudioLog:ConnectDelegateWrapper: 校验通过,不走绑定配对流程
+11-16 14:43:08.477 12430 12430 E AudioLog:ConnectDelegateWrapper: 初次绑定,开始设置语言
+11-16 14:43:08.484 12430 12430 E AudioLog:Zeblaze: 获取当前设备语言:FunctionList{exerciseTypeEnums=[TYPE_RUN, TYPE_WALK_FAST, TYPE_CYCLING, TYPE_BASKETBALL, TYPE_FOOTBALL, TYPE_BADMINTON, TYPE_JUMP_ROPE, TYPE_INDOOR_RUNNING, TYPE_VOLLEYBALL, TYPE_SPINNING, TYPE_SIT_UPS, TYPE_MOUNTAINEERING, TYPE_YOGA, TYPE_DANCE, TYPE_GYMNASTICS, TYPE_ROWING, TYPE_TENNIS, TYPE_HOCKEY, TYPE_BASEBALL, TYPE_TABLE_TENNIS], messageEnumList=[TYPE_PHONE, TYPE_MESSAGE, TYPE_INSTAGRAM, TYPE_WECHAT, TYPE_QQ, TYPE_LINE, TYPE_LINKEDIN, TYPE_WHATSAPP, TYPE_TWITTER, TYPE_FACEBOOK, TYPE_MESSENGER, TYPE_SKYPE, TYPE_SNAPCHAT, TYPE_ALIPAY, TYPE_TAOBAO, TYPE_DOUYIN, TYPE_DING_TALK, TYPE_JD_MALL, TYPE_GMAIL, TYPE_VIBER, TYPE_YOUTUBE, TYPE_KAKAO_TALK, TYPE_TELEGRAM, TYPE_HANGOUTS, TYPE_VKONTAKTE, TYPE_FLICKR, TYPE_TUMBLR, TYPE_PINTEREST, TYPE_TRUECALLER, TYPE_PAYTM, TYPE_ZALO, TYPE_MICROSOFTTEAMS], languageEnumList=[LANGUAGE_EN, LANGUAGE_ZH_CN, LANGUAGE_JA, LANGUAGE_KO, LANGUAGE_DE, LANGUAGE_FR, LANGUAGE_ES, LANGUAGE_AR, LANGUAGE_RU, LANGUAGE_IT, LANGUAGE_PY, LANGUAGE_UK, LANGUAGE_PL, LANGUAGE_IDE, LANGUAGE_DT, LANGUAGE_TK, LANGUAGE_BL, LANGUAGE_CZR, LANGUAGE_HG, LANGUAGE_RMM], isSupportExercise=true, isSupportStep=true, isSupportSleep=true, isSupportHr=true, isSupportBp=false, isSupportBo=true, isSupportMsg=true, isSupportMetric=true, isSupportClock=true, isSupportLongSit=true, isSupportTarget=true, isSupportVibration=false, isSupportDndMode=true, isSupportAnti=false, isSupportWeather=true, isSupportMultiLanguage=true, isSupportBacklightControl=true, isSupportAddressBook=true, isSupportOnlineWatch=true, isSupportCustomWatch=true, isSupportLocalWatch=true, isSupportHrWarning=false, isSupportMenstrualCycle=true, isSupportDrinkWater=true, isSupportRaise=true, isSupportHrAllDay=true, isSupportCameraControl=true, isSupportMusicControl=true, isSupportFindBracelet=true, isSupportShutdown=true, isSupportRestart=true, isSupportFactory=true, isSupportHangupPhone=true, isSupportAnswerPhone=true, isSupportTimeFormat=true, isSupportMessageExpand=true, clockNumber=10, isSupportClockEdit=true, brightnessLevel=100, brightnessDurationMax=30, brightnessDurationMin=5, brightnessDuration=5, localWatchNumber=5, hrWarningMax=0, hrWarningMin=0, isSupportTargetStep=true, isSupportTargetSleep=true, isSupportTargetCalories=true, isSupportTargetDuration=true, isSupportTargetDistance=true, watchStyle=1, isSupportBt=true, sportCountDownSeconds=3, contactNumber=100, isSupportLowBatteryRemind=false, isSupportSportInteraction=true, isClearDataWhenBind=true, isSupportBindOrUnbind=true, isSupportSetWeatherUpdateTime=true, isSupportNewProtocol=true, maxSendLength=244, platform=JIELI, isSupportCustomColor=false, isSupportBsDetect=false, isSupportPressureDetect=false, isSupportBtDetect=false, isSupportEcgDetect=false, isSupportSosContact=true, isSupportPrayClock=false, isSupportLocalMusic=false, musicTypeEnums=[], heartRateMeasureMode=null, bloodPressureMeasureMode=null, bloodOxygenMeasureMode=null, bloodSugarMeasureMode=null, pressureMeasureMode=null, ecgMeasureMode=null, bodyTemperatureMeasureMode=null, isSupportLocation=false, isSupportCustomSport=false, isSupportSetTimeZone=false, customDailSetting=CustomDailSetting{displayData=[]}, isSupportBleNameSet=true, isSupportSquareDialLocationExpand=false, isSupportSetBloodSugarParams=false, maxBloodSugarParamsCount=0, isSupportEditBloodSugarParams=false, isHrNewProtocol=false, isSupportMessageDialogFunction=false, customDialogMessageFunction=CustomDialogMessageFunction{displayData=[]}, sleepDataVersionInfo=0}
+11-16 14:43:08.485 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:43:08监控内容:app版本:v1.1.0  开始向设备写入指令,设置的app指令ID:1012
+11-16 14:43:08.490 12430 12430 I AudioLog:ConnectManager: 连接成功
+11-16 14:43:08.490 12430 12430 D AudioLog:HomePresenter: 连接成功
+11-16 14:43:08.490 12430 12430 I AudioLog:Zeblaze: DeviceFragment--->连接成功
+11-16 14:43:08.490 12430 12430 D AudioLog:Zeblaze: DeviceFragment--->>>>setBluetoothStatus:true
+11-16 14:43:08.490 12430 12430 D AudioLog:Zeblaze: 连接成功
+11-16 14:43:08.492 12430 12430 D AudioLog:ConnectDelegateWrapper: registerGetFunctionListCallBack：开始连接
+11-16 14:43:08.492 12430 12430 D AudioLog:Zeblaze: 写入测试日志:registerGetFunctionListCallBack：开始连接
+11-16 14:43:09.104 12430 12430 I AudioLog:ApplicationLifeCycleCallBack: com.watch.zeblaze.appMoudle.scan.activity.FindDeviceActivity@bd53c10onActivityPaused
+11-16 14:43:09.113 12430 12430 I AudioLog:ApplicationLifeCycleCallBack: com.watch.zeblaze.appMoudle.home.activity.MainActivity@66b3a16onActivityDestroyed,liveCount = 1
+11-16 14:43:09.114 12430 12430 D AudioLog:Zeblaze: HomeFragment--->>>>onDestroyView()
+11-16 14:43:09.115 12430 12430 D AudioLog:Zeblaze: HomeFragment--->>>>onDestroy()
+11-16 14:43:09.115 12430 12430 D AudioLog:Zeblaze: HomeFragment--->>>>deinitPresenter
+11-16 14:43:09.115 12430 12430 D AudioLog:Zeblaze: HomePresenter--->>>解除关联
+11-16 14:43:09.115 12430 12430 D AudioLog:HomePresenter: unregisterCallBacks()
+11-16 14:43:09.117 12430 12430 D AudioLog:Zeblaze: DeviceFragment--->>>>onDestroyView()
+11-16 14:43:09.118 12430 12430 D AudioLog:Zeblaze: DeviceFragment--->>>>onDestroy()
+11-16 14:43:09.118 12430 12430 D AudioLog:Zeblaze: DeviceFragment--->>>>deinitPresenter
+11-16 14:43:09.118 12430 12430 D AudioLog:Zeblaze: DevicePresenter--->>>解除关联
+11-16 14:43:09.131 12430 12430 I AudioLog:ApplicationLifeCycleCallBack: com.watch.zeblaze.appMoudle.home.activity.MainActivity@cb50b15onActivityCreated, liveCount = 2
+11-16 14:43:09.147 12430 12430 D AudioLog:ConnectDelegate: 开始连接: 设备已连接 或者正在连接中:FD:99:E2:BB:76:D0
+11-16 14:43:09.149 12430 12430 I AudioLog:ApplicationLifeCycleCallBack: com.watch.zeblaze.appMoudle.home.activity.MainActivity@cb50b15onActivityStarted
+11-16 14:43:09.149 12430 12430 D AudioLog:Zeblaze: HomeFragment--->>>>initPresenter
+11-16 14:43:09.149 12430 12430 D AudioLog:Zeblaze: HomePresenter--->>>建立关联
+11-16 14:43:09.149 12430 12430 D AudioLog:HomePresenter: registerCallBacks()
+11-16 14:43:09.149 12430 12430 D AudioLog:Zeblaze: HomeFragment--->>>>onCreateView()
+11-16 14:43:09.164 12430 12430 D AudioLog:HomePresenter: 开始弹窗
+11-16 14:43:09.207 12430 12430 I AudioLog:HBManager: mLocale.getDisplayLanguage() = en
+11-16 14:43:09.207 12430 12430 D AudioLog:Zeblaze: AppUpdateModel--->>>---获取新版本 = {country=0, appName=Zeblaze Connect, packageName=com.watch.zeblaze, versionName=v1.1.0, versionCode=12}
+11-16 14:43:09.207 12430 12430 I AudioLog:HBManager: mLocale.getDisplayLanguage() = en
+11-16 14:43:09.209 12430 12430 I AudioLog:ApplicationLifeCycleCallBack: com.watch.zeblaze.appMoudle.home.activity.MainActivity@cb50b15onActivityResumed
+11-16 14:43:09.221 12430 12430 D AudioLog:Zeblaze: HomeFragment--->>>>lazyLoadData(),hidden = false
+11-16 14:43:09.231 12430 12430 D AudioLog:HomePresenter: 更新前：2026-11-16 14:43:09
+11-16 14:43:09.237 12430 12430 D AudioLog:HomePresenter: 更新后：2026-11-16 14:43:09
+11-16 14:43:09.237 12430 12430 D AudioLog:Zeblaze: HomeFragment--->>>>LazyLoadFragment onResume
+11-16 14:43:09.334 12430 12430 I AudioLog:ApplicationLifeCycleCallBack: com.watch.zeblaze.appMoudle.home.activity.MainActivity@cb50b15onActivityPaused
+11-16 14:43:09.465 12430 12430 I AudioLog:ApplicationLifeCycleCallBack: com.watch.zeblaze.appMoudle.home.activity.MainActivity@cb50b15onActivityResumed
+11-16 14:43:09.465 12430 12430 D AudioLog:Zeblaze: HomeFragment--->>>>lazyLoadData(),hidden = false
+11-16 14:43:09.479 12430 12430 D AudioLog:HomePresenter: 更新前：2026-11-16 14:43:09
+11-16 14:43:09.481 12430 12430 D AudioLog:HomePresenter: 更新后：2026-11-16 14:43:09
+11-16 14:43:09.481 12430 12430 D AudioLog:Zeblaze: HomeFragment--->>>>LazyLoadFragment onResume
+11-16 14:43:09.797 12430 12430 I AudioLog:ApplicationLifeCycleCallBack: com.watch.zeblaze.appMoudle.scan.activity.FindDeviceActivity@bd53c10onActivityStopped
+11-16 14:43:09.797 12430 12430 D AudioLog:Zeblaze: FindDevicePresenter--->>>停止扫描
+11-16 14:43:09.797 12430 12430 D AudioLog:Zeblaze: ScanManager Scaning stoped!!
+11-16 14:43:09.798 12430 12430 I AudioLog:ApplicationLifeCycleCallBack: com.watch.zeblaze.appMoudle.scan.activity.FindDeviceActivity@bd53c10onActivityDestroyed,liveCount = 1
+11-16 14:43:09.798 12430 12430 D AudioLog:Zeblaze: FindDevicePresenter--->>>解除关联
+11-16 14:43:09.974 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:43:09监控内容:app版本:v1.1.0  收到设备回复指令: 类型:159 设备响应结果是否成功:true 设备返回的数据信息:
+11-16 14:43:09.974 12430 12430 D AudioLog:PushDelegate: 类型:159  --result:1  --obj:null
+11-16 14:43:11.345 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:43:11监控内容:app版本:v1.1.0  收到设备回复指令: 类型:119 设备响应结果是否成功:true 设备返回的数据信息:
+11-16 14:43:11.345 12430 12430 D AudioLog:PushDelegate: 类型:119  --result:1  --obj:null
+11-16 14:43:11.419 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:43:11监控内容:app版本:v1.1.0  收到设备回复指令: 类型:160 设备响应结果是否成功:true 设备返回的数据信息:
+11-16 14:43:11.419 12430 12430 D AudioLog:PushDelegate: 类型:160  --result:1  --obj:null
+11-16 14:43:11.434 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:43:11监控内容:app版本:v1.1.0  开始向设备写入指令,设置的app指令ID:1001
+11-16 14:43:11.436 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:43:11监控内容:app版本:v1.1.0  开始向设备写入指令,设置的app指令ID:17
+11-16 14:43:11.437 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:43:11监控内容:app版本:v1.1.0  开始向设备写入指令,设置的app指令ID:8
+11-16 14:43:11.438 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:43:11监控内容:app版本:v1.1.0  开始向设备写入指令,设置的app指令ID:24
+11-16 14:43:11.439 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:43:11监控内容:app版本:v1.1.0  开始向设备写入指令,设置的app指令ID:1
+11-16 14:43:11.440 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:43:11监控内容:app版本:v1.1.0  开始向设备写入指令,设置的app指令ID:25
+11-16 14:43:11.441 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:43:11监控内容:app版本:v1.1.0  重新连接上设备,同步表盘大小信息
+11-16 14:43:11.458 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:43:11监控内容:app版本:v1.1.0  开始向设备写入指令,设置的app指令ID:1022
+11-16 14:43:11.460 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:43:11监控内容:app版本:v1.1.0  开始向设备写入指令,设置的app指令ID:1005
+11-16 14:43:11.462 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:43:11监控内容:app版本:v1.1.0  开始向设备写入指令,设置的app指令ID:1020
+11-16 14:43:11.464 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:43:11监控内容:app版本:v1.1.0  重新连接上设备,开始同步天气
+11-16 14:43:11.464 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:43:11监控内容:app版本:v1.1.0  开始向设备写入指令,设置的app指令ID:1006
+11-16 14:43:11.482 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:43:11监控内容:app版本:v1.1.0  开始向设备写入指令,设置的app指令ID:1013
+11-16 14:43:11.533 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:43:11监控内容:app版本:v1.1.0  收到设备回复指令: 类型:162 设备响应结果是否成功:true 设备返回的数据信息:
+11-16 14:43:11.534 12430 12430 D AudioLog:PushDelegate: 类型:162  --result:1  --obj:null
+11-16 14:43:12.285 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:43:12监控内容:app版本:v1.1.0  收到设备回复指令: 类型:132 设备响应结果是否成功:true 设备返回的数据信息:
+11-16 14:43:12.285 12430 12430 D AudioLog:PushDelegate: 类型:132  --result:1  --obj:null
+11-16 14:43:13.036 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:43:13监控内容:app版本:v1.1.0  收到设备回复指令: 类型:5 设备响应结果是否成功:true 设备返回的数据信息:
+11-16 14:43:13.036 12430 12430 D AudioLog:PushDelegate: 类型:5  --result:1  --obj:null
+11-16 14:43:13.821 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:43:13监控内容:app版本:v1.1.0  收到设备回复指令: 类型:118 设备响应结果是否成功:true 设备返回的数据信息:LANGUAGE_EN
+11-16 14:43:13.822 12430 12430 D AudioLog:PushDelegate: 类型:118  --result:1  --obj:LANGUAGE_EN
+11-16 14:43:14.545 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:43:14监控内容:app版本:v1.1.0  收到设备回复指令: 类型:9 设备响应结果是否成功:true 设备返回的数据信息:DeviceInfo{productId='3', projectId='350', bootId='1.0', firmwareId='1.10', imageId='1.7', fontId='1.2'}
+11-16 14:43:14.546 12430 12430 D AudioLog:PushDelegate: 类型:9  --result:1  --obj:DeviceInfo{productId='3', projectId='350', bootId='1.0', firmwareId='1.10', imageId='1.7', fontId='1.2'}
+11-16 14:43:14.552 12430 12430 I AudioLog:HBManager: mLocale.getDisplayLanguage() = en
+11-16 14:43:15.281 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:43:15监控内容:app版本:v1.1.0  收到设备回复指令: 类型:137 设备响应结果是否成功:true 设备返回的数据信息:CustomDail{fontColor=0, position=MIDDLE_TOP, timeTop=CLOSE, timeBottom=DATE}
+11-16 14:43:15.282 12430 12430 D AudioLog:PushDelegate: 类型:137  --result:1  --obj:CustomDail{fontColor=0, position=MIDDLE_TOP, timeTop=CLOSE, timeBottom=DATE}
+11-16 14:43:15.398 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:43:15监控内容:app版本:v1.1.0  收到设备回复指令: 类型:1 设备响应结果是否成功:true 设备返回的数据信息:1.10
+11-16 14:43:15.399 12430 12430 D AudioLog:PushDelegate: 类型:1  --result:1  --obj:1.10
+11-16 14:43:15.399 12430 12430 D AudioLog:Zeblaze: version = 1.10
+11-16 14:43:15.518 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:43:15监控内容:app版本:v1.1.0  收到设备回复指令: 类型:140 设备响应结果是否成功:true 设备返回的数据信息:CustomDailSizeInfo{screenWidth=466, screenHeight=466, thumbWidth=240, thumbHeight=240}
+11-16 14:43:15.519 12430 12430 D AudioLog:PushDelegate: 类型:140  --result:1  --obj:CustomDailSizeInfo{screenWidth=466, screenHeight=466, thumbWidth=240, thumbHeight=240}
+11-16 14:43:16.260 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:43:16监控内容:app版本:v1.1.0  收到设备回复指令: 类型:163 设备响应结果是否成功:true 设备返回的数据信息:
+11-16 14:43:16.260 12430 12430 D AudioLog:PushDelegate: 类型:163  --result:1  --obj:null
+11-16 14:43:16.372 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:43:16监控内容:app版本:v1.1.0  收到设备回复指令: 类型:136 设备响应结果是否成功:true 设备返回的数据信息:
+11-16 14:43:16.373 12430 12430 D AudioLog:PushDelegate: 类型:136  --result:1  --obj:null
+11-16 14:43:16.522 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:43:16监控内容:app版本:v1.1.0  收到设备回复指令: 类型:105 设备响应结果是否成功:true 设备返回的数据信息:
+11-16 14:43:16.523 12430 12430 D AudioLog:PushDelegate: 类型:105  --result:1  --obj:null
+11-16 14:43:16.673 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:43:16监控内容:app版本:v1.1.0  收到设备回复指令: 类型:135 设备响应结果是否成功:true 设备返回的数据信息:
+11-16 14:43:16.673 12430 12430 D AudioLog:PushDelegate: 类型:135  --result:1  --obj:null
+11-16 14:43:16.710 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:43:16监控内容:app版本:v1.1.0  收到设备回复指令: 类型:1003 设备响应结果是否成功:true 设备返回的数据信息:
+11-16 14:43:16.711 12430 12430 D AudioLog:PushDelegate: 类型:1003  --result:1  --obj:null
+11-16 14:43:16.787 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:43:16监控内容:app版本:v1.1.0  收到设备回复指令: 类型:1002 设备响应结果是否成功:true 设备返回的数据信息:[]
+11-16 14:43:16.787 12430 12430 D AudioLog:PushDelegate: 类型:1002  --result:1  --obj:[]
+11-16 14:43:17.532 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:43:17监控内容:app版本:v1.1.0  收到设备回复指令: 类型:121 设备响应结果是否成功:true 设备返回的数据信息:
+11-16 14:43:17.532 12430 12430 D AudioLog:PushDelegate: 类型:121  --result:1  --obj:null
+11-16 14:43:21.537 12430 12430 D AudioLog:Zeblaze: ANTFunctionManager--->>>设置心率开关
+11-16 14:43:21.539 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:43:21监控内容:app版本:v1.1.0  开始向设备写入指令,设置的app指令ID:1028
+11-16 14:43:21.541 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:43:21监控内容:app版本:v1.1.0  开始向设备写入指令,设置的app指令ID:1007
+11-16 14:43:21.542 12430 12430 D AudioLog:HomePresenter: 同步开始
+11-16 14:43:21.542 12430 12430 D AudioLog:HomePresenter: progress = 0
+11-16 14:43:21.542 12430 12430 D AudioLog:Zeblaze: ClassicsHeader--->>>---newState = PullDownToRefresh
+11-16 14:43:21.544 12430 12430 D AudioLog:Zeblaze: SmartRefreshUtil:synchronizing 0%
+11-16 14:43:21.547 12430 12430 D AudioLog:SyncDelegate: 开始执行:com.watch.zeblaze.sdk.manager.sync.common.SettingSync@96d71b7 mCurrentIndex-1
+11-16 14:43:21.547 12430 12430 D AudioLog:SyncDelegate: 当前执行的索引: 0 执行者: com.watch.zeblaze.sdk.manager.sync.common.SettingSync@96d71b7
+11-16 14:43:21.547 12430 12430 D AudioLog:gps数据: SettingSync发送超时线程
+11-16 14:43:21.602 12430 12430 I AudioLog:ApplicationLifeCycleCallBack: com.watch.zeblaze.appMoudle.home.activity.MainActivity@cb50b15onActivityPaused
+11-16 14:43:21.639 12430 12430 D AudioLog:Zeblaze: ClassicsHeader--->>>---newState = ReleaseToRefresh
+11-16 14:43:21.876 12430 12430 D AudioLog:Zeblaze: ClassicsHeader--->>>---newState = Refreshing/RefreshReleased
+11-16 14:43:22.048 12430 12430 D AudioLog:SyncDelegate: SettingSync progress 30
+11-16 14:43:22.048 12430 12430 D AudioLog:HomePresenter: progress = 3
+11-16 14:43:22.049 12430 12430 D AudioLog:Zeblaze: SmartRefreshUtil:synchronizing 3%
+11-16 14:43:22.185 12430 12430 D AudioLog:Zeblaze: ClassicsHeader--->>>---newState = Refreshing/RefreshReleased
+11-16 14:43:22.549 12430 12430 D AudioLog:SyncDelegate: SettingSync progress 30
+11-16 14:43:22.549 12430 12430 D AudioLog:HomePresenter: progress = 6
+11-16 14:43:22.550 12430 12430 D AudioLog:Zeblaze: SmartRefreshUtil:synchronizing 6%
+11-16 14:43:22.861 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:43:22监控内容:app版本:v1.1.0  收到设备回复指令: 类型:150 设备响应结果是否成功:true 设备返回的数据信息:
+11-16 14:43:22.867 12430 12430 D AudioLog:PushDelegate: 类型:150  --result:1  --obj:null
+11-16 14:43:22.894 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:43:22监控内容:app版本:v1.1.0  收到设备回复指令: 类型:110 设备响应结果是否成功:true 设备返回的数据信息:
+11-16 14:43:22.894 12430 12430 D AudioLog:PushDelegate: 类型:110  --result:1  --obj:null
+11-16 14:43:22.905 12430 12430 I AudioLog:ApplicationLifeCycleCallBack: com.watch.zeblaze.appMoudle.home.activity.MainActivity@cb50b15onActivityResumed
+11-16 14:43:22.906 12430 12430 D AudioLog:Zeblaze: HomeFragment--->>>>lazyLoadData(),hidden = false
+11-16 14:43:22.915 12430 12430 D AudioLog:HomePresenter: 更新前：2026-11-16 14:43:22
+11-16 14:43:22.918 12430 12430 D AudioLog:HomePresenter: 更新后：2026-11-16 14:43:22
+11-16 14:43:22.918 12430 12430 D AudioLog:Zeblaze: HomeFragment--->>>>LazyLoadFragment onResume
+11-16 14:43:23.004 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:43:23监控内容:app版本:v1.1.0  收到设备回复指令: 类型:163 设备响应结果是否成功:true 设备返回的数据信息:
+11-16 14:43:23.004 12430 12430 D AudioLog:PushDelegate: 类型:163  --result:1  --obj:null
+11-16 14:43:23.052 12430 12430 D AudioLog:SyncDelegate: SettingSync progress 30
+11-16 14:43:23.052 12430 12430 D AudioLog:HomePresenter: progress = 9
+11-16 14:43:23.052 12430 12430 D AudioLog:Zeblaze: SmartRefreshUtil:synchronizing 9%
+11-16 14:43:23.552 12430 12430 D AudioLog:SyncDelegate: SettingSync progress 30
+11-16 14:43:23.553 12430 12430 D AudioLog:HomePresenter: progress = 12
+11-16 14:43:23.553 12430 12430 D AudioLog:Zeblaze: SmartRefreshUtil:synchronizing 12%
+11-16 14:43:23.643 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:43:23监控内容:app版本:v1.1.0  收到设备回复指令: 类型:163 设备响应结果是否成功:true 设备返回的数据信息:
+11-16 14:43:23.644 12430 12430 D AudioLog:PushDelegate: 类型:163  --result:1  --obj:null
+11-16 14:43:24.054 12430 12430 D AudioLog:SyncDelegate: SettingSync progress 30
+11-16 14:43:24.054 12430 12430 D AudioLog:HomePresenter: progress = 15
+11-16 14:43:24.054 12430 12430 D AudioLog:Zeblaze: SmartRefreshUtil:synchronizing 15%
+11-16 14:43:24.554 12430 12430 D AudioLog:SyncDelegate: SettingSync progress 30
+11-16 14:43:24.555 12430 12430 D AudioLog:HomePresenter: progress = 18
+11-16 14:43:24.555 12430 12430 D AudioLog:Zeblaze: SmartRefreshUtil:synchronizing 18%
+11-16 14:43:25.056 12430 12430 D AudioLog:SyncDelegate: SettingSync progress 30
+11-16 14:43:25.056 12430 12430 D AudioLog:HomePresenter: progress = 21
+11-16 14:43:25.056 12430 12430 D AudioLog:Zeblaze: SmartRefreshUtil:synchronizing 21%
+11-16 14:43:25.558 12430 12430 D AudioLog:SyncDelegate: SettingSync progress 30
+11-16 14:43:25.558 12430 12430 D AudioLog:HomePresenter: progress = 24
+11-16 14:43:25.559 12430 12430 D AudioLog:Zeblaze: SmartRefreshUtil:synchronizing 24%
+11-16 14:43:26.059 12430 12430 D AudioLog:SyncDelegate: SettingSync progress 30
+11-16 14:43:26.059 12430 12430 D AudioLog:HomePresenter: progress = 27
+11-16 14:43:26.060 12430 12430 D AudioLog:Zeblaze: SmartRefreshUtil:synchronizing 27%
+11-16 14:43:26.561 12430 12430 D AudioLog:SyncDelegate: SettingSync progress 30
+11-16 14:43:26.561 12430 12430 D AudioLog:HomePresenter: progress = 30
+11-16 14:43:26.561 12430 12430 D AudioLog:Zeblaze: SmartRefreshUtil:synchronizing 30%
+11-16 14:43:27.063 12430 12430 D AudioLog:SyncDelegate: SettingSync progress 30
+11-16 14:43:27.064 12430 12430 D AudioLog:HomePresenter: progress = 30
+11-16 14:43:27.064 12430 12430 D AudioLog:Zeblaze: SmartRefreshUtil:synchronizing 30%
+11-16 14:43:27.065 12430 12430 D AudioLog:gps数据: SettingSync移除超时线程
+11-16 14:43:27.065 12430 12430 D AudioLog:SyncDelegate: SettingSync Complete
+11-16 14:43:27.065 12430 12430 D AudioLog:HomePresenter: progress = 30
+11-16 14:43:27.065 12430 12430 D AudioLog:Zeblaze: SmartRefreshUtil:synchronizing 30%
+11-16 14:43:27.066 12430 12430 D AudioLog:SyncDelegate: 开始执行:com.watch.zeblaze.sdk.manager.sync.common.StepSync@28f3cec mCurrentIndex0
+11-16 14:43:27.066 12430 12430 D AudioLog:gps数据: SettingSync移除超时线程
+11-16 14:43:27.074 12430 12430 D AudioLog:SyncDelegate: 当前执行的索引: 1 执行者: com.watch.zeblaze.sdk.manager.sync.common.StepSync@28f3cec
+11-16 14:43:27.075 12430 12430 D AudioLog:gps数据: StepSync发送超时线程
+11-16 14:43:28.259 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:43:28监控内容:app版本:v1.1.0  收到设备回复指令: 类型:1006 设备响应结果是否成功:true 设备返回的数据信息:[StepData{year=0, month=0, day=0, step=0, calories=0, distance=0}]
+11-16 14:43:28.259 12430 12430 D AudioLog:PushDelegate: 类型:1006  --result:1  --obj:[StepData{year=0, month=0, day=0, step=0, calories=0, distance=0}]
+11-16 14:43:28.470 12430 12430 D AudioLog:HealthDataHandler: ,details = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+11-16 14:43:28.470 12430 12430 D AudioLog:HealthDataHandler: 同步步数完成，步数 = 0,距离 = 0.0,距离distanceMi = 0.0,卡路里 = 0
+11-16 14:43:28.475 12430 12430 D AudioLog:gps数据: StepSync移除超时线程
+11-16 14:43:28.475 12430 12430 D AudioLog:SyncDelegate: stepSync doOnComplete
+11-16 14:43:28.475 12430 12430 D AudioLog:HomePresenter: progress = 50
+11-16 14:43:28.476 12430 12430 D AudioLog:Zeblaze: SmartRefreshUtil:synchronizing 50%
+11-16 14:43:28.476 12430 12430 D AudioLog:SyncDelegate: 开始执行:com.watch.zeblaze.sdk.manager.sync.common.SleepSync@6a93bd8 mCurrentIndex1
+11-16 14:43:28.476 12430 12430 D AudioLog:gps数据: StepSync移除超时线程
+11-16 14:43:28.485 12430 12430 D AudioLog:gps数据: 注册睡眠监听
+11-16 14:43:28.488 12430 12430 D AudioLog:SyncDelegate: 当前执行的索引: 2 执行者: com.watch.zeblaze.sdk.manager.sync.common.SleepSync@6a93bd8
+11-16 14:43:28.488 12430 12430 D AudioLog:gps数据: SleepSync发送超时线程
+11-16 14:43:29.645 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:43:29监控内容:app版本:v1.1.0  收到设备回复指令: 类型:1005 设备响应结果是否成功:true 设备返回的数据信息:[]
+11-16 14:43:29.645 12430 12430 D AudioLog:PushDelegate: 类型:1005  --result:1  --obj:[]
+11-16 14:43:29.851 12430 12430 D AudioLog:gps数据: SleepSync移除超时线程
+11-16 14:43:29.851 12430 12430 D AudioLog:SyncDelegate: sleepSync doOnComplete 
+11-16 14:43:29.851 12430 12430 D AudioLog:HomePresenter: progress = 70
+11-16 14:43:29.851 12430 12430 D AudioLog:Zeblaze: SmartRefreshUtil:synchronizing 70%
+11-16 14:43:29.852 12430 12430 D AudioLog:SyncDelegate: 开始执行:com.watch.zeblaze.sdk.manager.sync.common.HRSync@3623d84 mCurrentIndex2
+11-16 14:43:29.852 12430 12430 D AudioLog:gps数据: SleepSync移除超时线程
+11-16 14:43:29.863 12430 12430 D AudioLog:SyncDelegate: 当前执行的索引: 3 执行者: com.watch.zeblaze.sdk.manager.sync.common.HRSync@3623d84
+11-16 14:43:29.863 12430 12430 D AudioLog:gps数据: HRSync发送超时线程
+11-16 14:43:31.034 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:43:31监控内容:app版本:v1.1.0  收到设备回复指令: 类型:1004 设备响应结果是否成功:true 设备返回的数据信息:[]
+11-16 14:43:31.035 12430 12430 D AudioLog:PushDelegate: 类型:1004  --result:1  --obj:[]
+11-16 14:43:31.237 12430 12430 D AudioLog:gps数据: HRSync移除超时线程
+11-16 14:43:31.237 12430 12430 D AudioLog:SyncDelegate: hrSync doOnComplete 
+11-16 14:43:31.237 12430 12430 D AudioLog:HomePresenter: progress = 80
+11-16 14:43:31.238 12430 12430 D AudioLog:Zeblaze: SmartRefreshUtil:synchronizing 80%
+11-16 14:43:31.239 12430 12430 D AudioLog:SyncDelegate: 开始执行:com.watch.zeblaze.sdk.manager.sync.common.ScubaDivingSync@587adf0 mCurrentIndex3
+11-16 14:43:31.239 12430 12430 D AudioLog:gps数据: HRSync移除超时线程
+11-16 14:43:31.247 12430 12430 D AudioLog:SyncDelegate: 当前执行的索引: 4 执行者: com.watch.zeblaze.sdk.manager.sync.common.ScubaDivingSync@587adf0
+11-16 14:43:31.247 12430 12430 D AudioLog:gps数据: ScubaDivingSync发送超时线程
+11-16 14:43:31.248 12430 12430 D AudioLog:gps数据: 不支持 onComplete
+11-16 14:43:31.248 12430 12430 D AudioLog:gps数据: ScubaDivingSync移除超时线程
+11-16 14:43:31.249 12430 12430 D AudioLog:SyncDelegate: hrSync doOnComplete 
+11-16 14:43:31.249 12430 12430 D AudioLog:HomePresenter: progress = 90
+11-16 14:43:31.249 12430 12430 D AudioLog:Zeblaze: SmartRefreshUtil:synchronizing 90%
+11-16 14:43:31.249 12430 12430 D AudioLog:SyncDelegate: 开始执行:com.watch.zeblaze.sdk.manager.sync.common.SportSync@9645f69 mCurrentIndex4
+11-16 14:43:31.250 12430 12430 D AudioLog:gps数据: ScubaDivingSync移除超时线程
+11-16 14:43:31.254 12430 12430 D AudioLog:SyncDelegate: 当前执行的索引: 5 执行者: com.watch.zeblaze.sdk.manager.sync.common.SportSync@9645f69
+11-16 14:43:31.254 12430 12430 D AudioLog:gps数据: SportSync发送超时线程
+11-16 14:43:32.421 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:43:32监控内容:app版本:v1.1.0  收到设备回复指令: 类型:1007 设备响应结果是否成功:true 设备返回的数据信息:[]
+11-16 14:43:32.422 12430 12430 D AudioLog:PushDelegate: 类型:1007  --result:1  --obj:[]
+11-16 14:43:32.623 12430 12430 D AudioLog:gps数据: SportSync移除超时线程
+11-16 14:43:32.623 12430 12430 D AudioLog:SyncDelegate: sportSync doOnComplete 
+11-16 14:43:32.623 12430 12430 D AudioLog:gps数据: SportSync移除超时线程
+11-16 14:43:32.623 12430 12430 D AudioLog:HomePresenter: progress = 100
+11-16 14:43:32.624 12430 12430 D AudioLog:Zeblaze: SmartRefreshUtil:synchronizing 100%
+11-16 14:43:32.624 12430 12430 D AudioLog:HomePresenter: 同步结束
+11-16 14:43:32.625 12430 12430 D AudioLog:Zeblaze: SmartRefreshUtil当前状态2  更新状态:3
+11-16 14:43:32.625 12430 12430 D AudioLog:Zeblaze: SmartRefreshUtil当前状态3
+11-16 14:43:32.625 12430 12430 D AudioLog:Zeblaze: SmartRefreshUtil:Sync complete
+11-16 14:43:32.625 12430 12430 D AudioLog:HomeFragment: 结束更新....
+11-16 14:43:32.676 12430 12430 D AudioLog:HomePresenter: 更新前：2026-11-16 14:43:32
+11-16 14:43:32.683 12430 12430 D AudioLog:HomePresenter: 更新后：2026-11-16 14:43:32
+11-16 14:43:32.691 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:43:32监控内容:app版本:v1.1.0  false
+11-16 14:43:32.691 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:43:32监控内容:app版本:v1.1.0  开始定位: 是否已停止定位？true
+11-16 14:43:32.691 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:43:32监控内容:app版本:v1.1.0  开始定位: 定位服务是否正在运行false
+11-16 14:43:32.692 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:43:32监控内容:app版本:v1.1.0  开始定位: 启动定位
+11-16 14:43:32.692 12430 12430 D AudioLog:HBManager: 同步时间
+11-16 14:43:32.693 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:43:32监控内容:app版本:v1.1.0  开始向设备写入指令,设置的app指令ID:1001
+11-16 14:43:32.883 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:43:32监控内容:app版本:v1.1.0  定位到数据： 经纬度，23.7805396 90.4039016
+11-16 14:43:32.883 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:43:32监控内容:app版本:v1.1.0  false
+11-16 14:43:32.884 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:43:32监控内容:app版本:v1.1.0  停止定位: 是否已停止定位？false
+11-16 14:43:32.884 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:43:32监控内容:app版本:v1.1.0  停止定位: 定位服务是否正在运行true
+11-16 14:43:32.884 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:43:32监控内容:app版本:v1.1.0  false
+11-16 14:43:32.885 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:43:32监控内容:app版本:v1.1.0  销毁定位:
+11-16 14:43:32.885 12430 12430 D AudioLog:Zeblaze: 天气信息更新第:0次请求
+11-16 14:43:32.885 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:43:32监控内容:app版本:v1.1.0  开始更新天气信息,更新的城市信息:City{name='', lat='23.7805396', lon='90.4039016', id='null', adm2='null', adm1='null', country='null', type='null', rank='null', fxLink='null'}是否需要更新到设备:true
+11-16 14:43:32.893 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:43:32监控内容:app版本:v1.1.0  false
+11-16 14:43:32.893 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:43:32监控内容:app版本:v1.1.0  停止定位: 是否已停止定位？true
+11-16 14:43:32.893 12430 15662 I AudioLog:HBManager: mLocale.getDisplayLanguage() = en
+11-16 14:43:32.893 12430 15662 D AudioLog:Zeblaze: WeatherModel--->>>---获取天气实现 = {latitude=23.7805396, packageName=com.watch.zeblaze, lang=0, longitude=90.4039016}
+11-16 14:43:32.895 12430 15662 I AudioLog:HBManager: mLocale.getDisplayLanguage() = en
+11-16 14:43:33.376 12430 12430 D AudioLog:Zeblaze: 天气信息保存成功
+11-16 14:43:33.382 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:43:33监控内容:app版本:v1.1.0  开始向设备写入指令,设置的app指令ID:1006
+11-16 14:43:33.548 12430 12430 D AudioLog:Zeblaze: ClassicsHeader--->>>---newState = None
+11-16 14:43:33.548 12430 12430 D AudioLog:Zeblaze: ClassicsHeader--->>>---newState = PullDownToRefresh
+11-16 14:43:33.809 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:43:33监控内容:app版本:v1.1.0  收到设备回复指令: 类型:5 设备响应结果是否成功:true 设备返回的数据信息:
+11-16 14:43:33.810 12430 12430 D AudioLog:PushDelegate: 类型:5  --result:1  --obj:null
+11-16 14:43:33.883 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:43:33监控内容:app版本:v1.1.0  收到设备回复指令: 类型:1003 设备响应结果是否成功:true 设备返回的数据信息:
+11-16 14:43:33.883 12430 12430 D AudioLog:PushDelegate: 类型:1003  --result:1  --obj:null
+11-16 14:43:38.572 12430 12430 I AudioLog:ApplicationLifeCycleCallBack: com.watch.zeblaze.appMoudle.home.activity.MainActivity@cb50b15onActivityPaused
+11-16 14:43:39.375 12430 12430 I AudioLog:ApplicationLifeCycleCallBack: com.watch.zeblaze.appMoudle.home.activity.MainActivity@cb50b15onActivityStopped
+11-16 14:43:39.376 12430 12430 D AudioLog:Zeblaze: HomeFragment--->>>>LazyLoadFragment onStop
+11-16 14:43:39.377 12430 12430 I AudioLog:ApplicationLifeCycleCallBack: com.watch.zeblaze.appMoudle.home.activity.MainActivity@cb50b15onActivitySaveInstanceState
+11-16 14:43:43.168 12430 12430 I AudioLog:ApplicationLifeCycleCallBack: com.watch.zeblaze.appMoudle.home.activity.MainActivity@cb50b15onActivityStarted
+11-16 14:43:43.288 12430 12430 I AudioLog:ApplicationLifeCycleCallBack: com.watch.zeblaze.appMoudle.home.activity.MainActivity@cb50b15onActivityResumed
+11-16 14:43:43.290 12430 12430 D AudioLog:Zeblaze: HomeFragment--->>>>lazyLoadData(),hidden = false
+11-16 14:43:43.296 12430 12430 D AudioLog:HomePresenter: 更新前：2026-11-16 14:43:43
+11-16 14:43:43.302 12430 12430 D AudioLog:HomePresenter: 更新后：2026-11-16 14:43:43
+11-16 14:43:43.302 12430 12430 D AudioLog:Zeblaze: HomeFragment--->>>>LazyLoadFragment onResume
+11-16 14:43:46.186 12430 12430 D AudioLog:Zeblaze: ClassicsHeader--->>>---newState = PullDownToRefresh
+11-16 14:43:46.302 12430 12430 D AudioLog:Zeblaze: ClassicsHeader--->>>---newState = ReleaseToRefresh
+11-16 14:43:46.317 12430 12430 D AudioLog:Zeblaze: ClassicsHeader--->>>---newState = Refreshing/RefreshReleased
+11-16 14:43:46.620 12430 12430 D AudioLog:Zeblaze: ClassicsHeader--->>>---newState = Refreshing/RefreshReleased
+11-16 14:43:46.620 12430 12430 D AudioLog:HomePresenter: 同步开始
+11-16 14:43:46.620 12430 12430 D AudioLog:HomePresenter: progress = 0
+11-16 14:43:46.620 12430 12430 D AudioLog:Zeblaze: SmartRefreshUtil:synchronizing 0%
+11-16 14:43:46.621 12430 12430 D AudioLog:SyncDelegate: 开始执行:com.watch.zeblaze.sdk.manager.sync.common.SettingSync@96d71b7 mCurrentIndex-1
+11-16 14:43:46.621 12430 12430 D AudioLog:SyncDelegate: 当前执行的索引: 0 执行者: com.watch.zeblaze.sdk.manager.sync.common.SettingSync@96d71b7
+11-16 14:43:46.621 12430 12430 D AudioLog:gps数据: SettingSync发送超时线程
+11-16 14:43:46.621 12430 12430 D AudioLog:gps数据: SettingSync移除超时线程
+11-16 14:43:46.621 12430 12430 D AudioLog:SyncDelegate: SettingSync Complete
+11-16 14:43:46.621 12430 12430 D AudioLog:HomePresenter: progress = 30
+11-16 14:43:46.621 12430 12430 D AudioLog:Zeblaze: SmartRefreshUtil:synchronizing 30%
+11-16 14:43:46.622 12430 12430 D AudioLog:SyncDelegate: 开始执行:com.watch.zeblaze.sdk.manager.sync.common.StepSync@28f3cec mCurrentIndex0
+11-16 14:43:46.622 12430 12430 D AudioLog:gps数据: SettingSync移除超时线程
+11-16 14:43:46.624 12430 12430 D AudioLog:SyncDelegate: 当前执行的索引: 1 执行者: com.watch.zeblaze.sdk.manager.sync.common.StepSync@28f3cec
+11-16 14:43:46.624 12430 12430 D AudioLog:gps数据: StepSync发送超时线程
+11-16 14:43:47.347 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:43:47监控内容:app版本:v1.1.0  收到设备回复指令: 类型:1006 设备响应结果是否成功:true 设备返回的数据信息:[StepData{year=0, month=0, day=0, step=0, calories=0, distance=0}]
+11-16 14:43:47.348 12430 12430 D AudioLog:PushDelegate: 类型:1006  --result:1  --obj:[StepData{year=0, month=0, day=0, step=0, calories=0, distance=0}]
+11-16 14:43:47.552 12430 12430 D AudioLog:HealthDataHandler: ,details = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+11-16 14:43:47.552 12430 12430 D AudioLog:HealthDataHandler: 同步步数完成，步数 = 0,距离 = 0.0,距离distanceMi = 0.0,卡路里 = 0
+11-16 14:43:47.557 12430 12430 D AudioLog:gps数据: StepSync移除超时线程
+11-16 14:43:47.557 12430 12430 D AudioLog:SyncDelegate: stepSync doOnComplete
+11-16 14:43:47.557 12430 12430 D AudioLog:HomePresenter: progress = 50
+11-16 14:43:47.557 12430 12430 D AudioLog:Zeblaze: SmartRefreshUtil:synchronizing 50%
+11-16 14:43:47.558 12430 12430 D AudioLog:SyncDelegate: 开始执行:com.watch.zeblaze.sdk.manager.sync.common.SleepSync@6a93bd8 mCurrentIndex1
+11-16 14:43:47.558 12430 12430 D AudioLog:gps数据: StepSync移除超时线程
+11-16 14:43:47.566 12430 12430 D AudioLog:gps数据: 注册睡眠监听
+11-16 14:43:47.569 12430 12430 D AudioLog:SyncDelegate: 当前执行的索引: 2 执行者: com.watch.zeblaze.sdk.manager.sync.common.SleepSync@6a93bd8
+11-16 14:43:47.569 12430 12430 D AudioLog:gps数据: SleepSync发送超时线程
+11-16 14:43:48.771 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:43:48监控内容:app版本:v1.1.0  收到设备回复指令: 类型:1005 设备响应结果是否成功:true 设备返回的数据信息:[]
+11-16 14:43:48.772 12430 12430 D AudioLog:PushDelegate: 类型:1005  --result:1  --obj:[]
+11-16 14:43:48.975 12430 12430 D AudioLog:gps数据: SleepSync移除超时线程
+11-16 14:43:48.975 12430 12430 D AudioLog:SyncDelegate: sleepSync doOnComplete 
+11-16 14:43:48.975 12430 12430 D AudioLog:HomePresenter: progress = 70
+11-16 14:43:48.976 12430 12430 D AudioLog:Zeblaze: SmartRefreshUtil:synchronizing 70%
+11-16 14:43:48.976 12430 12430 D AudioLog:SyncDelegate: 开始执行:com.watch.zeblaze.sdk.manager.sync.common.HRSync@3623d84 mCurrentIndex2
+11-16 14:43:48.976 12430 12430 D AudioLog:gps数据: SleepSync移除超时线程
+11-16 14:43:48.987 12430 12430 D AudioLog:SyncDelegate: 当前执行的索引: 3 执行者: com.watch.zeblaze.sdk.manager.sync.common.HRSync@3623d84
+11-16 14:43:48.987 12430 12430 D AudioLog:gps数据: HRSync发送超时线程
+11-16 14:43:50.158 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:43:50监控内容:app版本:v1.1.0  收到设备回复指令: 类型:1004 设备响应结果是否成功:true 设备返回的数据信息:[]
+11-16 14:43:50.158 12430 12430 D AudioLog:PushDelegate: 类型:1004  --result:1  --obj:[]
+11-16 14:43:50.360 12430 12430 D AudioLog:gps数据: HRSync移除超时线程
+11-16 14:43:50.360 12430 12430 D AudioLog:SyncDelegate: hrSync doOnComplete 
+11-16 14:43:50.360 12430 12430 D AudioLog:HomePresenter: progress = 80
+11-16 14:43:50.361 12430 12430 D AudioLog:Zeblaze: SmartRefreshUtil:synchronizing 80%
+11-16 14:43:50.365 12430 12430 D AudioLog:SyncDelegate: 开始执行:com.watch.zeblaze.sdk.manager.sync.common.ScubaDivingSync@587adf0 mCurrentIndex3
+11-16 14:43:50.365 12430 12430 D AudioLog:gps数据: HRSync移除超时线程
+11-16 14:43:50.373 12430 12430 D AudioLog:SyncDelegate: 当前执行的索引: 4 执行者: com.watch.zeblaze.sdk.manager.sync.common.ScubaDivingSync@587adf0
+11-16 14:43:50.373 12430 12430 D AudioLog:gps数据: ScubaDivingSync发送超时线程
+11-16 14:43:50.374 12430 12430 D AudioLog:gps数据: 不支持 onComplete
+11-16 14:43:50.374 12430 12430 D AudioLog:gps数据: ScubaDivingSync移除超时线程
+11-16 14:43:50.374 12430 12430 D AudioLog:SyncDelegate: hrSync doOnComplete 
+11-16 14:43:50.374 12430 12430 D AudioLog:HomePresenter: progress = 90
+11-16 14:43:50.375 12430 12430 D AudioLog:Zeblaze: SmartRefreshUtil:synchronizing 90%
+11-16 14:43:50.375 12430 12430 D AudioLog:SyncDelegate: 开始执行:com.watch.zeblaze.sdk.manager.sync.common.SportSync@9645f69 mCurrentIndex4
+11-16 14:43:50.375 12430 12430 D AudioLog:gps数据: ScubaDivingSync移除超时线程
+11-16 14:43:50.381 12430 12430 D AudioLog:SyncDelegate: 当前执行的索引: 5 执行者: com.watch.zeblaze.sdk.manager.sync.common.SportSync@9645f69
+11-16 14:43:50.381 12430 12430 D AudioLog:gps数据: SportSync发送超时线程
+11-16 14:43:51.583 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:43:51监控内容:app版本:v1.1.0  收到设备回复指令: 类型:1007 设备响应结果是否成功:true 设备返回的数据信息:[]
+11-16 14:43:51.583 12430 12430 D AudioLog:PushDelegate: 类型:1007  --result:1  --obj:[]
+11-16 14:43:51.785 12430 12430 D AudioLog:gps数据: SportSync移除超时线程
+11-16 14:43:51.785 12430 12430 D AudioLog:SyncDelegate: sportSync doOnComplete 
+11-16 14:43:51.785 12430 12430 D AudioLog:gps数据: SportSync移除超时线程
+11-16 14:43:51.786 12430 12430 D AudioLog:HomePresenter: progress = 100
+11-16 14:43:51.786 12430 12430 D AudioLog:Zeblaze: SmartRefreshUtil:synchronizing 100%
+11-16 14:43:51.787 12430 12430 D AudioLog:HomePresenter: 同步结束
+11-16 14:43:51.787 12430 12430 D AudioLog:Zeblaze: SmartRefreshUtil当前状态2  更新状态:3
+11-16 14:43:51.787 12430 12430 D AudioLog:Zeblaze: SmartRefreshUtil当前状态3
+11-16 14:43:51.787 12430 12430 D AudioLog:Zeblaze: SmartRefreshUtil:Sync complete
+11-16 14:43:51.787 12430 12430 D AudioLog:HomeFragment: 结束更新....
+11-16 14:43:51.802 12430 12430 D AudioLog:HomePresenter: 更新前：2026-11-16 14:43:51
+11-16 14:43:51.809 12430 12430 D AudioLog:HomePresenter: 更新后：2026-11-16 14:43:51
+11-16 14:43:51.811 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:43:51监控内容:app版本:v1.1.0  false
+11-16 14:43:51.811 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:43:51监控内容:app版本:v1.1.0  开始定位: 是否已停止定位？true
+11-16 14:43:51.811 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:43:51监控内容:app版本:v1.1.0  开始定位: 定位服务是否正在运行false
+11-16 14:43:51.812 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:43:51监控内容:app版本:v1.1.0  开始定位: 启动定位
+11-16 14:43:51.812 12430 12430 D AudioLog:HBManager: 同步时间
+11-16 14:43:51.812 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:43:51监控内容:app版本:v1.1.0  开始向设备写入指令,设置的app指令ID:1001
+11-16 14:43:51.909 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:43:51监控内容:app版本:v1.1.0  定位到数据： 经纬度，23.7805396 90.4039016
+11-16 14:43:51.909 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:43:51监控内容:app版本:v1.1.0  false
+11-16 14:43:51.910 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:43:51监控内容:app版本:v1.1.0  停止定位: 是否已停止定位？false
+11-16 14:43:51.910 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:43:51监控内容:app版本:v1.1.0  停止定位: 定位服务是否正在运行true
+11-16 14:43:51.910 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:43:51监控内容:app版本:v1.1.0  false
+11-16 14:43:51.910 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:43:51监控内容:app版本:v1.1.0  销毁定位:
+11-16 14:43:51.911 12430 12430 D AudioLog:Zeblaze: 天气信息更新第:0次请求
+11-16 14:43:51.911 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:43:51监控内容:app版本:v1.1.0  开始更新天气信息,更新的城市信息:City{name='', lat='23.7805396', lon='90.4039016', id='null', adm2='null', adm1='null', country='null', type='null', rank='null', fxLink='null'}是否需要更新到设备:true
+11-16 14:43:51.911 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:43:51监控内容:app版本:v1.1.0  false
+11-16 14:43:51.911 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:43:51监控内容:app版本:v1.1.0  停止定位: 是否已停止定位？true
+11-16 14:43:51.914 12430 15662 I AudioLog:HBManager: mLocale.getDisplayLanguage() = en
+11-16 14:43:51.914 12430 15662 D AudioLog:Zeblaze: WeatherModel--->>>---获取天气实现 = {latitude=23.7805396, packageName=com.watch.zeblaze, lang=0, longitude=90.4039016}
+11-16 14:43:51.915 12430 15662 I AudioLog:HBManager: mLocale.getDisplayLanguage() = en
+11-16 14:43:51.928 12430 12430 D AudioLog:Zeblaze: 天气信息保存成功
+11-16 14:43:51.931 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:43:51监控内容:app版本:v1.1.0  开始向设备写入指令,设置的app指令ID:1006
+11-16 14:43:52.630 12430 12430 D AudioLog:Zeblaze: ClassicsHeader--->>>---newState = None
+11-16 14:43:52.630 12430 12430 D AudioLog:Zeblaze: ClassicsHeader--->>>---newState = PullDownToRefresh
+11-16 14:43:52.971 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:43:52监控内容:app版本:v1.1.0  收到设备回复指令: 类型:5 设备响应结果是否成功:true 设备返回的数据信息:
+11-16 14:43:52.971 12430 12430 D AudioLog:PushDelegate: 类型:5  --result:1  --obj:null
+11-16 14:43:53.009 12430 12430 D AudioLog:Zeblaze: 监控日志:2026-11-16 14:43:53监控内容:app版本:v1.1.0  收到设备回复指令: 类型:1003 设备响应结果是否成功:true 设备返回的数据信息:
+11-16 14:43:53.010 12430 12430 D AudioLog:PushDelegate: 类型:1003  --result:1  --obj:null
+11-16 14:43:55.300 12430 12430 I AudioLog:ApplicationLifeCycleCallBack: com.watch.zeblaze.appMoudle.home.activity.MainActivity@cb50b15onActivityPaused
+11-16 14:43:55.313 12430 12430 I AudioLog:ApplicationLifeCycleCallBack: com.watch.zeblaze.appMoudle.home.activity.DetailsActivity@8ccfbconActivityCreated, liveCount = 2
+11-16 14:43:55.323 12430 12430 I AudioLog:ApplicationLifeCycleCallBack: com.watch.zeblaze.appMoudle.home.activity.DetailsActivity@8ccfbconActivityStarted
+11-16 14:43:55.324 12430 12430 D AudioLog:Zeblaze: HRDetailsPresenter--->>>建立关联
+11-16 14:43:55.324 12430 12430 D AudioLog:Zeblaze: HRDetailsFragment--->>>>onCreateView()
+11-16 14:43:55.346 12430 12430 D AudioLog:Zeblaze: item = 00:00
+11-16 14:43:55.346 12430 12430 D AudioLog:Zeblaze: item = 01:00
+11-16 14:43:55.346 12430 12430 D AudioLog:Zeblaze: item = 02:00
+11-16 14:43:55.346 12430 12430 D AudioLog:Zeblaze: item = 03:00
+11-16 14:43:55.346 12430 12430 D AudioLog:Zeblaze: item = 04:00
+11-16 14:43:55.346 12430 12430 D AudioLog:Zeblaze: item = 05:00
+11-16 14:43:55.346 12430 12430 D AudioLog:Zeblaze: item = 06:00
+11-16 14:43:55.346 12430 12430 D AudioLog:Zeblaze: item = 07:00
+11-16 14:43:55.346 12430 12430 D AudioLog:Zeblaze: item = 08:00
+11-16 14:43:55.346 12430 12430 D AudioLog:Zeblaze: item = 09:00
+11-16 14:43:55.346 12430 12430 D AudioLog:Zeblaze: item = 10:00
+11-16 14:43:55.346 12430 12430 D AudioLog:Zeblaze: item = 11:00
+11-16 14:43:55.346 12430 12430 D AudioLog:Zeblaze: item = 12:00
+11-16 14:43:55.346 12430 12430 D AudioLog:Zeblaze: item = 13:00
+11-16 14:43:55.346 12430 12430 D AudioLog:Zeblaze: item = 14:00
+11-16 14:43:55.346 12430 12430 D AudioLog:Zeblaze: item = 15:00
+11-16 14:43:55.346 12430 12430 D AudioLog:Zeblaze: item = 16:00
+11-16 14:43:55.346 12430 12430 D AudioLog:Zeblaze: item = 17:00
+11-16 14:43:55.346 12430 12430 D AudioLog:Zeblaze: item = 18:00
+11-16 14:43:55.346 12430 12430 D AudioLog:Zeblaze: item = 19:00
+11-16 14:43:55.346 12430 12430 D AudioLog:Zeblaze: item = 20:00
+11-16 14:43:55.346 12430 12430 D AudioLog:Zeblaze: item = 21:00
+11-16 14:43:55.346 12430 12430 D AudioLog:Zeblaze: item = 22:00
+11-16 14:43:55.346 12430 12430 D AudioLog:Zeblaze: item = 24:00
+11-16 14:43:55.348 12430 12430 D AudioLog:Zeblaze: item = 00:00
+11-16 14:43:55.349 12430 12430 D AudioLog:Zeblaze: item = 01:00
+11-16 14:43:55.349 12430 12430 D AudioLog:Zeblaze: item = 02:00
+11-16 14:43:55.349 12430 12430 D AudioLog:Zeblaze: item = 03:00
+11-16 14:43:55.349 12430 12430 D AudioLog:Zeblaze: item = 04:00
+11-16 14:43:55.349 12430 12430 D AudioLog:Zeblaze: item = 05:00
+11-16 14:43:55.349 12430 12430 D AudioLog:Zeblaze: item = 06:00
+11-16 14:43:55.349 12430 12430 D AudioLog:Zeblaze: item = 07:00
+11-16 14:43:55.349 12430 12430 D AudioLog:Zeblaze: item = 08:00
+11-16 14:43:55.349 12430 12430 D AudioLog:Zeblaze: item = 09:00
+11-16 14:43:55.349 12430 12430 D AudioLog:Zeblaze: item = 10:00
+11-16 14:43:55.349 12430 12430 D AudioLog:Zeblaze: item = 11:00
+11-16 14:43:55.349 12430 12430 D AudioLog:Zeblaze: item = 12:00
+11-16 14:43:55.349 12430 12430 D AudioLog:Zeblaze: item = 13:00
+11-16 14:43:55.349 12430 12430 D AudioLog:Zeblaze: item = 14:00
+11-16 14:43:55.349 12430 12430 D AudioLog:Zeblaze: item = 15:00
+11-16 14:43:55.349 12430 12430 D AudioLog:Zeblaze: item = 16:00
+11-16 14:43:55.349 12430 12430 D AudioLog:Zeblaze: item = 17:00
+11-16 14:43:55.349 12430 12430 D AudioLog:Zeblaze: item = 18:00
+11-16 14:43:55.349 12430 12430 D AudioLog:Zeblaze: item = 19:00
+11-16 14:43:55.349 12430 12430 D AudioLog:Zeblaze: item = 20:00
+11-16 14:43:55.349 12430 12430 D AudioLog:Zeblaze: item = 21:00
+11-16 14:43:55.349 12430 12430 D AudioLog:Zeblaze: item = 22:00
+11-16 14:43:55.349 12430 12430 D AudioLog:Zeblaze: item = 24:00
+11-16 14:43:55.351 12430 12430 I AudioLog:ApplicationLifeCycleCallBack: com.watch.zeblaze.appMoudle.home.activity.DetailsActivity@8ccfbconActivityResumed
+11-16 14:43:55.352 12430 12430 D AudioLog:Zeblaze: HRDetailsFragment--->>>>LazyLoadFragment onResume
+11-16 14:43:55.945 12430 12430 I AudioLog:ApplicationLifeCycleCallBack: com.watch.zeblaze.appMoudle.home.activity.MainActivity@cb50b15onActivityStopped
+11-16 14:43:55.945 12430 12430 D AudioLog:Zeblaze: HomeFragment--->>>>LazyLoadFragment onStop
+11-16 14:43:55.946 12430 12430 I AudioLog:ApplicationLifeCycleCallBack: com.watch.zeblaze.appMoudle.home.activity.MainActivity@cb50b15onActivitySaveInstanceState
+11-16 14:43:58.607 12430 12430 I AudioLog:ApplicationLifeCycleCallBack: com.watch.zeblaze.appMoudle.home.activity.DetailsActivity@8ccfbconActivityPaused
+11-16 14:43:58.626 12430 12430 I AudioLog:ApplicationLifeCycleCallBack: com.watch.zeblaze.appMoudle.home.activity.MainActivity@cb50b15onActivityStarted
+11-16 14:43:58.628 12430 12430 I AudioLog:ApplicationLifeCycleCallBack: com.watch.zeblaze.appMoudle.home.activity.MainActivity@cb50b15onActivityResumed
+11-16 14:43:58.630 12430 12430 D AudioLog:Zeblaze: HomeFragment--->>>>lazyLoadData(),hidden = false
+11-16 14:43:58.645 12430 12430 D AudioLog:HomePresenter: 更新前：2026-11-16 14:43:58
+11-16 14:43:58.650 12430 12430 D AudioLog:HomePresenter: 更新后：2026-11-16 14:43:58
+11-16 14:43:58.650 12430 12430 D AudioLog:Zeblaze: HomeFragment--->>>>LazyLoadFragment onResume
+11-16 14:43:59.216 12430 12430 I AudioLog:ApplicationLifeCycleCallBack: com.watch.zeblaze.appMoudle.home.activity.DetailsActivity@8ccfbconActivityStopped
+11-16 14:43:59.216 12430 12430 D AudioLog:Zeblaze: HRDetailsFragment--->>>>LazyLoadFragment onStop
+11-16 14:43:59.218 12430 12430 I AudioLog:ApplicationLifeCycleCallBack: com.watch.zeblaze.appMoudle.home.activity.DetailsActivity@8ccfbconActivityDestroyed,liveCount = 1
+11-16 14:43:59.219 12430 12430 D AudioLog:Zeblaze: HRDetailsFragment--->>>>onDestroyView()
+11-16 14:43:59.219 12430 12430 D AudioLog:Zeblaze: HRDetailsFragment--->>>>onDestroy()
+11-16 14:43:59.219 12430 12430 D AudioLog:Zeblaze: HRDetailsPresenter--->>>解除关联
+11-16 14:45:01.516 11292 11292 I adbd    : adbd service requested 'shell,v2,raw:logcat -d | grep -i 'AudioLog' > /sdcard/audiolog.txt'

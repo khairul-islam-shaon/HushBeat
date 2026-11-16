@@ -1,0 +1,59 @@
+--- SyncCmdWrapper ---
+
+================== METHOD: Lcom/antjy/sdk/protocol/wrapper/SyncCmdWrapper;->a (codeOff: 4239568) ==================
+Registers: 4, Ins: 0, Outs: 4, InsnsSize: 18
+[0000] op=12 const/4 v0, 3
+[0001] op=23 new-array v1, [B
+[0003] op=12 const/4 v2, 0
+[0004] op=12 const/4 v3, 5
+[0005] op=4f
+[0006] op=01
+[0007] op=12 const/4 v2, 2
+[0008] op=12 const/4 v3, 6
+[0009] op=4f
+[000a] op=01
+[000b] op=22 new-instance v2, Lcom/antjy/sdk/protocol/data/WriteCmd;
+[000d] op=12 const/4 v3, 4
+[000e] op=70 invoke op=70 Lcom/antjy/sdk/protocol/data/WriteCmd;-><init>
+[0011] op=11
+
+================== METHOD: Lcom/antjy/sdk/protocol/wrapper/SyncCmdWrapper;->b (codeOff: 4239620) ==================
+Registers: 5, Ins: 2, Outs: 4, InsnsSize: 21
+[0000] op=12 const/4 v0, 4
+[0001] op=23 new-array v0, [B
+[0003] op=12 const/4 v1, 0
+[0004] op=12 const/4 v2, 6
+[0005] op=4f
+[0006] op=00
+[0007] op=8d
+[0008] op=12 const/4 v1, 2
+[0009] op=4f
+[000a] op=00
+[000b] op=8d
+[000c] op=12 const/4 v4, 3
+[000d] op=4f
+[000e] op=00
+[000f] op=22 new-instance v3, Lcom/antjy/sdk/protocol/data/WriteCmd;
+[0011] op=70 invoke op=70 Lcom/antjy/sdk/protocol/data/WriteCmd;-><init>
+[0014] op=11
+
+================== METHOD: Lcom/antjy/sdk/protocol/wrapper/SyncCmdWrapper;->c (codeOff: 4239680) ==================
+Registers: 5, Ins: 2, Outs: 4, InsnsSize: 21
+[0000] op=12 const/4 v0, 4
+[0001] op=23 new-array v0, [B
+[0003] op=12 const/4 v1, 6
+[0004] op=12 const/4 v2, 0
+[0005] op=4f
+[0006] op=00
+[0007] op=8d
+[0008] op=12 const/4 v1, 2
+[0009] op=4f
+[000a] op=00
+[000b] op=8d
+[000c] op=12 const/4 v4, 3
+[000d] op=4f
+[000e] op=00
+[000f] op=22 new-instance v3, Lcom/antjy/sdk/protocol/data/WriteCmd;
+[0011] op=70 invoke op=70 Lcom/antjy/sdk/protocol/data/WriteCmd;-><init>
+[0014] op=11
+--- DeviceReportEventParser ---

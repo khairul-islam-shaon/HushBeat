@@ -1,0 +1,20 @@
+# Hands-On Health Verification Session - Zeblaze Btalk 4 Pro
+Date: 2026-11-16
+Phone: POCO X3 Pro (Android 12), USB Debugging + Bluetooth ON
+Watch: Zeblaze Btalk 4 Pro (FD:99:E2:BB:76:D0), Firmware 1.10
+
+Time Marks (Phone Clock):
+17:26:27 - Clean session start, logcat cleared
+17:28:42 - Find Watch test (01 0B -> ack 01 8B / 108)
+17:29:24 - Raise-to-wake test (01 0D 05 00 00 -> ack 01 8D)
+17:33:04 - HR single measurement start (01 1D 06 00 00 01)
+17:33:24 - HR single measurement complete (80 84 08 00 02 00 00 56 -> 86 bpm)
+17:34:38 - SpO2 single measurement start (01 1D 06 00 02 01)
+17:35:09 - SpO2 single measurement complete (80 84 08 00 02 02 00 62 -> 98 %)
+17:38:58 - 24h continuous HR disable test (01 35 05 00 00 -> ack 01 B5 05 00 01)
+17:39:34 - 24h continuous HR enable test (01 35 05 00 01 -> ack 01 B5 05 00 01)
+17:40:19 - Full Health Sync: Step sync (AA 85 03 00 01 01 00 -> 44 steps, 1 kcal, 31 m)
+17:40:20 - Full Health Sync: Sleep sync (AA 85 03 00 03 01 00 -> 0 bytes)
+17:40:21 - Full Health Sync: Heart Rate 24h sync (AA 85 03 00 02 01 00 -> 288 slots, 83 bpm avg)
+17:40:22 - Time sync (00 09) + Weather sync (AA 83)
+17:41:12 - adb bugreport dump generated (br_fresh.zip)
